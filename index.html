@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#2d6a4f">
+<title>Lục Dược — Tra cứu thảo dược Việt Nam</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="app-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-icon">🌿</span>
+      <div>
+        <h1>Lục Dược</h1>
+        <p class="tagline">Tra cứu thảo dược Việt Nam</p>
+      </div>
+    </div>
+    <div class="search-box">
+      <input type="search" id="searchInput" placeholder="Tìm cây thuốc, triệu chứng (gõ không dấu cũng được)..." autocomplete="off">
+      <button id="clearSearch" class="clear-btn" hidden>✕</button>
+    </div>
+  </div>
+  <nav class="tabs">
+    <button class="tab active" data-tab="browse">📖 Tra cứu</button>
+    <button class="tab" data-tab="symptom">🩺 Theo bệnh</button>
+    <button class="tab" data-tab="favorites">⭐ Yêu thích</button>
+  </nav>
+</header>
+
+<main id="app">
+  <!-- Browse tab -->
+  <section id="tab-browse" class="tab-panel active">
+    <div class="alpha-filter" id="alphaFilter"></div>
+    <div class="herb-grid" id="herbGrid"></div>
+    <p class="empty-msg" id="browseEmpty" hidden>Không tìm thấy cây thuốc phù hợp.</p>
+  </section>
+
+  <!-- Symptom tab -->
+  <section id="tab-symptom" class="tab-panel">
+    <p class="panel-hint">Chọn triệu chứng để lọc cây thuốc tương ứng:</p>
+    <div class="symptom-list" id="symptomList"></div>
+    <div class="herb-grid" id="symptomGrid" hidden></div>
+  </section>
+
+  <!-- Favorites tab -->
+  <section id="tab-favorites" class="tab-panel">
+    <div class="herb-grid" id="favGrid"></div>
+    <p class="empty-msg" id="favEmpty">Chưa có cây yêu thích nào. Nhấn ⭐ ở trang chi tiết để lưu.</p>
+  </section>
+</main>
+
+<!-- Herb detail modal -->
+<div class="modal-overlay" id="detailModal" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<footer class="app-footer">
+  <p>⚠️ Thông tin chỉ mang tính tham khảo, KHÔNG thay thế chẩn đoán và điều trị của bác sĩ. <a href="ATTRIBUTION.md" target="_blank">Nguồn ảnh</a></p>
+</footer>
+
+<script src="data/herbs.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
