@@ -8,6 +8,17 @@
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
 <link rel="stylesheet" href="styles.css">
+<script>
+  // Đặt giao diện tối/sáng trước khi vẽ để khỏi chớp màn hình:
+  // ưu tiên lựa chọn đã lưu, rồi theo hệ thống (prefers-color-scheme).
+  try {
+    var savedTheme = JSON.parse(localStorage.getItem('lucduoc_theme') || 'null');
+    if (savedTheme !== 'dark' && savedTheme !== 'light') {
+      savedTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.dataset.theme = savedTheme;
+  } catch (e) {}
+</script>
 </head>
 <body>
 <header class="app-header">
@@ -17,6 +28,10 @@
       <div>
         <h1>Lục Dược</h1>
         <p class="tagline">Tra cứu thảo dược Việt Nam</p>
+      </div>
+      <div class="header-actions">
+        <button id="installBtn" class="header-btn" hidden>📲 Cài đặt app</button>
+        <button id="themeToggle" class="header-btn" aria-label="Chuyển giao diện tối">🌙</button>
       </div>
     </div>
     <div class="search-box">

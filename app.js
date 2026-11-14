@@ -43,7 +43,8 @@
     const img = h.images && h.images[0] ? `<img class="thumb" loading="lazy" src="images/${h.images[0]}" alt="${escapeHtml(h.name)}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">` : '';
     const ph = `<div class="thumb-placeholder" style="${img ? 'display:none' : ''}">🌿</div>`;
     const fav = favorites.includes(h.id) ? ' <span class="fav-dot">⭐</span>' : '';
-    return `<div class="herb-card" data-id="${h.id}">${img}${ph}<div class="info"><div class="name">${escapeHtml(h.name)}${fav}</div><div class="sci">${escapeHtml(h.scientific || '')}</div></div></div>`;
+    const toxic = h.toxic ? ' <span class="toxic-badge">☠️ Độc</span>' : '';
+    return `<div class="herb-card" data-id="${h.id}">${img}${ph}<div class="info"><div class="name">${escapeHtml(h.name)}${fav}${toxic}</div><div class="sci">${escapeHtml(h.scientific || '')}</div></div></div>`;
   }
 
   // --- browse tab ---
@@ -67,7 +68,7 @@
     return HERBS.filter(h => {
       if (currentAlpha && noDiacritics(h.name)[0] !== currentAlpha) return false;
       if (!q) return true;
-      const hay = noDiacritics([h.name, h.scientific, h.description, (h.uses || []).join(' '), (h.symptoms || []).join(' '), h.parts].join(' '));
+      const hay = noDiacritics([h.name, (h.aliases || []).join(' '), h.scientific, h.description, (h.uses || []).join(' '), (h.symptoms || []).join(' '), h.parts].join(' '));
       return hay.includes(q);
     });
   }
@@ -123,8 +124,14 @@
       `<img loading="lazy" src="images/${f}" alt="${escapeHtml(h.name)}" onerror="this.style.display='none'">`
     ).join('') || '<div style="padding:40px;text-align:center;color:#5a6f60">Chưa có ảnh</div>';
 
-    const danger = /độ?c|cấm|không dùng|tuyệt đối/i.test(h.caution || '');
-    const cautionBox = h.caution ? `<div class="${danger ? 'danger-box' : 'caution-box'}">⚠️ ${escapeHtml(h.caution)}</div>` : '';
+    // Cảnh báo độc dùng cờ toxic + văn bản warn của chính cây đó (từ
+    // dataset đã đồng bộ), không đoán bằng từ khóa nữa.
+    const toxicBox = h.toxic
+      ? `<div class="danger-box">☠️ <strong>Cây độc.</strong> ${escapeHtml(h.warn || h.caution || '')}</div>`
+      : '';
+    const cautionBox = !h.toxic && h.caution ? `<div class="caution-box">⚠️ ${escapeHtml(h.caution)}</div>` : '';
+    const srcList = h.src || [];
+    const srcSection = `<div class="detail-section"><h3>📚 Nguồn</h3>${srcList.length ? `<ul>${srcList.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul>` : '<p>Chưa có nguồn kiểm chứng.</p>'}</div>`;
 
     $('modalBody').innerHTML = `
       <div class="detail-gallery">${gallery}</div>
@@ -149,10 +156,12 @@
         <ul>${(h.uses || []).map(u => `<li>${escapeHtml(u)}</li>`).join('')}</ul>
       </div>
       ${(h.symptoms && h.symptoms.length) ? `<div class="detail-section"><h3>🩺 Hỗ trợ các triệu chứng</h3><p>${h.symptoms.map(s => `<span class="symptom-chip" style="display:inline-block;margin:2px 4px 2px 0;padding:3px 9px;font-size:12px">${escapeHtml(s)}</span>`).join('')}</p></div>` : ''}
+      ${toxicBox}
       ${cautionBox}
+      ${srcSection}
       <div class="detail-section">
         <h3>📒 Ghi chú cá nhân</h3>
-        <textarea class="note-area" id="noteArea" placeholder="Ghi kinh nghiệm dùng, liều lượng, câu hỏi cho thầy thuốc...">${escapeHtml(note)}</textarea>
+        <textarea class="note-area" id="noteArea" placeholder="Ghi kinh nghiệm dùng, câu hỏi cho thầy thuốc...">${escapeHtml(note)}</textarea>
         <div class="note-saved" id="noteSaved" hidden>✓ Đã lưu</div>
       </div>
     `;
@@ -224,7 +233,52 @@
   $('detailModal').addEventListener('click', (e) => { if (e.target === $('detailModal')) closeDetail(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDetail(); });
 
+  // --- theme (dark mode) ---
+  // Giao diện mặc định theo hệ thống (prefers-color-scheme); nút 🌙/☀️
+  // đổi tay và nhớ lựa chọn trên máy này (localStorage).
+  function applyTheme(theme) {
+    document.documentElement.dataset.theme = theme;
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', theme === 'dark' ? '#121a15' : '#2d6a4f');
+    const btn = $('themeToggle');
+    if (btn) {
+      btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+      btn.setAttribute('aria-label', theme === 'dark' ? 'Chuyển giao diện sáng' : 'Chuyển giao diện tối');
+    }
+  }
+  function initTheme() {
+    let theme = storageGet('theme', '');
+    if (theme !== 'dark' && theme !== 'light') {
+      theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    applyTheme(theme);
+  }
+  $('themeToggle').addEventListener('click', () => {
+    const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    storageSet('theme', next);
+    applyTheme(next);
+  });
+
+  // --- install prompt ---
+  // Chỉ hiện nút "Cài đặt app" khi trình duyệt cho phép cài (sự kiện
+  // beforeinstallprompt). Trên iOS Safari không có sự kiện này — người
+  // dùng vẫn cài bằng Chia sẻ → Thêm vào Màn hình chính.
+  let deferredPrompt = null;
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    $('installBtn').hidden = false;
+  });
+  $('installBtn').addEventListener('click', () => {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then(() => { deferredPrompt = null; }).catch(() => {});
+    $('installBtn').hidden = true;
+  });
+  window.addEventListener('appinstalled', () => { $('installBtn').hidden = true; });
+
   // --- init ---
+  initTheme();
   renderAlphaFilter();
   renderBrowse();
   renderSymptoms();
