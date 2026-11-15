@@ -59,6 +59,9 @@
   white-space: nowrap;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+/* Thuộc tính hidden phải thắng mọi display (flex/grid) trong file này —
+   nếu không, modal chi tiết hiện trống từ lúc tải trang và không đóng được. */
+[hidden] { display: none !important; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background: var(--bg); color: var(--text);
