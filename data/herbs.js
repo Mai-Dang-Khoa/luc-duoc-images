@@ -230,7 +230,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "bachhoaxathietthao.webp"
+  ]
  },
  {
   "id": "bachthuoc",
@@ -322,7 +324,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "banchilien.webp"
+  ]
  },
  {
   "id": "banha",
@@ -483,7 +487,9 @@ window.HERBS = [
   "warn": "Vị chua, người đau dạ dày không uống lúc đói; người huyết áp thấp hoặc phụ nữ mang thai nên hạn chế.",
   "src": [],
   "toxic": false,
-  "images": []
+  "images": [
+   "butgiam.webp"
+  ]
  },
  {
   "id": "cadocduoc",
@@ -1144,7 +1150,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "cothaongot.webp"
+  ]
  },
  {
   "id": "cosua",
@@ -1348,7 +1356,9 @@ window.HERBS = [
    "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "cuctan.webp"
+  ]
  },
  {
   "id": "daihoi",
@@ -1562,7 +1572,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "daythiacanh.webp"
+  ]
  },
  {
   "id": "diahoang",
@@ -2269,7 +2281,9 @@ window.HERBS = [
   "warn": "Không ăn hạt đậu biếc; phụ nữ mang thai, người sắp phẫu thuật hoặc dùng thuốc chống đông máu cần thận trọng.",
   "src": [],
   "toxic": false,
-  "images": []
+  "images": [
+   "hoadaubiec.webp"
+  ]
  },
  {
   "id": "hoahue",
@@ -2496,7 +2510,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "hoangba.webp"
+  ]
  },
  {
   "id": "hoangcam",
@@ -2524,7 +2540,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "hoangcam.webp"
+  ]
  },
  {
   "id": "hoangky",
@@ -2585,7 +2603,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "hoanglien.webp"
+  ]
  },
  {
   "id": "honghoa",
@@ -2758,7 +2778,9 @@ window.HERBS = [
   "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
   "src": [],
   "toxic": false,
-  "images": []
+  "images": [
+   "huongthao.webp"
+  ]
  },
  {
   "id": "huyensam",
@@ -2976,7 +2998,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "kimtienthao.webp"
+  ]
  },
  {
   "id": "kinhgioi",
@@ -3062,7 +3086,9 @@ window.HERBS = [
    "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "labong.webp"
+  ]
  },
  {
   "id": "ladua",
@@ -3086,7 +3112,9 @@ window.HERBS = [
    "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "ladua.webp"
+  ]
  },
  {
   "id": "lahanqua",
@@ -3117,7 +3145,9 @@ window.HERBS = [
    "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "lahanqua.webp"
+  ]
  },
  {
   "id": "lalot",
@@ -3320,7 +3350,9 @@ window.HERBS = [
    "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "luu.webp"
+  ]
  },
  {
   "id": "diepha",
@@ -4051,7 +4083,9 @@ window.HERBS = [
   "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
   "src": [],
   "toxic": false,
-  "images": []
+  "images": [
+   "oaihuong.webp"
+  ]
  },
  {
   "id": "oidia",
@@ -5331,7 +5365,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "trachta.webp"
+  ]
  },
  {
   "id": "tram",
@@ -5413,7 +5449,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "trimau.webp"
+  ]
  },
  {
   "id": "trinhnu",
@@ -5542,7 +5580,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "mangcut.webp"
+  ]
  },
  {
   "id": "vongnem",
@@ -5673,7 +5713,9 @@ window.HERBS = [
    "Dược điển Việt Nam V (Bộ Y tế)"
   ],
   "toxic": false,
-  "images": []
+  "images": [
+   "xuyentamlien.webp"
+  ]
  },
  {
   "id": "ydu",
