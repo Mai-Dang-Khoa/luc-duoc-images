@@ -27,10 +27,11 @@
       <span class="brand-icon">🌿</span>
       <div>
         <h1>Lục Dược</h1>
-        <p class="tagline">Tra cứu thảo dược Việt Nam</p>
+        <p class="tagline" id="tagline">Tra cứu thảo dược Việt Nam</p>
       </div>
       <div class="header-actions">
         <button id="installBtn" class="header-btn" hidden>📲 Cài đặt app</button>
+        <button id="langToggle" class="header-btn" aria-label="Chuyển sang tiếng Anh">EN</button>
         <button id="themeToggle" class="header-btn" aria-label="Chuyển giao diện tối">🌙</button>
       </div>
     </div>
@@ -56,7 +57,7 @@
 
   <!-- Symptom tab -->
   <section id="tab-symptom" class="tab-panel">
-    <p class="panel-hint">Chọn triệu chứng để lọc cây thuốc tương ứng:</p>
+    <p class="panel-hint" id="symptomHint">Chọn triệu chứng để lọc cây thuốc tương ứng:</p>
     <div class="symptom-list" id="symptomList"></div>
     <div class="herb-grid" id="symptomGrid" hidden></div>
   </section>
@@ -71,13 +72,14 @@
 <!-- Herb detail modal -->
 <div class="modal-overlay" id="detailModal" hidden>
   <div class="modal" role="dialog" aria-modal="true">
-    <button class="modal-close" id="modalClose">✕</button>
+    <button class="modal-close" id="modalClose" aria-label="Đóng">✕</button>
     <div class="modal-body" id="modalBody"></div>
   </div>
 </div>
 
 <footer class="app-footer">
-  <p>⚠️ Thông tin chỉ mang tính tham khảo, KHÔNG thay thế chẩn đoán và điều trị của bác sĩ. <a href="ATTRIBUTION.md" target="_blank">Nguồn ảnh</a></p>
+  <p id="footerNote">⚠️ Thông tin chỉ mang tính tham khảo, KHÔNG thay thế chẩn đoán và điều trị của bác sĩ. <a href="ATTRIBUTION.md" target="_blank">Nguồn ảnh</a></p>
+  <p id="dsheaNote" hidden></p>
 </footer>
 
 <script src="data/herbs.js"></script>

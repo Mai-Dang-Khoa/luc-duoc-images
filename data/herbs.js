@@ -1,10 +1,12 @@
 // Lục Dược — herb database (auto-generated)
 // Tạo lại bằng: node scripts/sync-dataset.mjs <đường-dẫn-tới-checkout-luc-duoc>
-// Nguồn: data/chunks của app luc-duoc. Không sửa tay file này.
+// Nguồn: data/chunks + data/names-en.ts của app luc-duoc. Không sửa tay file này.
+// Bài tiếng Anh đầy đủ và hướng dẫn dùng chỉ có trong app (quyết định D1, 24/11/2026).
 window.HERBS = [
  {
   "id": "actiso",
   "name": "Actiso",
+  "nameEn": "Globe artichoke",
   "aliases": [
    "atiso",
    "actisô"
@@ -17,6 +19,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Painful urination"
   ],
   "parts": "Lá, hoa (cụm hoa)",
   "caution": "Người tắc mật, sỏi mật cần hỏi bác sĩ.",
@@ -36,14 +41,18 @@ window.HERBS = [
  {
   "id": "anxoa",
   "name": "An xoa",
+  "nameEn": "An xoa (Helicteres hirsuta)",
   "aliases": [],
   "scientific": "Helicteres hirsuta",
-  "description": "Lá có lông, hoa nhỏ, quả xoắn.",
+  "description": "Lá có lông, hoa nhỏ, quả xoắn. Vị cay.",
   "uses": [
    "Dân gian sắc khi mệt. Không trị viêm gan."
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Thân lá",
   "caution": "Không tự điều trị bệnh gan. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -57,6 +66,7 @@ window.HERBS = [
  {
   "id": "bachuat",
   "name": "Ba kích",
+  "nameEn": "Ba kích (Morinda officinalis)",
   "aliases": [
    "ba kích thiên"
   ],
@@ -66,6 +76,7 @@ window.HERBS = [
    "Đông y dùng trong bài khi lưng gối mỏi, theo chỉ dẫn. Không phải thuốc tăng lực."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Rễ",
   "caution": "Âm hư hoả vượng, miệng khô mất ngủ không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Âm hư hoả vượng, miệng khô mất ngủ không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -80,6 +91,7 @@ window.HERBS = [
  {
   "id": "bacha",
   "name": "Bạc hà",
+  "nameEn": "Field mint",
   "aliases": [
    "bạc hà",
    "bạc hà nam"
@@ -92,6 +104,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Nóng trong"
+  ],
+  "symptomsEn": [
+   "Inner heat"
   ],
   "parts": "Toàn cây trên mặt đất",
   "caution": "Không dùng tinh dầu/menthol cho trẻ nhỏ (nhỏ mũi, bôi mũi) – có thể gây ngừng thở. Người ra mồ hôi nhiều không nên dùng.",
@@ -111,6 +126,7 @@ window.HERBS = [
  {
   "id": "bachbo",
   "name": "Bách bộ",
+  "nameEn": "Stemona",
   "aliases": [
    "củ bách bộ"
   ],
@@ -121,6 +137,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Ho"
+  ],
+  "symptomsEn": [
+   "Cough"
   ],
   "parts": "Rễ củ",
   "caution": "Liều cao gây buồn nôn. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -136,6 +155,7 @@ window.HERBS = [
  {
   "id": "bachchi",
   "name": "Bạch chỉ",
+  "nameEn": "Dahurian angelica",
   "aliases": [
    "bạch chỉ"
   ],
@@ -147,6 +167,10 @@ window.HERBS = [
   "symptoms": [
    "Đau nhức",
    "Cảm"
+  ],
+  "symptomsEn": [
+   "Aches",
+   "Cold"
   ],
   "parts": "Rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -162,27 +186,56 @@ window.HERBS = [
  {
   "id": "bacdan",
   "name": "Bạch đàn",
+  "nameEn": "Blue gum",
   "aliases": [
    "khuynh diệp"
   ],
   "scientific": "Eucalyptus globulus",
-  "description": "Lá hình liềm, mùi long não, vỏ bong.",
+  "description": "Lá hình liềm, mùi long não, vỏ bong. Tính mát, vị cay, đắng.",
   "uses": [
    "Xông lá khi ngạt mũi người lớn. Không uống tinh dầu."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Nuốt tinh dầu gây độc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Nuốt tinh dầu gây độc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
   "toxic": false,
   "images": [
    "bacdan.webp"
   ]
  },
  {
+  "id": "bachhoaxathietthao",
+  "name": "Bạch hoa xà thiệt thảo",
+  "nameEn": "Spreading hedyotis",
+  "aliases": [
+   "cỏ lưỡi rắn hoa trắng",
+   "xà thiệt thảo"
+  ],
+  "scientific": "Hedyotis diffusa",
+  "description": "Cây thảo nhỏ mọc bò lan, thân mảnh hơi vuông; lá mọc đối hẹp hình dải như lưỡi rắn; hoa trắng nhỏ ở kẽ lá. Tính hàn, vị đắng, ngọt.",
+  "uses": [
+   "Trong Đông y được ghi là vị ngọt, đắng, hàn, dùng thanh nhiệt giải độc và lợi niệu. Dân gian dùng khi mụn nhọt hoặc tiểu buốt do nhiệt. Không phải thuốc trị viêm gan hay u bướu."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Toàn cây phơi hoặc sấy khô",
+  "caution": "Tính mát, phụ nữ có thai và người tỳ vị hư hàn hay lạnh bụng không tự ý dùng kéo dài.",
+  "warn": "Tính mát, phụ nữ có thai và người tỳ vị hư hàn hay lạnh bụng không tự ý dùng kéo dài.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "bachthuoc",
   "name": "Bạch thược",
+  "nameEn": "White peony",
   "aliases": [
    "thược dược trắng"
   ],
@@ -193,6 +246,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đi ngoài"
+  ],
+  "symptomsEn": [
+   "Loose stools"
   ],
   "parts": "Rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -208,6 +264,7 @@ window.HERBS = [
  {
   "id": "bachtruat",
   "name": "Bạch truật",
+  "nameEn": "White atractylodes",
   "aliases": [
    "truật"
   ],
@@ -221,6 +278,11 @@ window.HERBS = [
    "Mệt, kém ăn",
    "Đi ngoài"
   ],
+  "symptomsEn": [
+   "Bloating",
+   "Fatigue, poor appetite",
+   "Loose stools"
+  ],
   "parts": "Thân rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -233,8 +295,39 @@ window.HERBS = [
   ]
  },
  {
+  "id": "banchilien",
+  "name": "Bán chi liên",
+  "nameEn": "Barbed skullcap",
+  "aliases": [
+   "hoàng cầm râu",
+   "nha loát thảo"
+  ],
+  "scientific": "Scutellaria barbata",
+  "description": "Cây thảo nhỏ thân vuông mảnh; lá mọc đối hình trứng hoặc mũi mác, mép khía răng thưa; hoa tím lam mọc thành chùm một phía. Tính hàn, vị cay, đắng.",
+  "uses": [
+   "Trong Đông y, bán chi liên được ghi là vị cay, đắng, hàn, dùng trong các bài thanh nhiệt giải độc, hóa ứ và lợi tiểu. Không phải thuốc trị ung thư."
+  ],
+  "symptoms": [
+   "Nóng trong",
+   "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Painful urination"
+  ],
+  "parts": "Toàn cây trên mặt đất phơi khô",
+  "caution": "Không dùng cho phụ nữ mang thai hoặc người huyết hư, tỳ vị yếu; người bệnh mạn tính cần hỏi bác sĩ.",
+  "warn": "Không dùng cho phụ nữ mang thai hoặc người huyết hư, tỳ vị yếu; người bệnh mạn tính cần hỏi bác sĩ.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "banha",
   "name": "Bán hạ",
+  "nameEn": "Crow-dipper",
   "aliases": [
    "bán hạ nam"
   ],
@@ -244,6 +337,7 @@ window.HERBS = [
    "Sống thì gây tê họng. Chỉ dùng dạng đã chế trong bài thuốc. Không nhai củ tươi."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thân củ",
   "caution": "ĐỘC khi sống: tê lưỡi, sưng họng, khó thở.",
   "warn": "ĐỘC khi sống: tê lưỡi, sưng họng, khó thở.",
@@ -258,15 +352,17 @@ window.HERBS = [
  {
   "id": "binhvoi",
   "name": "Bình vôi",
+  "nameEn": "Stephania",
   "aliases": [
    "củ bình vôi"
   ],
   "scientific": "Stephania rotunda",
-  "description": "Dây leo, lá hình khiên, củ lớn dưới đất.",
+  "description": "Dây leo, lá hình khiên, củ lớn dưới đất. Tính mát, vị đắng, ngọt.",
   "uses": [
    "Củ có alcaloid. Không tự tán bột an thần."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Củ",
   "caution": "Alcaloid có thể gây độc tim và an thần quá mức. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Alcaloid có thể gây độc tim và an thần quá mức. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -281,6 +377,7 @@ window.HERBS = [
  {
   "id": "nhoi",
   "name": "Bồ công anh",
+  "nameEn": "Indian lettuce",
   "aliases": [
    "bồ công anh nam"
   ],
@@ -292,6 +389,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Nóng trong"
+  ],
+  "symptomsEn": [
+   "Inner heat"
   ],
   "parts": "Lá, toàn cây",
   "caution": "Tính lạnh – người hư hàn hạn chế.",
@@ -310,15 +410,17 @@ window.HERBS = [
  {
   "id": "boket",
   "name": "Bồ kết",
+  "nameEn": "Bồ kết (Gleditsia australis)",
   "aliases": [
    "quả bồ kết"
   ],
   "scientific": "Gleditsia australis",
-  "description": "Quả dẹt dài, cây có gai phân nhánh.",
+  "description": "Quả dẹt dài, cây có gai phân nhánh. Tính ấm, vị cay, mặn.",
   "uses": [
    "Nấu quả để gội. Không nuốt nước đặc để trị ho."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Kích ứng mắt. Nuốt nhiều gây nôn. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Kích ứng mắt. Nuốt nhiều gây nôn. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -333,38 +435,71 @@ window.HERBS = [
  {
   "id": "buoi",
   "name": "Bưởi",
+  "nameEn": "Pomelo",
   "aliases": [
    "vỏ bưởi",
    "lá bưởi"
   ],
   "scientific": "Citrus maxima",
-  "description": "Quả rất lớn, lá có tai, hoa trắng thơm.",
+  "description": "Quả rất lớn, lá có tai, hoa trắng thơm. Tính ấm, vị cay, đắng.",
   "uses": [
    "Dùng vỏ và lá để xông, gội, nấu. Nước bưởi có thể làm tăng tác dụng một số thuốc."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Vỏ, lá, quả",
   "caution": "Tương tác với nhiều thuốc (statin, một số huyết áp, ức chế miễn dịch). Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Tương tác với nhiều thuốc (statin, một số huyết áp, ức chế miễn dịch). Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "buoi.webp"
   ]
  },
  {
+  "id": "butgiam",
+  "name": "Bụp giấm",
+  "nameEn": "Roselle",
+  "aliases": [
+   "atisô đỏ",
+   "giấm nhật",
+   "lạc thần hoa"
+  ],
+  "scientific": "Hibiscus sabdariffa",
+  "description": "Cây bụi thân màu đỏ tím; lá xẻ thùy; đài hoa dày mọng nước màu đỏ thẫm, vị chua thanh đặc trưng. Tính mát, vị chua.",
+  "uses": [
+   "Thường hãm trà giải khát màu đỏ. Không phải thuốc tiêu hóa hay thuốc chống oxy hóa."
+  ],
+  "symptoms": [
+   "Khát"
+  ],
+  "symptomsEn": [
+   "Thirst"
+  ],
+  "parts": "Đài hoa tươi hoặc phơi khô",
+  "caution": "Vị chua, người đau dạ dày không uống lúc đói; người huyết áp thấp hoặc phụ nữ mang thai nên hạn chế.",
+  "warn": "Vị chua, người đau dạ dày không uống lúc đói; người huyết áp thấp hoặc phụ nữ mang thai nên hạn chế.",
+  "src": [],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "cadocduoc",
   "name": "Cà độc dược",
+  "nameEn": "Devil's trumpet",
   "aliases": [
    "mạn đà la",
    "cà độc"
   ],
   "scientific": "Datura metel",
-  "description": "Hoa loa kèn trắng hoặc tím, quả gai, hạt nhỏ.",
+  "description": "Hoa loa kèn trắng hoặc tím, quả gai, hạt nhỏ. Tính ấm, vị cay.",
   "uses": [
    "ĐỘC. Không sắc hoa để ngủ, không hút, không ăn hạt. Gây mê sảng và ngừng thở."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Hoa, lá, hạt",
   "caution": "ĐỘC. Khô miệng, giãn đồng tử, mê sảng, sốt. Cấp cứu.",
   "warn": "ĐỘC. Khô miệng, giãn đồng tử, mê sảng, sốt. Cấp cứu.",
@@ -379,16 +514,20 @@ window.HERBS = [
  {
   "id": "cahoathien",
   "name": "Cà gai leo",
+  "nameEn": "Cà gai leo (Solanum procumbens)",
   "aliases": [
    "cà gai"
   ],
   "scientific": "Solanum procumbens",
-  "description": "Thân có gai, hoa tím hình bánh xe, quả mọng.",
+  "description": "Thân có gai, hoa tím hình bánh xe, quả mọng. Tính ấm, vị đắng.",
   "uses": [
    "Dân gian dùng khi phong thấp, đau nhức."
   ],
   "symptoms": [
    "Đau nhức"
+  ],
+  "symptomsEn": [
+   "Aches"
   ],
   "parts": "Rễ, thân, lá",
   "caution": "Phụ nữ có thai thận trọng. Không thay thế điều trị khi phong thấp, đau nhức.",
@@ -405,19 +544,23 @@ window.HERBS = [
  {
   "id": "bapcai",
   "name": "Cải bắp",
+  "nameEn": "Cabbage",
   "aliases": [
    "bắp cải"
   ],
   "scientific": "Brassica oleracea",
-  "description": "Bắp lá úp chặt.",
+  "description": "Bắp lá úp chặt. Tính bình, vị ngọt.",
   "uses": [
    "Ăn như rau. Nước ép sống không trị loét dạ dày."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Đầy hơi. Người suy giáp đang điều trị hỏi bác sĩ nếu ăn rất nhiều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Đầy hơi. Người suy giáp đang điều trị hỏi bác sĩ nếu ăn rất nhiều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "bapcai.webp"
@@ -426,6 +569,7 @@ window.HERBS = [
  {
   "id": "cam",
   "name": "Cam",
+  "nameEn": "Sweet orange",
   "aliases": [
    "vỏ cam",
    "trần bì nếu là quýt"
@@ -437,6 +581,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Vỏ, quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -454,6 +601,7 @@ window.HERBS = [
  {
   "id": "camthao",
   "name": "Cam thảo bắc",
+  "nameEn": "Chinese licorice",
   "aliases": [
    "cam thảo",
    "quốc lão",
@@ -465,6 +613,7 @@ window.HERBS = [
    "Bổ tỳ ích khí, nhuận phế chỉ ho, giải độc, điều hoà các vị thuốc."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Rễ",
   "caution": "Dùng lâu/liều cao có thể gây giữ nước, tăng huyết áp, hạ kali; người tăng huyết áp, phù không nên dùng. Kỵ Cam toại, Đại kích, Nguyên hoa, Hải tảo.",
   "warn": "Dùng lâu/liều cao có thể gây giữ nước, tăng huyết áp, hạ kali; người tăng huyết áp, phù không nên dùng. Kỵ Cam toại, Đại kích, Nguyên hoa, Hải tảo.",
@@ -483,20 +632,24 @@ window.HERBS = [
  {
   "id": "camthaoday",
   "name": "Cam thảo dây",
+  "nameEn": "Rosary pea",
   "aliases": [
    "cam thảo đất",
    "cam thảo nam"
   ],
   "scientific": "Abrus precatorius",
-  "description": "Dây leo, hạt đỏ có chấm đen bóng.",
+  "description": "Dây leo, hạt đỏ có chấm đen bóng. Tính mát, vị ngọt.",
   "uses": [
    "Lá một số nơi hãm. Hạt đỏ đen rất độc, không nuốt, không xâu chuỗi cho trẻ."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Dây lá",
   "caution": "Hạt chứa abrin, vài hạt nhai vỡ có thể chết. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Hạt chứa abrin, vài hạt nhai vỡ có thể chết. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": true,
   "images": [
    "camthaoday.webp"
@@ -505,6 +658,7 @@ window.HERBS = [
  {
   "id": "canhuong",
   "name": "Can khương",
+  "nameEn": "Dried ginger",
   "aliases": [
    "gừng khô"
   ],
@@ -514,6 +668,7 @@ window.HERBS = [
    "Dùng thân rễ đã phơi khi lạnh bụng, nôn do lạnh, trong bài. Không dùng khi nôn ra máu hoặc sốt nóng."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thân rễ khô",
   "caution": "Đang chảy máu, miệng khô, táo bón do nhiệt không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Đang chảy máu, miệng khô, táo bón do nhiệt không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -528,6 +683,7 @@ window.HERBS = [
  {
   "id": "catcan",
   "name": "Cát căn",
+  "nameEn": "Kudzu",
   "aliases": [
    "sắn dây",
    "củ sắn dây"
@@ -540,6 +696,10 @@ window.HERBS = [
   "symptoms": [
    "Cảm",
    "Khát"
+  ],
+  "symptomsEn": [
+   "Cold",
+   "Thirst"
   ],
   "parts": "Rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -556,6 +716,7 @@ window.HERBS = [
  {
   "id": "catcanh",
   "name": "Cát cánh",
+  "nameEn": "Balloon flower",
   "aliases": [
    "kết cánh"
   ],
@@ -566,6 +727,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Ho"
+  ],
+  "symptomsEn": [
+   "Cough"
   ],
   "parts": "Rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -581,16 +745,18 @@ window.HERBS = [
  {
   "id": "cau",
   "name": "Cau",
+  "nameEn": "Betel nut palm",
   "aliases": [
    "hạt cau",
    "vỏ cau"
   ],
   "scientific": "Areca catechu",
-  "description": "Thân cột, tàu lá, quả có xơ, hạt vân.",
+  "description": "Thân cột, tàu lá, quả có xơ, hạt vân. Tính ấm, vị cay, đắng.",
   "uses": [
    "Không nhai hạt cau để tẩy giun tại nhà. Hạt cau gây phụ thuộc và liên quan ung thư miệng khi ăn với trầu."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Hạt",
   "caution": "Độc với liều nhai thường ngày. Gây buồn nôn, tim đập nhanh, lệ thuộc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Độc với liều nhai thường ngày. Gây buồn nôn, tim đập nhanh, lệ thuộc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -606,6 +772,7 @@ window.HERBS = [
  {
   "id": "caudang",
   "name": "Câu đằng",
+  "nameEn": "Cat's claw herb",
   "aliases": [
    "móc câu"
   ],
@@ -615,6 +782,7 @@ window.HERBS = [
    "Đông y sắc đoạn có móc khi chóng mặt, co giật trong bài. Co giật phải được cấp cứu."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Đoạn thân có móc",
   "caution": "Co giật, sốt cao ở trẻ: cấp cứu. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Co giật, sốt cao ở trẻ: cấp cứu. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -629,15 +797,17 @@ window.HERBS = [
  {
   "id": "cutlon",
   "name": "Cây cứt lợn",
+  "nameEn": "Billygoat weed",
   "aliases": [
    "cỏ hôi"
   ],
   "scientific": "Ageratum conyzoides",
-  "description": "Lá hình thìa, hoa tím thành đầu, mùi hôi.",
+  "description": "Lá hình thìa, hoa tím thành đầu, mùi hôi. Tính bình, vị hơi đắng.",
   "uses": [
    "Dân gian giã đắp vết thương nông đã rửa. Vết sâu, tetanus phải xử trí y tế. Không uống lá."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Toàn cây",
   "caution": "Có alcaloid pyrrolizidine, không uống. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Có alcaloid pyrrolizidine, không uống. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -652,22 +822,28 @@ window.HERBS = [
  {
   "id": "xauho",
   "name": "Cây xấu hổ",
+  "nameEn": "Sensitive plant",
   "aliases": [
    "mắc cỡ",
    "trinh nữ"
   ],
   "scientific": "Mimosa pudica",
-  "description": "Lá kép khép khi chạm, hoa tím hình cầu, thân có gai.",
+  "description": "Lá kép khép khi chạm, hoa tím hình cầu, thân có gai. Tính hơi hàn, vị hơi đắng, ngọt, chát.",
   "uses": [
    "Dân gian sắc khi khó ngủ nhẹ. Không an toàn nếu dùng nhiều vì có chất độc."
   ],
   "symptoms": [
    "Mất ngủ"
   ],
+  "symptomsEn": [
+   "Trouble sleeping"
+  ],
   "parts": "Toàn cây",
   "caution": "Liều cao có thể độc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Liều cao có thể độc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "xauho.webp"
@@ -676,6 +852,7 @@ window.HERBS = [
  {
   "id": "chanh",
   "name": "Chanh",
+  "nameEn": "Lime",
   "aliases": [
    "quả chanh",
    "chanh ta"
@@ -688,10 +865,15 @@ window.HERBS = [
   "symptoms": [
    "Khát"
   ],
+  "symptomsEn": [
+   "Thirst"
+  ],
   "parts": "Quả",
   "caution": "Đau dạ dày, men răng yếu: hạn chế. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Đau dạ dày, men răng yếu: hạn chế. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "chanh-extra2.webp",
@@ -704,15 +886,17 @@ window.HERBS = [
  {
   "id": "chanhday",
   "name": "Chanh dây",
+  "nameEn": "Passion fruit",
   "aliases": [
    "mác mác ngọt"
   ],
   "scientific": "Passiflora edulis",
-  "description": "Dây leo có tua, quả tím hoặc vàng, hạt trong áo chua.",
+  "description": "Dây leo có tua, quả tím hoặc vàng, hạt trong áo chua. Tính bình, vị ngọt, chua.",
   "uses": [
    "Ăn cơm quả. Không phải thuốc an thần."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -725,15 +909,17 @@ window.HERBS = [
  {
   "id": "cheday",
   "name": "Chè dây",
+  "nameEn": "Canton ampelopsis",
   "aliases": [
    "chè hoàng gia"
   ],
   "scientific": "Ampelopsis cantoniensis",
-  "description": "Dây leo tua cuốn, lá kép có răng, tua đối diện lá.",
+  "description": "Dây leo tua cuốn, lá kép có răng, tua đối diện lá. Tính mát, vị đắng, ngọt.",
   "uses": [
    "Dân gian sắc khi đau bụng nhẹ. Không trị viêm loét đã có biến chứng."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá, dây",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -748,15 +934,17 @@ window.HERBS = [
  {
   "id": "chevang",
   "name": "Chè vằng",
+  "nameEn": "Chè vằng (Jasminum subtriplinerve)",
   "aliases": [
    "vằng"
   ],
   "scientific": "Jasminum subtriplinerve",
-  "description": "Dây leo, lá có 3 gân, hoa trắng ống.",
+  "description": "Dây leo, lá có 3 gân, hoa trắng ống. Tính ấm, vị hơi đắng, chát.",
   "uses": [
    "Phụ nữ sau sinh ở một số nơi hãm lá. Không thông sữa thay khám nếu ngực đỏ sốt."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -774,6 +962,7 @@ window.HERBS = [
  {
   "id": "chexanh",
   "name": "Chè xanh",
+  "nameEn": "Tea",
   "aliases": [
    "trà",
    "trà xanh"
@@ -784,10 +973,13 @@ window.HERBS = [
    "Hãm uống như trà. Không phải thuốc giảm cân hay thuốc hạ mỡ máu."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Búp, lá non",
   "caution": "Mất ngủ, tim đập nhanh, đang dùng thuốc có tương tác với caffeine: hỏi bác sĩ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Mất ngủ, tim đập nhanh, đang dùng thuốc có tương tác với caffeine: hỏi bác sĩ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "chexanh.webp"
@@ -796,6 +988,7 @@ window.HERBS = [
  {
   "id": "chitu",
   "name": "Chi tử",
+  "nameEn": "Gardenia",
   "aliases": [
    "dành dành",
    "quả dành dành"
@@ -806,6 +999,7 @@ window.HERBS = [
    "Đông y dùng quả khi bứt rứt, vàng da trong bài. Vàng da phải khám, không tự sắc."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Tỳ hư tiêu chảy không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Tỳ hư tiêu chảy không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -820,15 +1014,17 @@ window.HERBS = [
  {
   "id": "chumngay",
   "name": "Chùm ngây",
+  "nameEn": "Moringa",
   "aliases": [
    "rau chùm ngây"
   ],
   "scientific": "Moringa oleifera",
-  "description": "Lá kép lông chim nhỏ, quả dài tam giác, hoa trắng.",
+  "description": "Lá kép lông chim nhỏ, quả dài tam giác, hoa trắng. Tính bình, vị hơi đắng, ngọt.",
   "uses": [
    "Nấu lá như rau. Không uống bột liều cao để trị đái tháo đường."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Hạ huyết áp hoặc hạ đường huyết khi phối thuốc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Hạ huyết áp hoặc hạ đường huyết khi phối thuốc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -841,15 +1037,17 @@ window.HERBS = [
  {
   "id": "chuoi",
   "name": "Chuối",
+  "nameEn": "Banana",
   "aliases": [
    "quả chuối"
   ],
   "scientific": "Musa acuminata",
-  "description": "Bẹ lá thành thân giả, buồng quả.",
+  "description": "Bẹ lá thành thân giả, buồng quả. Tính hàn, vị ngọt.",
   "uses": [
    "Ăn quả chín khi cần món mềm, nhiều kali. Không trị loét dạ dày."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Suy thận: kali trong chuối có thể nguy hiểm. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Suy thận: kali trong chuối có thể nguy hiểm. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -862,6 +1060,7 @@ window.HERBS = [
  {
   "id": "cothao",
   "name": "Cỏ mần trầu",
+  "nameEn": "Goosegrass",
   "aliases": [
    "mần trầu"
   ],
@@ -873,6 +1072,10 @@ window.HERBS = [
   "symptoms": [
    "Nóng trong",
    "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Painful urination"
   ],
   "parts": "Toàn cây",
   "caution": "Tính mát – người hư hàn hạn chế.",
@@ -892,6 +1095,7 @@ window.HERBS = [
  {
   "id": "comuc",
   "name": "Cỏ mực",
+  "nameEn": "False daisy",
   "aliases": [
    "nhọ nồi",
    "hạn liên thảo"
@@ -903,6 +1107,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Chảy máu"
+  ],
+  "symptomsEn": [
+   "Bleeding"
   ],
   "parts": "Toàn cây",
   "caution": "Chảy máu bất thường cần khám, không tự cầm tại nhà. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -916,21 +1123,50 @@ window.HERBS = [
   ]
  },
  {
+  "id": "cothaongot",
+  "name": "Cỏ ngọt",
+  "nameEn": "Stevia",
+  "aliases": [
+   "cúc ngọt",
+   "stevia"
+  ],
+  "scientific": "Stevia rebaudiana",
+  "description": "Cây thảo sống nhiều năm; lá mọc đối hình mũi mác, mép khía răng ở nửa trên, vị rất ngọt không tạo năng lượng; hoa nhỏ màu trắng. Tính mát, vị ngọt.",
+  "uses": [
+   "Dùng làm vị ngọt tự nhiên pha cùng trà thảo mộc cho người cần hạn chế đường. Không phải thuốc hạ huyết áp hay thuốc đái tháo đường."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Lá phơi hoặc sấy khô",
+  "caution": "Người dị ứng họ Cúc, huyết áp thấp hoặc đang dùng thuốc hạ đường huyết nên dùng lượng vừa phải.",
+  "warn": "Người dị ứng họ Cúc, huyết áp thấp hoặc đang dùng thuốc hạ đường huyết nên dùng lượng vừa phải.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "cosua",
   "name": "Cỏ sữa",
+  "nameEn": "Asthma-plant",
   "aliases": [
    "cỏ sữa lá nhỏ"
   ],
   "scientific": "Euphorbia hirta",
-  "description": "Cỏ bò, có nhựa trắng, hoa cụm nhỏ.",
+  "description": "Cỏ bò, có nhựa trắng, hoa cụm nhỏ. Tính hàn, vị cay, chua.",
   "uses": [
    "Dân gian sắc khi đi ngoài. Nhựa trắng kích ứng. Không trị lỵ amip."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Toàn cây",
   "caution": "Nhựa kích ứng. Tiêu chảy có máu, sốt: đi khám. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Nhựa kích ứng. Tiêu chảy có máu, sốt: đi khám. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "cosua.webp"
@@ -939,6 +1175,7 @@ window.HERBS = [
  {
   "id": "cotranh",
   "name": "Cỏ tranh",
+  "nameEn": "Cogongrass",
   "aliases": [
    "bạch mao căn"
   ],
@@ -950,6 +1187,10 @@ window.HERBS = [
   "symptoms": [
    "Tiểu buốt",
    "Chảy máu"
+  ],
+  "symptomsEn": [
+   "Painful urination",
+   "Bleeding"
   ],
   "parts": "Rễ",
   "caution": "Tiểu máu, sốt, đau hông: đi khám. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -965,6 +1206,7 @@ window.HERBS = [
  {
   "id": "cottoai",
   "name": "Cốt toái bổ",
+  "nameEn": "Cot toai bo (Drynaria roosii)",
   "aliases": [
    "tắc kè đá"
   ],
@@ -975,6 +1217,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mờ mắt"
+  ],
+  "symptomsEn": [
+   "Blurred vision"
   ],
   "parts": "Thân rễ",
   "caution": "Bệnh gan, có thai: không ngâm rượu. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -990,6 +1235,7 @@ window.HERBS = [
  {
   "id": "cara",
   "name": "Củ cải",
+  "nameEn": "Radish",
   "aliases": [
    "cải củ",
    "lai phục"
@@ -1001,6 +1247,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Rễ, hạt",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1016,6 +1265,7 @@ window.HERBS = [
  {
   "id": "cucmat",
   "name": "Cúc hoa trắng",
+  "nameEn": "Florist's chrysanthemum",
   "aliases": [
    "cúc đại đóa",
    "kim cúc"
@@ -1028,10 +1278,15 @@ window.HERBS = [
   "symptoms": [
    "Mờ mắt"
   ],
+  "symptomsEn": [
+   "Blurred vision"
+  ],
   "parts": "Cụm hoa",
   "caution": "Dị ứng họ cúc gây ngứa, khó thở. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Dị ứng họ cúc gây ngứa, khó thở. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "cucmat-extra2.webp",
@@ -1042,6 +1297,7 @@ window.HERBS = [
  {
   "id": "cuchoa",
   "name": "Cúc hoa vàng",
+  "nameEn": "Wild chrysanthemum",
   "aliases": [
    "cúc vàng"
   ],
@@ -1053,6 +1309,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mờ mắt"
+  ],
+  "symptomsEn": [
+   "Blurred vision"
   ],
   "parts": "Hoa",
   "caution": "Người tỳ vị hư hàn, hay tiêu chảy hạn chế.",
@@ -1069,8 +1328,32 @@ window.HERBS = [
   ]
  },
  {
+  "id": "cuctan",
+  "name": "Cúc tần",
+  "nameEn": "Indian camphorweed",
+  "aliases": [
+   "từ bi"
+  ],
+  "scientific": "Pluchea indica",
+  "description": "Cây bụi, lá đơn có mép răng cưa, cụm hoa nhỏ mọc ở đầu cành. Tính mát, vị đắng.",
+  "uses": [
+   "Tra cứu lá và đặc điểm của cây cúc tần."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Lá",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "daihoi",
   "name": "Đại hồi",
+  "nameEn": "Star anise",
   "aliases": [
    "hoa hồi",
    "hồi"
@@ -1081,6 +1364,7 @@ window.HERBS = [
    "Dùng làm gia vị và trong bài khi đầy bụng lạnh. Không nhầm với hồi núi độc."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Nhầm Illicium anisatum có thể gây co giật. Chỉ dùng đại hồi quả đều, mùi ngọt. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Nhầm Illicium anisatum có thể gây co giật. Chỉ dùng đại hồi quả đều, mùi ngọt. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1095,6 +1379,7 @@ window.HERBS = [
  {
   "id": "damduonghoac",
   "name": "Dâm dương hoắc",
+  "nameEn": "Horny goat weed",
   "aliases": [
    "dền toòng"
   ],
@@ -1104,6 +1389,7 @@ window.HERBS = [
    "Đông y dùng trong bài. Không dùng như thuốc kích dục mua tự do."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Khô miệng, nóng trong, mất ngủ không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Khô miệng, nóng trong, mất ngủ không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1118,6 +1404,7 @@ window.HERBS = [
  {
   "id": "dansam",
   "name": "Đan sâm",
+  "nameEn": "Red sage",
   "aliases": [
    "xích sâm"
   ],
@@ -1127,6 +1414,7 @@ window.HERBS = [
    "Đông y dùng rễ trong bài. Đang dùng thuốc chống đông không tự thêm."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Rễ",
   "caution": "Tương tác thuốc chống đông và một số thuốc tim. Hỏi bác sĩ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Tương tác thuốc chống đông và một số thuốc tim. Hỏi bác sĩ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1141,6 +1429,7 @@ window.HERBS = [
  {
   "id": "dangsam",
   "name": "Đảng sâm",
+  "nameEn": "Codonopsis",
   "aliases": [
    "sâm dây bắc"
   ],
@@ -1151,6 +1440,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1166,6 +1458,7 @@ window.HERBS = [
  {
   "id": "samday",
   "name": "Đẳng sâm",
+  "nameEn": "Java bellflower",
   "aliases": [
    "sâm dây nam",
    "sâm cau dây"
@@ -1177,6 +1470,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1192,6 +1488,7 @@ window.HERBS = [
  {
   "id": "dautam",
   "name": "Dâu tằm",
+  "nameEn": "White mulberry",
   "aliases": [
    "tang diệp",
    "lá dâu"
@@ -1202,6 +1499,7 @@ window.HERBS = [
    "Đông y dùng lá (tang diệp) khi cảm gió nóng, ho trong bài. Quả chín ăn vừa."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá, quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1216,16 +1514,20 @@ window.HERBS = [
  {
   "id": "daydauxuong",
   "name": "Dây đau xương",
+  "nameEn": "Day dau xuong (Tinospora crispa)",
   "aliases": [
    "dây ký ninh"
   ],
   "scientific": "Tinospora crispa",
-  "description": "Dây có bướu, lát cắt có nhựa đắng, lá hình tim.",
+  "description": "Dây có bướu, lát cắt có nhựa đắng, lá hình tim. Tính mát, vị đắng.",
   "uses": [
    "Dân gian sắc dây khi nhức. Vị rất đắng. Không trị sốt rét."
   ],
   "symptoms": [
    "Đau nhức"
+  ],
+  "symptomsEn": [
+   "Aches"
   ],
   "parts": "Dây",
   "caution": "Đắng mạnh, đã có báo cáo hại gan khi lạm dụng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1239,8 +1541,33 @@ window.HERBS = [
   ]
  },
  {
+  "id": "daythiacanh",
+  "name": "Dây thìa canh",
+  "nameEn": "Gymnema",
+  "aliases": [
+   "dây muôi",
+   "lõa ti rừng"
+  ],
+  "scientific": "Gymnema sylvestre",
+  "description": "Dây leo thân gỗ nhỏ có nhựa mủ trắng; lá mọc đối có lông mịn, nhai tươi làm tạm mất vị ngọt; quả đại hình chiếc thìa. Tính hàn, vị đắng.",
+  "uses": [
+   "Trong y học cổ truyền, dây thìa canh được ghi là vị đắng, hàn, dùng khi tiểu tiện bí dắt hoặc trong các bài liên quan đến chứng tiêu khát. Không thay thế thuốc đái tháo đường."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Thân và lá phơi khô",
+  "caution": "Có thể hạ đường huyết quá mức khi dùng chung thuốc trị đái tháo đường; không dùng cho phụ nữ có thai và cho con bú.",
+  "warn": "Có thể hạ đường huyết quá mức khi dùng chung thuốc trị đái tháo đường; không dùng cho phụ nữ có thai và cho con bú.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "diahoang",
   "name": "Địa hoàng",
+  "nameEn": "Chinese foxglove",
   "aliases": [
    "sinh địa",
    "thục địa"
@@ -1251,6 +1578,7 @@ window.HERBS = [
    "Đông y dùng sinh địa khi nhiệt, thục địa trong bài bổ. Không tự dùng lâu nếu đầy bụng, tiêu chảy."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Rễ củ",
   "caution": "Tỳ vị hư, đầy bụng, tiêu chảy không dùng nhiều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Tỳ vị hư, đầy bụng, tiêu chảy không dùng nhiều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1265,6 +1593,7 @@ window.HERBS = [
  {
   "id": "dialien",
   "name": "Địa liền",
+  "nameEn": "Aromatic ginger",
   "aliases": [
    "thiền liền"
   ],
@@ -1274,6 +1603,7 @@ window.HERBS = [
    "Dân gian dùng củ khi đau bụng lạnh, nhức. Không đắp vết thương hở thay vô khuẩn."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thân rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1288,6 +1618,7 @@ window.HERBS = [
  {
   "id": "diepca",
   "name": "Diếp cá",
+  "nameEn": "Fish mint",
   "aliases": [
    "ngư tinh thảo",
    "giấp cá",
@@ -1302,6 +1633,10 @@ window.HERBS = [
   "symptoms": [
    "Nóng trong",
    "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Painful urination"
   ],
   "parts": "Toàn cây",
   "caution": "Người hư hàn không nên dùng nhiều.",
@@ -1320,17 +1655,21 @@ window.HERBS = [
  {
   "id": "diephachau",
   "name": "Diệp hạ châu",
+  "nameEn": "Chamber bitter",
   "aliases": [
    "chó đẻ răng cưa",
    "cây chó đẻ"
   ],
   "scientific": "Phyllanthus urinaria",
-  "description": "Lá kép trông như một lá, quả nhỏ dưới lá.",
+  "description": "Lá kép trông như một lá, quả nhỏ dưới lá. Tính mát, vị đắng, ngọt.",
   "uses": [
    "Dân gian sắc khi tiểu buốt nhẹ. Không trị viêm gan. Vàng da phải khám."
   ],
   "symptoms": [
    "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Painful urination"
   ],
   "parts": "Toàn cây",
   "caution": "Không tự điều trị viêm gan. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1346,6 +1685,7 @@ window.HERBS = [
  {
   "id": "dinhhuong",
   "name": "Đinh hương",
+  "nameEn": "Clove",
   "aliases": [
    "nụ đinh hương"
   ],
@@ -1355,6 +1695,7 @@ window.HERBS = [
    "Dùng nụ khi nôn, đau răng thoáng qua, đầy bụng lạnh. Không ngậm tinh dầu nguyên chất."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Nụ hoa",
   "caution": "Kích ứng da và niêm mạc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Kích ứng da và niêm mạc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1369,6 +1710,7 @@ window.HERBS = [
  {
   "id": "duocla",
   "name": "Đinh lăng",
+  "nameEn": "Ming aralia",
   "aliases": [
    "đinh lăng",
    "nam dương sâm"
@@ -1381,6 +1723,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Rễ, lá",
   "caution": "Dùng liều cao có thể gây say, mệt, tiêu chảy; dùng đúng liều.",
@@ -1400,6 +1745,7 @@ window.HERBS = [
  {
   "id": "dotrong",
   "name": "Đỗ trọng",
+  "nameEn": "Eucommia",
   "aliases": [],
   "scientific": "Eucommia ulmoides",
   "description": "Vỏ bẻ ra có tơ trắng dai. Tính ấm, vị ngọt.",
@@ -1408,6 +1754,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mờ mắt"
+  ],
+  "symptomsEn": [
+   "Blurred vision"
   ],
   "parts": "Vỏ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1423,6 +1772,7 @@ window.HERBS = [
  {
   "id": "docduoc",
   "name": "Độc hoạt",
+  "nameEn": "Pubescent angelica",
   "aliases": [
    "xuyên độc hoạt"
   ],
@@ -1433,6 +1783,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đau nhức"
+  ],
+  "symptomsEn": [
+   "Aches"
   ],
   "parts": "Rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1448,6 +1801,7 @@ window.HERBS = [
  {
   "id": "duadu",
   "name": "Đu đủ",
+  "nameEn": "Papaya",
   "aliases": [
    "quả đu đủ",
    "lá đu đủ"
@@ -1458,10 +1812,13 @@ window.HERBS = [
    "Ăn quả chín. Nhựa và hạt không tự dùng làm thuốc phá thai hay tẩy giun."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả, nhựa",
   "caution": "Nhựa kích ứng da. Hạt và lá liều cao không an toàn, nhất là khi có thai. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Nhựa kích ứng da. Hạt và lá liều cao không an toàn, nhất là khi có thai. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "duadu.webp"
@@ -1470,16 +1827,18 @@ window.HERBS = [
  {
   "id": "dua",
   "name": "Dứa",
+  "nameEn": "Pineapple",
   "aliases": [
    "thơm",
    "khóm"
   ],
   "scientific": "Ananas comosus",
-  "description": "Tụ lá gai, quả phức có mắt.",
+  "description": "Tụ lá gai, quả phức có mắt. Tính bình, vị ngọt, hơi chua.",
   "uses": [
    "Ăn quả chín. Không dùng lõi hay quả xanh để thông kinh."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Đang dùng thuốc chống đông: không uống lượng lớn nước dứa. Có thai không ăn dứa xanh. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Đang dùng thuốc chống đông: không uống lượng lớn nước dứa. Có thai không ăn dứa xanh. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1494,6 +1853,7 @@ window.HERBS = [
  {
   "id": "duatrai",
   "name": "Dừa",
+  "nameEn": "Coconut",
   "aliases": [
    "nước dừa"
   ],
@@ -1505,10 +1865,15 @@ window.HERBS = [
   "symptoms": [
    "Khát"
   ],
+  "symptomsEn": [
+   "Thirst"
+  ],
   "parts": "Nước, cùi",
   "caution": "Suy thận, suy tim: cẩn thận kali. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Suy thận, suy tim: cẩn thận kali. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "duatrai.webp"
@@ -1517,6 +1882,7 @@ window.HERBS = [
  {
   "id": "duongquy",
   "name": "Đương quy",
+  "nameEn": "Dong quai",
   "aliases": [
    "quy"
   ],
@@ -1527,6 +1893,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Kinh nguyệt"
+  ],
+  "symptomsEn": [
+   "Menstruation"
   ],
   "parts": "Rễ",
   "caution": "Có thai không dùng nếu chưa có chỉ định. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1542,15 +1911,17 @@ window.HERBS = [
  {
   "id": "gac",
   "name": "Gấc",
+  "nameEn": "Gac",
   "aliases": [
    "quả gấc"
   ],
   "scientific": "Momordica cochinchinensis",
-  "description": "Dây leo, quả gai đỏ cam, màng hạt đỏ.",
+  "description": "Dây leo, quả gai đỏ cam, màng hạt đỏ. Tính bình, vị ngọt.",
   "uses": [
    "Dùng màng đỏ quanh hạt để nấu xôi, bổ sung màu và dầu. Không phải thuốc chữa bệnh mắt."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Màng hạt",
   "caution": "Hạt và rễ không dùng tại nhà. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Hạt và rễ không dùng tại nhà. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1565,16 +1936,18 @@ window.HERBS = [
  {
   "id": "giaocolam",
   "name": "Giảo cổ lam",
+  "nameEn": "Jiaogulan",
   "aliases": [
    "cổ lam",
    "dần toòng"
   ],
   "scientific": "Gynostemma pentaphyllum",
-  "description": "Dây leo, lá kép 5 lá chét, tua cuốn, dễ nhầm nhân sâm.",
+  "description": "Dây leo, lá kép 5 lá chét, tua cuốn, dễ nhầm nhân sâm. Tính hàn, vị đắng.",
   "uses": [
    "Hãm như trà. Không phải thuốc hạ mỡ máu hay thuốc trị ung thư."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Phần trên mặt đất",
   "caution": "Đang dùng thuốc huyết áp hoặc chống đông: hỏi bác sĩ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Đang dùng thuốc huyết áp hoặc chống đông: hỏi bác sĩ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1589,6 +1962,7 @@ window.HERBS = [
  {
   "id": "gung",
   "name": "Gừng",
+  "nameEn": "Ginger",
   "aliases": [
    "sinh khương",
    "khương"
@@ -1602,6 +1976,10 @@ window.HERBS = [
   "symptoms": [
    "Cảm",
    "Buồn nôn"
+  ],
+  "symptomsEn": [
+   "Cold",
+   "Nausea"
   ],
   "parts": "Thân rễ",
   "caution": "Thận trọng với người âm hư nội nhiệt, đang chảy máu; người dùng thuốc chống đông nên hỏi bác sĩ.",
@@ -1622,6 +2000,7 @@ window.HERBS = [
  {
   "id": "gunggio",
   "name": "Gừng gió",
+  "nameEn": "Shampoo ginger",
   "aliases": [
    "ngải xanh",
    "gừng dại"
@@ -1634,10 +2013,15 @@ window.HERBS = [
   "symptoms": [
    "Đầy bụng"
   ],
+  "symptomsEn": [
+   "Bloating"
+  ],
   "parts": "Thân rễ",
   "caution": "Cay, dễ kích ứng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Cay, dễ kích ứng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "gunggio.webp"
@@ -1646,6 +2030,7 @@ window.HERBS = [
  {
   "id": "hakhothao",
   "name": "Hạ khô thảo",
+  "nameEn": "Self-heal",
   "aliases": [],
   "scientific": "Prunella vulgaris",
   "description": "Cụm hoa hình bông tím nâu, thân vuông. Tính hàn, vị cay, đắng.",
@@ -1654,6 +2039,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Nóng trong"
+  ],
+  "symptomsEn": [
+   "Inner heat"
   ],
   "parts": "Cụm hoa",
   "caution": "Tỳ hư tiêu chảy không dùng nhiều. Đang dùng thuốc huyết áp: không tự thêm. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1669,6 +2057,7 @@ window.HERBS = [
  {
   "id": "hatom",
   "name": "Hà thủ ô đỏ",
+  "nameEn": "Tuber fleeceflower",
   "aliases": [
    "hà thủ ô"
   ],
@@ -1679,6 +2068,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Rễ củ",
   "caution": "Nguy cơ hại gan. Người bệnh gan, đang uống thuốc không tự dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1694,6 +2086,7 @@ window.HERBS = [
  {
   "id": "hanhla",
   "name": "Hành lá",
+  "nameEn": "Welsh onion",
   "aliases": [
    "hành hương",
    "hành hoa"
@@ -1706,10 +2099,15 @@ window.HERBS = [
   "symptoms": [
    "Cảm"
   ],
+  "symptomsEn": [
+   "Cold"
+  ],
   "parts": "Thân hành, lá",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "hanhla.webp"
@@ -1718,6 +2116,7 @@ window.HERBS = [
  {
   "id": "hanhnhan",
   "name": "Hạnh nhân",
+  "nameEn": "Apricot kernel",
   "aliases": [
    "hạt mơ"
   ],
@@ -1727,10 +2126,13 @@ window.HERBS = [
    "Đông y dùng hạt đã chế trong bài khi ho. Hạt đắng chứa amygdalin, không ăn sống."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Hạt",
   "caution": "Hạt đắng có thể giải phóng cyanid. Không ăn. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Hạt đắng có thể giải phóng cyanid. Không ăn. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": true,
   "images": [
    "hanhnhan.webp"
@@ -1739,19 +2141,23 @@ window.HERBS = [
  {
   "id": "hanhtay",
   "name": "Hành tây",
+  "nameEn": "Onion",
   "aliases": [
    "củ hành"
   ],
   "scientific": "Allium cepa",
-  "description": "Củ nhiều lớp, mùi hăng, hoa tán cầu.",
+  "description": "Củ nhiều lớp, mùi hăng, hoa tán cầu. Tính ấm, vị cay, ngọt.",
   "uses": [
    "Ăn như gia vị. Nước hành không sát trùng vết thương thay povidone."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thân hành",
   "caution": "Kích ứng dạ dày khi ăn sống nhiều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Kích ứng dạ dày khi ăn sống nhiều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "hanhtay.webp"
@@ -1760,6 +2166,7 @@ window.HERBS = [
  {
   "id": "hauphac",
   "name": "Hậu phác",
+  "nameEn": "Houpu magnolia",
   "aliases": [],
   "scientific": "Magnolia officinalis",
   "description": "Vỏ dày, mặt trong tím nâu, mùi thơm. Tính ấm, vị cay, đắng.",
@@ -1767,7 +2174,12 @@ window.HERBS = [
    "Đông y dùng vỏ khi đầy bụng, táo trong bài."
   ],
   "symptoms": [
-   "Đầy bụng"
+   "Đầy bụng",
+   "Táo bón"
+  ],
+  "symptomsEn": [
+   "Bloating",
+   "Constipation"
   ],
   "parts": "Vỏ",
   "caution": "Có thai thận trọng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1783,20 +2195,24 @@ window.HERBS = [
  {
   "id": "he",
   "name": "Hẹ",
+  "nameEn": "Garlic chives",
   "aliases": [
    "củ hẹ",
    "hẹ lá"
   ],
   "scientific": "Allium tuberosum",
-  "description": "Lá dẹt mùi hẹ, hoa trắng tán.",
+  "description": "Lá dẹt mùi hẹ, hoa trắng tán. Tính ấm, vị cay, ngọt.",
   "uses": [
    "Nấu lá như rau. Hạt không tự dùng để trị di tinh."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá, hạt",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "he.webp"
@@ -1805,6 +2221,7 @@ window.HERBS = [
  {
   "id": "tieu",
   "name": "Hồ tiêu",
+  "nameEn": "Black pepper",
   "aliases": [
    "tiêu",
    "hạt tiêu"
@@ -1815,6 +2232,7 @@ window.HERBS = [
    "Gia vị khi lạnh bụng. Không trị tiêu chảy."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Kích ứng dạ dày, trĩ đang chảy máu thì tránh. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Kích ứng dạ dày, trĩ đang chảy máu thì tránh. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1828,23 +2246,55 @@ window.HERBS = [
   ]
  },
  {
+  "id": "hoadaubiec",
+  "name": "Hoa đậu biếc",
+  "nameEn": "Butterfly pea",
+  "aliases": [
+   "đậu hoa tím",
+   "bông biếc"
+  ],
+  "scientific": "Clitoria ternatea",
+  "description": "Dây leo thân mảnh; lá kép lông chim lẻ 5–7 lá chét; hoa to màu xanh lam đậm, cánh cờ lớn hình phễu đặc trưng. Tính mát, vị ngọt nhẹ.",
+  "uses": [
+   "Thường hãm trà giải khát và tạo màu xanh tự nhiên. Không ăn hạt."
+  ],
+  "symptoms": [
+   "Khát"
+  ],
+  "symptomsEn": [
+   "Thirst"
+  ],
+  "parts": "Hoa tươi hoặc phơi sấy khô",
+  "caution": "Không ăn hạt đậu biếc; phụ nữ mang thai, người sắp phẫu thuật hoặc dùng thuốc chống đông máu cần thận trọng.",
+  "warn": "Không ăn hạt đậu biếc; phụ nữ mang thai, người sắp phẫu thuật hoặc dùng thuốc chống đông máu cần thận trọng.",
+  "src": [],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "hoahue",
   "name": "Hoa đu đủ đực",
+  "nameEn": "Hoa du du duc (Carica papaya)",
   "aliases": [
    "hoa đu đủ đực"
   ],
   "scientific": "Carica papaya",
-  "description": "Hoa đực ống trắng trên cuống dài, cây không ra quả.",
+  "description": "Hoa đực ống trắng trên cuống dài, cây không ra quả. Tính bình, vị đắng.",
   "uses": [
    "Dân gian sắc hoa đực khi ho nhẹ. Không trị ho gà hay hen."
   ],
   "symptoms": [
    "Ho"
   ],
+  "symptomsEn": [
+   "Cough"
+  ],
   "parts": "Hoa đực",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "hoahue.webp"
@@ -1853,6 +2303,7 @@ window.HERBS = [
  {
   "id": "hoe",
   "name": "Hoa hoè",
+  "nameEn": "Japanese pagoda tree",
   "aliases": [
    "hoa hòe",
    "hoa hoè"
@@ -1865,6 +2316,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Chảy máu"
+  ],
+  "symptomsEn": [
+   "Bleeding"
   ],
   "parts": "Nụ hoa",
   "caution": "Tỳ vị hư hàn không nên dùng.",
@@ -1883,20 +2337,24 @@ window.HERBS = [
  {
   "id": "nhai",
   "name": "Hoa nhài",
+  "nameEn": "Arabian jasmine",
   "aliases": [
    "lài",
    "hoa lài"
   ],
   "scientific": "Jasminum sambac",
-  "description": "Bụi, hoa trắng rất thơm, lá bóng.",
+  "description": "Bụi, hoa trắng rất thơm, lá bóng. Tính ấm, vị cay.",
   "uses": [
    "Ướp trà. Không nhỏ tinh dầu nguyên chất lên da trẻ."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Hoa",
   "caution": "Tinh dầu kích ứng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Tinh dầu kích ứng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "nhai.webp"
@@ -1905,6 +2363,7 @@ window.HERBS = [
  {
   "id": "hoasua",
   "name": "Hoa sữa",
+  "nameEn": "Blackboard tree",
   "aliases": [
    "mò cua"
   ],
@@ -1914,10 +2373,13 @@ window.HERBS = [
    "Cây có nhựa và alcaloid. Không tự sắc vỏ để trị sốt."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Vỏ, lá",
   "caution": "Nhựa và alcaloid có thể độc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Nhựa và alcaloid có thể độc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": true,
   "images": [
    "hoasua.webp"
@@ -1926,6 +2388,7 @@ window.HERBS = [
  {
   "id": "hoachuong",
   "name": "Hoắc hương",
+  "nameEn": "Patchouli",
   "aliases": [
    "rau é"
   ],
@@ -1935,6 +2398,7 @@ window.HERBS = [
    "Dân gian nấu hoặc sắc khi nôn, đầy bụng mùa ẩm. Nôn nhiều, không giữ nước: khám."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Phần trên mặt đất",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1949,16 +2413,20 @@ window.HERBS = [
  {
   "id": "hoaico",
   "name": "Hoài ngưu tất nam",
+  "nameEn": "Prickly chaff flower",
   "aliases": [
    "cỏ xước"
   ],
   "scientific": "Achyranthes aspera",
-  "description": "Quả bám quần, thân có lông, lá đối.",
+  "description": "Quả bám quần, thân có lông, lá đối. Tính bình, vị đắng, chua.",
   "uses": [
    "Dân gian sắc rễ khi đau lưng nhẹ. Không thay ngưu tất bắc trong bài nếu chưa phân biệt."
   ],
   "symptoms": [
    "Đau nhức"
+  ],
+  "symptomsEn": [
+   "Aches"
   ],
   "parts": "Rễ, toàn cây",
   "caution": "Có thai không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1974,6 +2442,7 @@ window.HERBS = [
  {
   "id": "hoaison",
   "name": "Hoài sơn",
+  "nameEn": "Chinese yam",
   "aliases": [
    "củ mài",
    "sơn dược"
@@ -1985,6 +2454,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Thân rễ",
   "caution": "Tiêu chảy kèm sốt, máu, mất nước: đi khám, không tự trị. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -1998,8 +2470,66 @@ window.HERBS = [
   ]
  },
  {
+  "id": "hoangba",
+  "name": "Hoàng bá",
+  "nameEn": "Amur cork tree",
+  "aliases": [
+   "hoàng nghiệt",
+   "xuyên hoàng bá"
+  ],
+  "scientific": "Phellodendron amurense",
+  "description": "Vỏ thân đã cạo lớp bần ngoài, dạng mảnh phẳng hoặc hơi cuộn, mặt trong vàng tươi, chất sợi, vị rất đắng và có chất nhầy. Tính hàn, vị đắng.",
+  "uses": [
+   "Trong Đông y, hoàng bá được ghi là vị đắng, hàn, dùng thanh thấp nhiệt ở hạ tiêu và giải độc theo tài liệu cổ truyền. Không tự điều trị mụn nhọt hay bệnh da."
+  ],
+  "symptoms": [
+   "Nóng trong"
+  ],
+  "symptomsEn": [
+   "Inner heat"
+  ],
+  "parts": "Vỏ thân phơi khô",
+  "caution": "Tính đắng lạnh mạnh; tránh dùng cho phụ nữ có thai, người tỳ vị hư nhược, ăn kém hoặc đi ngoài phân lỏng.",
+  "warn": "Tính đắng lạnh mạnh; tránh dùng cho phụ nữ có thai, người tỳ vị hư nhược, ăn kém hoặc đi ngoài phân lỏng.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
+  "id": "hoangcam",
+  "name": "Hoàng cầm",
+  "nameEn": "Baikal skullcap",
+  "aliases": [
+   "khô cầm",
+   "tử cầm"
+  ],
+  "scientific": "Scutellaria baicalensis",
+  "description": "Rễ hình trụ hơi cong, mặt ngoài màu vàng nâu có nếp nhăn dọc, ruột vàng tươi hoặc nâu sẫm ở rễ già, vị đắng. Tính hàn, vị đắng.",
+  "uses": [
+   "Trong Đông y, hoàng cầm được ghi là vị đắng, hàn, dùng thanh phế nhiệt, táo thấp và tả hỏa. Không phải thuốc hạ sốt."
+  ],
+  "symptoms": [
+   "Đi ngoài"
+  ],
+  "symptomsEn": [
+   "Loose stools"
+  ],
+  "parts": "Rễ phơi khô",
+  "caution": "Người tỳ vị hư hàn, tiêu chảy do lạnh không nên dùng; phụ nữ mang thai hoặc người dùng thuốc tây cần hỏi chuyên môn.",
+  "warn": "Người tỳ vị hư hàn, tiêu chảy do lạnh không nên dùng; phụ nữ mang thai hoặc người dùng thuốc tây cần hỏi chuyên môn.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "hoangky",
   "name": "Hoàng kỳ",
+  "nameEn": "Astragalus",
   "aliases": [
    "kỳ",
    "astragalus"
@@ -2011,6 +2541,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2024,8 +2557,40 @@ window.HERBS = [
   ]
  },
  {
+  "id": "hoanglien",
+  "name": "Hoàng liên",
+  "nameEn": "Chinese goldthread",
+  "aliases": [
+   "xuyên liên",
+   "vân liên"
+  ],
+  "scientific": "Coptis chinensis",
+  "description": "Thân rễ phân nhánh cong queo như chân gà, mặt ngoài vàng xám có nhiều đốt và rễ con, vết bẻ vàng tươi, vị cực đắng. Tính hàn, vị đắng.",
+  "uses": [
+   "Trong Đông y, hoàng liên được ghi là vị đắng, hàn, dùng thanh nhiệt táo thấp, tả hỏa giải độc. Không tự điều trị tiêu chảy nhiễm khuẩn."
+  ],
+  "symptoms": [
+   "Nóng trong",
+   "Đi ngoài"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Loose stools"
+  ],
+  "parts": "Thân rễ phơi khô",
+  "caution": "Tính đại hàn rất đắng dễ hại tỳ vị; không dùng cho trẻ sơ sinh, phụ nữ mang thai, cho con bú và người thiếu men G6PD.",
+  "warn": "Tính đại hàn rất đắng dễ hại tỳ vị; không dùng cho trẻ sơ sinh, phụ nữ mang thai, cho con bú và người thiếu men G6PD.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "honghoa",
   "name": "Hồng hoa",
+  "nameEn": "Safflower",
   "aliases": [
    "hoa rum",
    "cây rum"
@@ -2037,6 +2602,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Kinh nguyệt"
+  ],
+  "symptomsEn": [
+   "Menstruation"
   ],
   "parts": "Hoa",
   "caution": "Có thai cấm. Đang chảy máu kinh nhiều không tự dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2052,6 +2620,7 @@ window.HERBS = [
  {
   "id": "hungchanh",
   "name": "Húng chanh",
+  "nameEn": "Cuban oregano",
   "aliases": [
    "tần dày lá",
    "rau thơm lông"
@@ -2063,6 +2632,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Ho"
+  ],
+  "symptomsEn": [
+   "Cough"
   ],
   "parts": "Lá",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2078,6 +2650,7 @@ window.HERBS = [
  {
   "id": "hungque",
   "name": "Húng quế",
+  "nameEn": "Sweet basil",
   "aliases": [
    "rau quế",
    "húng quế"
@@ -2088,10 +2661,13 @@ window.HERBS = [
    "Ăn sống hoặc nấu. Không trị ho bằng tinh dầu uống."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "hungque.webp"
@@ -2100,6 +2676,7 @@ window.HERBS = [
  {
   "id": "huongnhu",
   "name": "Hương nhu tía",
+  "nameEn": "Holy basil",
   "aliases": [
    "hương nhu tía"
   ],
@@ -2112,6 +2689,10 @@ window.HERBS = [
   "symptoms": [
    "Cảm",
    "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Cold",
+   "Painful urination"
   ],
   "parts": "Toàn cây trên mặt đất",
   "caution": "Người ra mồ hôi nhiều không dùng.",
@@ -2130,6 +2711,7 @@ window.HERBS = [
  {
   "id": "huongphu",
   "name": "Hương phụ",
+  "nameEn": "Nutgrass",
   "aliases": [
    "cỏ gấu",
    "củ gấu"
@@ -2141,6 +2723,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Thân củ",
   "caution": "Có thai thận trọng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2154,8 +2739,31 @@ window.HERBS = [
   ]
  },
  {
+  "id": "huongthao",
+  "name": "Hương thảo",
+  "nameEn": "Rosemary",
+  "aliases": [
+   "rosemary",
+   "Rosmarinus officinalis"
+  ],
+  "scientific": "Salvia rosmarinus",
+  "description": "Cây bụi thơm, lá hẹp như kim, mặt dưới nhạt màu. Tính ấm, vị cay, hơi đắng.",
+  "uses": [
+   "Lá được dùng làm gia vị."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Lá",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "huyensam",
   "name": "Huyền sâm",
+  "nameEn": "Ningpo figwort",
   "aliases": [
    "nguyên sâm"
   ],
@@ -2166,7 +2774,13 @@ window.HERBS = [
   ],
   "symptoms": [
    "Nóng trong",
-   "Khát"
+   "Khát",
+   "Táo bón"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Thirst",
+   "Constipation"
   ],
   "parts": "Rễ",
   "caution": "Tỳ hư tiêu chảy không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2182,6 +2796,7 @@ window.HERBS = [
  {
   "id": "ichmau",
   "name": "Ích mẫu",
+  "nameEn": "Chinese motherwort",
   "aliases": [
    "ích mẫu",
    "chói đèn"
@@ -2195,6 +2810,10 @@ window.HERBS = [
   "symptoms": [
    "Tiểu buốt",
    "Kinh nguyệt"
+  ],
+  "symptomsEn": [
+   "Painful urination",
+   "Menstruation"
   ],
   "parts": "Toàn cây, quả (sung uý tử)",
   "caution": "Phụ nữ có thai không dùng.",
@@ -2214,6 +2833,7 @@ window.HERBS = [
  {
   "id": "khe",
   "name": "Khế",
+  "nameEn": "Star fruit",
   "aliases": [
    "quả khế"
   ],
@@ -2223,10 +2843,13 @@ window.HERBS = [
    "Ăn quả chín vừa phải. Người bệnh thận không nên ăn vì nguy cơ độc thần kinh."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Suy thận: không ăn. Có thể gây nấc, lú lẫn, tê. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Suy thận: không ăn. Có thể gây nấc, lú lẫn, tê. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "khe.webp"
@@ -2235,6 +2858,7 @@ window.HERBS = [
  {
   "id": "khuonghoat",
   "name": "Khương hoạt",
+  "nameEn": "Notopterygium",
   "aliases": [
    "xuyên khương hoạt"
   ],
@@ -2245,6 +2869,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Cảm"
+  ],
+  "symptomsEn": [
+   "Cold"
   ],
   "parts": "Thân rễ, rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2260,6 +2887,7 @@ window.HERBS = [
  {
   "id": "kimanh",
   "name": "Kim anh",
+  "nameEn": "Cherokee rose",
   "aliases": [
    "quả kim anh"
   ],
@@ -2270,6 +2898,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đi ngoài"
+  ],
+  "symptomsEn": [
+   "Loose stools"
   ],
   "parts": "Quả",
   "caution": "Đang nhiễm khuẩn đường ruột không dùng chất thu sáp. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2285,6 +2916,7 @@ window.HERBS = [
  {
   "id": "kimngan",
   "name": "Kim ngân",
+  "nameEn": "Japanese honeysuckle",
   "aliases": [
    "kim ngân hoa",
    "nhẫn đông"
@@ -2297,6 +2929,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Nóng trong"
+  ],
+  "symptomsEn": [
+   "Inner heat"
   ],
   "parts": "Hoa, cành lá",
   "caution": "Tỳ vị hư hàn, tiêu chảy không nên dùng.",
@@ -2314,8 +2949,39 @@ window.HERBS = [
   ]
  },
  {
+  "id": "kimtienthao",
+  "name": "Kim tiền thảo",
+  "nameEn": "Gold coin grass",
+  "aliases": [
+   "mắt trâu",
+   "vảy rồng",
+   "đồng tiền lông"
+  ],
+  "scientific": "Desmodium styracifolium",
+  "description": "Cây bụi nhỏ mọc bò rồi đứng; lá kép 1–3 lá chét tròn như đồng tiền, mặt dưới phủ lông bạc mịn; hoa tím hồng. Tính mát, vị ngọt, mặn.",
+  "uses": [
+   "Trong Đông y được ghi là vị ngọt, mặn, mát, dùng lợi tiểu, thanh thấp nhiệt trong các bài khi tiểu buốt, tiểu rắt hoặc thạch lâm. Không tự điều trị sỏi tiết niệu thay khám."
+  ],
+  "symptoms": [
+   "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Painful urination"
+  ],
+  "parts": "Toàn cây trên mặt đất phơi khô",
+  "caution": "Người bị sỏi lớn gây tắc nghẽn, suy thận, huyết áp thấp hoặc phụ nữ mang thai cần hỏi ý kiến bác sĩ.",
+  "warn": "Người bị sỏi lớn gây tắc nghẽn, suy thận, huyết áp thấp hoặc phụ nữ mang thai cần hỏi ý kiến bác sĩ.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "kinhgioi",
   "name": "Kinh giới",
+  "nameEn": "Vietnamese balm",
   "aliases": [
    "kinh giới"
   ],
@@ -2326,6 +2992,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Cảm"
+  ],
+  "symptomsEn": [
+   "Cold"
   ],
   "parts": "Toàn cây trên mặt đất",
   "caution": "Người biểu hư, ra mồ hôi nhiều không dùng.",
@@ -2343,6 +3012,7 @@ window.HERBS = [
  {
   "id": "kytu",
   "name": "Kỷ tử",
+  "nameEn": "Goji",
   "aliases": [
    "cẩu kỷ tử",
    "kỷ tử"
@@ -2354,6 +3024,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mờ mắt"
+  ],
+  "symptomsEn": [
+   "Blurred vision"
   ],
   "parts": "Quả",
   "caution": "Người tiêu chảy do tỳ hư hạn chế. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2367,8 +3040,89 @@ window.HERBS = [
   ]
  },
  {
+  "id": "labong",
+  "name": "Lá bỏng",
+  "nameEn": "Life plant",
+  "aliases": [
+   "sống đời",
+   "thuốc bỏng",
+   "trường sinh"
+  ],
+  "scientific": "Kalanchoe pinnata",
+  "description": "Cây thảo mọng nước, thân tròn nhẵn; lá dày mọc đối, mép khía tai bèo mọc được cây con; hoa chuông rủ màu lục pha đỏ. Tính mát, vị hơi chua, chát, nhạt.",
+  "uses": [
+   "Dân gian thường giã lá tươi đắp ngoài khi bỏng nhẹ hoặc sưng tấy ngoài da. Không thay thế chăm sóc y tế với bỏng nặng."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Lá tươi",
+  "caution": "Không đắp lên vết bỏng nặng, bỏng rộng hoặc vết thương hở đang nhiễm trùng; phụ nữ mang thai cần hỏi chuyên môn.",
+  "warn": "Không đắp lên vết bỏng nặng, bỏng rộng hoặc vết thương hở đang nhiễm trùng; phụ nữ mang thai cần hỏi chuyên môn.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
+  "id": "ladua",
+  "name": "Lá dứa thơm",
+  "nameEn": "Pandan",
+  "aliases": [
+   "lá nếp",
+   "dứa thơm"
+  ],
+  "scientific": "Pandanus amaryllifolius",
+  "description": "Lá dài hình dải, mọc xoắn quanh thân, có mùi thơm đặc trưng. Tính ấm, vị nhạt.",
+  "uses": [
+   "Lá tạo hương cho các món ăn."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Lá",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
+  "id": "lahanqua",
+  "name": "La hán quả",
+  "nameEn": "Monk fruit",
+  "aliases": [
+   "quả la hán",
+   "giả khổ qua"
+  ],
+  "scientific": "Siraitia grosvenorii",
+  "description": "Quả hình cầu đường kính 4–6cm, vỏ khô mỏng giòn màu nâu sẫm phủ lông mịn; ruột xốp màu nâu vàng, vị ngọt đậm. Tính mát, vị ngọt.",
+  "uses": [
+   "Thường nấu nước uống giải khát",
+   "dân gian dùng khi rát họng hoặc ho khan. Không phải thuốc trị ho."
+  ],
+  "symptoms": [
+   "Ho",
+   "Khát"
+  ],
+  "symptomsEn": [
+   "Cough",
+   "Thirst"
+  ],
+  "parts": "Quả chín sấy khô",
+  "caution": "Tính mát và vị ngọt đậm; người tỳ vị hư hàn, hay lạnh bụng hoặc ho do lạnh không nên uống quá nhiều.",
+  "warn": "Tính mát và vị ngọt đậm; người tỳ vị hư hàn, hay lạnh bụng hoặc ho do lạnh không nên uống quá nhiều.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "lalot",
   "name": "Lá lốt",
+  "nameEn": "Wild betel",
   "aliases": [
    "lá lốt",
    "lá lốp"
@@ -2382,6 +3136,10 @@ window.HERBS = [
   "symptoms": [
    "Đau nhức",
    "Cảm"
+  ],
+  "symptomsEn": [
+   "Aches",
+   "Cold"
   ],
   "parts": "Toàn cây",
   "caution": "Người nhiệt thịnh không nên dùng nhiều.",
@@ -2401,20 +3159,24 @@ window.HERBS = [
  {
   "id": "langon",
   "name": "Lá ngón",
+  "nameEn": "Heartbreak grass",
   "aliases": [
    "cây ngón",
    "đoạn trường thảo"
   ],
   "scientific": "Gelsemium elegans",
-  "description": "Dây leo, lá đối hình trứng, hoa vàng hình ống. Dễ nhầm lá cây khác.",
+  "description": "Dây leo, lá đối hình trứng, hoa vàng hình ống. Dễ nhầm lá cây khác. Vị cay, đắng.",
   "uses": [
    "Không phải vị thuốc. Cây độc, vài lá có thể gây liệt hô hấp. Chỉ ghi để tránh hái nhầm."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Toàn cây",
   "caution": "ĐỘC rất mạnh. Nuốt lá: gọi cấp cứu, không chờ ở nhà.",
   "warn": "ĐỘC rất mạnh. Nuốt lá: gọi cấp cứu, không chờ ở nhà.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": true,
   "images": [
    "langon.webp"
@@ -2423,16 +3185,20 @@ window.HERBS = [
  {
   "id": "lavoi",
   "name": "Lá vối",
+  "nameEn": "Daly River satin-ash",
   "aliases": [
    "vối"
   ],
   "scientific": "Syzygium nervosum",
-  "description": "Lá dày, nụ hình cầu có nắp, mùi thơm.",
+  "description": "Lá dày, nụ hình cầu có nắp, mùi thơm. Tính hàn, vị đắng, chát.",
   "uses": [
    "Dân gian hãm lá hoặc nụ như trà khi đầy bụng nhẹ. Không trị tiêu chảy nhiễm khuẩn."
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Lá, nụ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2448,17 +3214,21 @@ window.HERBS = [
  {
   "id": "lactien",
   "name": "Lạc tiên",
+  "nameEn": "Stinking passionflower",
   "aliases": [
    "chùm bao",
    "nhãn lồng"
   ],
   "scientific": "Passiflora foetida",
-  "description": "Dây leo tua cuốn, lá có lông, hoa trắng, quả trong màng lưới.",
+  "description": "Dây leo tua cuốn, lá có lông, hoa trắng, quả trong màng lưới. Tính mát, vị hơi đắng, ngọt.",
   "uses": [
    "Dân gian sắc dây lá khi khó ngủ nhẹ. Không thay thuốc an thần. Không hái nhầm cây độc."
   ],
   "symptoms": [
    "Mất ngủ"
+  ],
+  "symptomsEn": [
+   "Trouble sleeping"
   ],
   "parts": "Phần trên mặt đất",
   "caution": "Buồn ngủ ban ngày, đang dùng thuốc an thần: không phối. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2474,6 +3244,7 @@ window.HERBS = [
  {
   "id": "lienkie",
   "name": "Liên kiều",
+  "nameEn": "Forsythia",
   "aliases": [],
   "scientific": "Forsythia suspensa",
   "description": "Quả hình trứng, hai mảnh, cây bụi hoa vàng trước lá. Tính hơi hàn, vị đắng.",
@@ -2482,6 +3253,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Nóng trong"
+  ],
+  "symptomsEn": [
+   "Inner heat"
   ],
   "parts": "Quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2497,6 +3271,7 @@ window.HERBS = [
  {
   "id": "longnhan",
   "name": "Long nhãn",
+  "nameEn": "Longan",
   "aliases": [
    "nhãn",
    "quả nhãn"
@@ -2508,6 +3283,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Áo hạt",
   "caution": "Đái tháo đường: tính phần đường. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2521,8 +3299,33 @@ window.HERBS = [
   ]
  },
  {
+  "id": "luu",
+  "name": "Lựu",
+  "nameEn": "Pomegranate",
+  "aliases": [
+   "thạch lựu"
+  ],
+  "scientific": "Punica granatum",
+  "description": "Cây bụi hoặc cây gỗ nhỏ. Quả có đài tồn tại thành hình vương miện, chứa nhiều hạt có lớp áo mọng nước. Tính ấm, vị ngọt, chua.",
+  "uses": [
+   "Quả ăn như thực phẩm. Vỏ quả được ghi trong tài liệu cổ truyền",
+   "không tự sắc vỏ để trị bệnh."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Quả",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "diepha",
   "name": "Mã đề",
+  "nameEn": "Broadleaf plantain",
   "aliases": [
    "xa tiền",
    "xa tiền tử",
@@ -2534,6 +3337,7 @@ window.HERBS = [
    "Lợi tiểu, thanh nhiệt, chỉ ho."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Toàn cây, hạt (xa tiền tử)",
   "caution": "Người tiểu nhiều, thận hư không nên dùng; dùng lâu có thể mất kali.",
   "warn": "Người tiểu nhiều, thận hư không nên dùng; dùng lâu có thể mất kali.",
@@ -2553,15 +3357,17 @@ window.HERBS = [
  {
   "id": "matien",
   "name": "Mã tiền",
+  "nameEn": "Strychnine tree",
   "aliases": [
    "củ mã tiền"
   ],
   "scientific": "Strychnos nux-vomica",
-  "description": "Hạt dẹt tròn, lông mịn, rất đắng.",
+  "description": "Hạt dẹt tròn, lông mịn, rất đắng. Tính hàn, vị đắng.",
   "uses": [
    "ĐỘC. Hạt chứa strychnine. Không ngâm rượu, không tán bột tại nhà."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Hạt",
   "caution": "ĐỘC. Co giật, cứng hàm có thể xảy ra khi uống hạt. Cấp cứu ngay.",
   "warn": "ĐỘC. Co giật, cứng hàm có thể xảy ra khi uống hạt. Cấp cứu ngay.",
@@ -2576,6 +3382,7 @@ window.HERBS = [
  {
   "id": "maidong",
   "name": "Mạch môn",
+  "nameEn": "Dwarf lilyturf",
   "aliases": [
    "mạch môn đông"
   ],
@@ -2585,7 +3392,12 @@ window.HERBS = [
    "Đông y dùng trong bài khi ho khan, táo, khát. Không dùng khi ho đờm nhiều do hàn."
   ],
   "symptoms": [
-   "Khát"
+   "Khát",
+   "Táo bón"
+  ],
+  "symptomsEn": [
+   "Thirst",
+   "Constipation"
   ],
   "parts": "Rễ củ",
   "caution": "Tỳ hư hàn, phân lỏng không dùng nhiều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2601,20 +3413,24 @@ window.HERBS = [
  {
   "id": "mangcau",
   "name": "Mãng cầu xiêm",
+  "nameEn": "Soursop",
   "aliases": [
    "mãng cầu gai",
    "na xiêm"
   ],
   "scientific": "Annona muricata",
-  "description": "Lá bóng, quả có gai mềm, thịt trắng chua ngọt.",
+  "description": "Lá bóng, quả có gai mềm, thịt trắng chua ngọt. Tính mát, vị ngọt, chua.",
   "uses": [
    "Ăn quả chín vừa. Lá không sắc để trị ung thư. Có lo ngại độc thần kinh nếu dùng lá lâu."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá, quả",
   "caution": "Không dùng lá kéo dài. Người có triệu chứng thần kinh không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Không dùng lá kéo dài. Người có triệu chứng thần kinh không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "mangcau.webp"
@@ -2623,6 +3439,7 @@ window.HERBS = [
  {
   "id": "buddleja",
   "name": "Mật mông hoa",
+  "nameEn": "Pale butterfly bush",
   "aliases": [],
   "scientific": "Buddleja officinalis",
   "description": "Cụm hoa có lông, màu tím nhạt. Tính hơi hàn, vị ngọt.",
@@ -2631,6 +3448,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mờ mắt"
+  ],
+  "symptomsEn": [
+   "Blurred vision"
   ],
   "parts": "Nụ hoa",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2644,6 +3464,7 @@ window.HERBS = [
  {
   "id": "me",
   "name": "Me",
+  "nameEn": "Tamarind",
   "aliases": [
    "quả me"
   ],
@@ -2655,10 +3476,15 @@ window.HERBS = [
   "symptoms": [
    "Khát"
   ],
+  "symptomsEn": [
+   "Thirst"
+  ],
   "parts": "Cơm quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "me.webp"
@@ -2667,6 +3493,7 @@ window.HERBS = [
  {
   "id": "mit",
   "name": "Mít",
+  "nameEn": "Jackfruit",
   "aliases": [
    "lá mít"
   ],
@@ -2676,10 +3503,13 @@ window.HERBS = [
    "Dân gian sắc lá non khi đi ngoài lỏng. Không trị tiêu chảy nhiễm khuẩn."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá non",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "mit.webp"
@@ -2688,6 +3518,7 @@ window.HERBS = [
  {
   "id": "momam",
   "name": "Mơ",
+  "nameEn": "Japanese apricot",
   "aliases": [
    "ô mai",
    "mơ muối"
@@ -2699,6 +3530,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Khát"
+  ],
+  "symptomsEn": [
+   "Thirst"
   ],
   "parts": "Quả",
   "caution": "Huyết áp cao, bệnh thận hạn chế muối. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2712,19 +3546,23 @@ window.HERBS = [
  {
   "id": "mongtoi",
   "name": "Mồng tơi",
+  "nameEn": "Malabar spinach",
   "aliases": [
    "mùng tơi"
   ],
   "scientific": "Basella alba",
-  "description": "Dây leo lá dày, thân tím hoặc xanh, nhớt khi nấu.",
+  "description": "Dây leo lá dày, thân tím hoặc xanh, nhớt khi nấu. Tính hàn, vị ngọt, chua.",
   "uses": [
    "Nấu canh. Không phải thuốc nhuận tràng."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "mongtoi.webp"
@@ -2733,15 +3571,17 @@ window.HERBS = [
  {
   "id": "muongtrau",
   "name": "Muồng trâu",
+  "nameEn": "Candle bush",
   "aliases": [
    "cây lác"
   ],
   "scientific": "Senna alata",
-  "description": "Lá kép lớn, hoa vàng dày, quả có cánh.",
+  "description": "Lá kép lớn, hoa vàng dày, quả có cánh. Tính ấm, vị cay.",
   "uses": [
    "Dân gian giã lá tươi đắp hắc lào. Không uống lá để tẩy. Da nhiễm trùng phải khám."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Uống lá gây tiêu chảy mạnh. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Uống lá gây tiêu chảy mạnh. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2756,6 +3596,7 @@ window.HERBS = [
  {
   "id": "muopdang",
   "name": "Mướp đắng",
+  "nameEn": "Bitter melon",
   "aliases": [
    "khổ qua"
   ],
@@ -2765,6 +3606,7 @@ window.HERBS = [
    "Ăn quả đắng như rau. Không tự dùng để hạ đường huyết thay thuốc."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Hạ đường huyết khi phối thuốc. Có thai không ăn lượng lớn. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Hạ đường huyết khi phối thuốc. Có thai không ăn lượng lớn. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2779,6 +3621,7 @@ window.HERBS = [
  {
   "id": "na",
   "name": "Na",
+  "nameEn": "Sugar apple",
   "aliases": [
    "mãng cầu ta"
   ],
@@ -2788,10 +3631,13 @@ window.HERBS = [
    "Ăn quả chín. Hạt không nhai, không giã làm thuốc."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Hạt gây kích ứng và có thể độc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Hạt gây kích ứng và có thể độc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "na.webp"
@@ -2800,6 +3646,7 @@ window.HERBS = [
  {
   "id": "ngheden",
   "name": "Nga truật",
+  "nameEn": "Zedoary",
   "aliases": [
    "nghệ đen",
    "nga truật"
@@ -2811,6 +3658,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Thân rễ",
   "caution": "Có thai cấm dùng. Đang chảy máu không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2826,6 +3676,7 @@ window.HERBS = [
  {
   "id": "ngaicuu",
   "name": "Ngải cứu",
+  "nameEn": "Mugwort",
   "aliases": [
    "ngải diệp",
    "lá ngải"
@@ -2837,6 +3688,7 @@ window.HERBS = [
    "dùng khi kinh nguyệt không đều, đau bụng kinh do hàn."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá, ngọn",
   "caution": "Không dùng liều cao, kéo dài; người âm hư huyết nhiệt không dùng. Có thai phải theo chỉ định thầy thuốc.",
   "warn": "Không dùng liều cao, kéo dài; người âm hư huyết nhiệt không dùng. Có thai phải theo chỉ định thầy thuốc.",
@@ -2854,6 +3706,7 @@ window.HERBS = [
  {
   "id": "nghe",
   "name": "Nghệ vàng",
+  "nameEn": "Turmeric",
   "aliases": [
    "khương hoàng",
    "nghệ"
@@ -2866,6 +3719,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Thân rễ",
   "caution": "Phụ nữ có thai thận trọng; người sỏi mật, dùng thuốc chống đông cần hỏi ý kiến thầy thuốc.",
@@ -2886,6 +3742,7 @@ window.HERBS = [
  {
   "id": "ngutrao",
   "name": "Ngũ trảo",
+  "nameEn": "Chinese chaste tree",
   "aliases": [
    "ngũ trảo"
   ],
@@ -2898,6 +3755,10 @@ window.HERBS = [
   "symptoms": [
    "Ho",
    "Cảm"
+  ],
+  "symptomsEn": [
+   "Cough",
+   "Cold"
   ],
   "parts": "Lá, rễ, hạt",
   "caution": "Thông tin hạn chế – hỏi thầy thuốc trước khi dùng.",
@@ -2915,6 +3776,7 @@ window.HERBS = [
  {
   "id": "nguvi",
   "name": "Ngũ vị tử",
+  "nameEn": "Chinese magnolia-vine",
   "aliases": [
    "ngũ vị"
   ],
@@ -2925,6 +3787,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đi ngoài"
+  ],
+  "symptomsEn": [
+   "Loose stools"
   ],
   "parts": "Quả",
   "caution": "Đang sốt, ho mới, sởi không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2940,6 +3805,7 @@ window.HERBS = [
  {
   "id": "ngubang",
   "name": "Ngưu bàng tử",
+  "nameEn": "Burdock",
   "aliases": [
    "ngưu bàng"
   ],
@@ -2950,6 +3816,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Cảm"
+  ],
+  "symptomsEn": [
+   "Cold"
   ],
   "parts": "Quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2965,6 +3834,7 @@ window.HERBS = [
  {
   "id": "nguutat",
   "name": "Ngưu tất",
+  "nameEn": "Ox knee",
   "aliases": [
    "ngưu tất bắc"
   ],
@@ -2975,6 +3845,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Kinh nguyệt"
+  ],
+  "symptomsEn": [
+   "Menstruation"
   ],
   "parts": "Rễ",
   "caution": "Có thai không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -2990,20 +3863,24 @@ window.HERBS = [
  {
   "id": "lohoi",
   "name": "Nha đam",
+  "nameEn": "Aloe",
   "aliases": [
    "lô hội",
    "aloe"
   ],
   "scientific": "Aloe vera",
-  "description": "Lá dày có gai mép, thịt trong, nhựa vàng dưới vỏ.",
+  "description": "Lá dày có gai mép, thịt trong, nhựa vàng dưới vỏ. Vị đắng.",
   "uses": [
    "Bôi thịt lá trong lên bỏng nông rất nhẹ sau khi đã làm mát bằng nước sạch. Không uống nhựa vàng để tẩy."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thịt lá",
   "caution": "Uống nhựa gây đau bụng, hạ kali, và không an toàn khi có thai. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Uống nhựa gây đau bụng, hạ kali, và không an toàn khi có thai. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
   "toxic": false,
   "images": [
    "lohoi.webp"
@@ -3012,6 +3889,7 @@ window.HERBS = [
  {
   "id": "nhansam",
   "name": "Nhân sâm",
+  "nameEn": "Asian ginseng",
   "aliases": [
    "sâm Triều Tiên",
    "panax"
@@ -3023,6 +3901,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Rễ",
   "caution": "Không dùng khi sốt nóng, cao huyết áp chưa ổn, hoặc cùng chất kích thích. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3038,6 +3919,7 @@ window.HERBS = [
  {
   "id": "tritua",
   "name": "Nhân trần",
+  "nameEn": "Nhan tran (Adenosma caeruleum)",
   "aliases": [
    "nhân trần"
   ],
@@ -3050,6 +3932,10 @@ window.HERBS = [
   "symptoms": [
    "Nóng trong",
    "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Painful urination"
   ],
   "parts": "Toàn cây trên mặt đất",
   "caution": "Không tự ý dùng thay điều trị bệnh gan, vàng da.",
@@ -3067,17 +3953,21 @@ window.HERBS = [
  {
   "id": "nhau",
   "name": "Nhàu",
+  "nameEn": "Noni",
   "aliases": [
    "trái nhàu"
   ],
   "scientific": "Morinda citrifolia",
-  "description": "Lá lớn bóng, quả tụ hình trứng có mắt.",
+  "description": "Lá lớn bóng, quả tụ hình trứng có mắt. Tính bình, vị chát.",
   "uses": [
    "Dân gian dùng rễ khi đau lưng, nhức mỏi",
    "quả dùng nhuận tràng."
   ],
   "symptoms": [
    "Táo bón"
+  ],
+  "symptomsEn": [
+   "Constipation"
   ],
   "parts": "Rễ, quả",
   "caution": "Có báo cáo tổn thương gan với nước ép nhàu; người bệnh gan, bệnh thận (kali cao) không nên dùng.",
@@ -3097,6 +3987,7 @@ window.HERBS = [
  {
   "id": "nhucdaukhau",
   "name": "Nhục đậu khấu",
+  "nameEn": "Nutmeg",
   "aliases": [
    "đậu khấu"
   ],
@@ -3106,6 +3997,7 @@ window.HERBS = [
    "Gia vị vài lát khi đầy bụng lạnh. Liều lớn gây ảo giác và tim đập nhanh."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Hạt",
   "caution": "Vài hạt có thể gây ngộ độc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Vài hạt có thể gây ngộ độc. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3120,6 +4012,7 @@ window.HERBS = [
  {
   "id": "nutrinh",
   "name": "Nữ trinh tử",
+  "nameEn": "Glossy privet",
   "aliases": [
    "nữ trinh"
   ],
@@ -3129,6 +4022,7 @@ window.HERBS = [
    "Đông y dùng trong bài khi hoa mắt, lưng gối mỏi theo chỉ dẫn."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3139,17 +4033,40 @@ window.HERBS = [
   ]
  },
  {
+  "id": "oaihuong",
+  "name": "Oải hương",
+  "nameEn": "English lavender",
+  "aliases": [
+   "lavender"
+  ],
+  "scientific": "Lavandula angustifolia",
+  "description": "Cây bụi nhỏ thơm, lá hẹp, cụm hoa tím trên cuống dài. Tính mát, vị cay.",
+  "uses": [
+   "Hoa được dùng tạo hương."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Hoa",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "oidia",
   "name": "Ổi",
+  "nameEn": "Guava",
   "aliases": [
    "lá ổi"
   ],
   "scientific": "Psidium guajava",
-  "description": "Lá đối, gân nổi, quả có nhiều hạt, mùi thơm.",
+  "description": "Lá đối, gân nổi, quả có nhiều hạt, mùi thơm. Tính ấm, vị đắng, hơi chua, chát.",
   "uses": [
    "Dân gian nhai búp hoặc hãm lá khi đi ngoài lỏng không sốt. Tiêu chảy mất nước, có máu, ở trẻ em phải đi khám."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Búp, lá non",
   "caution": "Trẻ nhỏ mất nước rất nhanh. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Trẻ nhỏ mất nước rất nhanh. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3164,6 +4081,7 @@ window.HERBS = [
  {
   "id": "ot",
   "name": "Ớt",
+  "nameEn": "Chili",
   "aliases": [
    "quả ớt",
    "tiêu chỉ thiên"
@@ -3174,10 +4092,13 @@ window.HERBS = [
    "Dùng làm gia vị. Không đắp ớt lên da trẻ hoặc niêm mạc."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Bỏng da và mắt. Dạ dày loét không ăn cay. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Bỏng da và mắt. Dạ dày loét không ăn cay. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "ot.webp"
@@ -3186,6 +4107,7 @@ window.HERBS = [
  {
   "id": "phongphong",
   "name": "Phòng phong",
+  "nameEn": "Saposhnikovia",
   "aliases": [
    "phòng phong bắc"
   ],
@@ -3196,6 +4118,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đau nhức"
+  ],
+  "symptomsEn": [
+   "Aches"
   ],
   "parts": "Rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3211,6 +4136,7 @@ window.HERBS = [
  {
   "id": "phutu",
   "name": "Phụ tử",
+  "nameEn": "Prepared aconite",
   "aliases": [
    "ô đầu chế",
    "aconit"
@@ -3221,6 +4147,7 @@ window.HERBS = [
    "ĐỘC. Không sắc tại nhà. Chỉ tồn tại trong bài thuốc do người có chuyên môn chỉ định, đã bào chế đúng."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Rễ củ đã chế",
   "caution": "ĐỘC tính mạnh. Tê lưỡi, buồn nôn, đánh trống ngực sau khi uống: cấp cứu ngay.",
   "warn": "ĐỘC tính mạnh. Tê lưỡi, buồn nôn, đánh trống ngực sau khi uống: cấp cứu ngay.",
@@ -3235,6 +4162,7 @@ window.HERBS = [
  {
   "id": "phuclinh",
   "name": "Phục linh",
+  "nameEn": "Poria",
   "aliases": [
    "nấm phục linh"
   ],
@@ -3247,6 +4175,11 @@ window.HERBS = [
    "Đầy bụng",
    "Tiểu buốt",
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Bloating",
+   "Painful urination",
+   "Fatigue, poor appetite"
   ],
   "parts": "Khuẩn hạch",
   "caution": "Tiểu ít kèm phù toàn thân, khó thở: đi khám. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3264,6 +4197,7 @@ window.HERBS = [
  {
   "id": "que",
   "name": "Quế",
+  "nameEn": "Chinese cinnamon",
   "aliases": [
    "quế chi",
    "quế nhục",
@@ -3277,6 +4211,10 @@ window.HERBS = [
   "symptoms": [
    "Đau nhức",
    "Cảm"
+  ],
+  "symptomsEn": [
+   "Aches",
+   "Cold"
   ],
   "parts": "Vỏ thân, cành (quế chi)",
   "caution": "Phụ nữ có thai, người âm hư hoả vượng, chảy máu không dùng.",
@@ -3298,6 +4236,7 @@ window.HERBS = [
  {
   "id": "quechi",
   "name": "Quế chi",
+  "nameEn": "Cinnamon twig",
   "aliases": [
    "cành quế"
   ],
@@ -3307,7 +4246,12 @@ window.HERBS = [
    "Đông y dùng cành non trong bài khi cảm lạnh, đau mình. Khác với vỏ quế nhục."
   ],
   "symptoms": [
+   "Đau nhức",
    "Cảm"
+  ],
+  "symptomsEn": [
+   "Aches",
+   "Cold"
   ],
   "parts": "Cành non",
   "caution": "Có thai, âm hư hoả vượng, đang xuất huyết không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3325,6 +4269,7 @@ window.HERBS = [
  {
   "id": "quyetminh",
   "name": "Quyết minh tử",
+  "nameEn": "Sicklepod",
   "aliases": [
    "hạt muồng",
    "thảo quyết minh"
@@ -3336,6 +4281,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Táo bón"
+  ],
+  "symptomsEn": [
+   "Constipation"
   ],
   "parts": "Hạt",
   "caution": "Tiêu chảy, đau bụng thì ngưng. Có thai không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3351,6 +4299,7 @@ window.HERBS = [
  {
   "id": "quyt",
   "name": "Quýt",
+  "nameEn": "Mandarin",
   "aliases": [
    "trần bì",
    "vỏ quýt"
@@ -3363,6 +4312,10 @@ window.HERBS = [
   "symptoms": [
    "Ho",
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Cough",
+   "Bloating"
   ],
   "parts": "Vỏ quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3378,15 +4331,17 @@ window.HERBS = [
  {
   "id": "den",
   "name": "Rau dền",
+  "nameEn": "Amaranth",
   "aliases": [
    "dền đỏ"
   ],
   "scientific": "Amaranthus tricolor",
-  "description": "Lá có màu hoặc xanh, hoa bông nhỏ, thân mềm.",
+  "description": "Lá có màu hoặc xanh, hoa bông nhỏ, thân mềm. Tính hơi hàn, vị ngọt.",
   "uses": [
    "Nấu canh. Không phải thuốc bổ máu."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thân lá",
   "caution": "Sỏi thận oxalat: không ăn quá nhiều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Sỏi thận oxalat: không ăn quá nhiều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3399,6 +4354,7 @@ window.HERBS = [
  {
   "id": "lang",
   "name": "Rau lang",
+  "nameEn": "Sweet potato",
   "aliases": [
    "lá khoai lang",
    "khoai lang"
@@ -3409,10 +4365,13 @@ window.HERBS = [
    "Luộc ngọn như rau. Không trị đái tháo đường."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Ngọn",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "lang.webp",
@@ -3422,6 +4381,7 @@ window.HERBS = [
  {
   "id": "rauma",
   "name": "Rau má",
+  "nameEn": "Asiatic pennywort",
   "aliases": [
    "rau má",
    "tích tuyết thảo"
@@ -3434,6 +4394,10 @@ window.HERBS = [
   "symptoms": [
    "Nóng trong",
    "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Painful urination"
   ],
   "parts": "Toàn cây",
   "caution": "Tính mát: người tỳ vị hư hàn, hay tiêu chảy hạn chế dùng nhiều.",
@@ -3454,6 +4418,7 @@ window.HERBS = [
  {
   "id": "muing",
   "name": "Rau mùi",
+  "nameEn": "Coriander",
   "aliases": [
    "ngò rí",
    "ngò"
@@ -3465,6 +4430,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Lá, quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3478,6 +4446,7 @@ window.HERBS = [
  {
   "id": "muitau",
   "name": "Rau mùi tàu",
+  "nameEn": "Culantro",
   "aliases": [
    "ngò gai"
   ],
@@ -3487,10 +4456,13 @@ window.HERBS = [
    "Ăn như rau thơm. Không phải thuốc chữa đau bụng."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "muitau-extra2.webp",
@@ -3502,20 +4474,24 @@ window.HERBS = [
  {
   "id": "raumong",
   "name": "Rau muống",
+  "nameEn": "Water spinach",
   "aliases": [
    "rau muống nước",
    "bìm nước"
   ],
   "scientific": "Ipomoea aquatica",
-  "description": "Thân rỗng, lá hình mũi tên, mọc ở nước.",
+  "description": "Thân rỗng, lá hình mũi tên, mọc ở nước. Tính hàn, vị ngọt.",
   "uses": [
    "Xào hoặc luộc. Rau mọc ở nước bẩn có thể nhiễm ký sinh, phải nấu chín."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thân lá",
   "caution": "Ăn sống rau ở kênh rạch có thể nhiễm sán. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Ăn sống rau ở kênh rạch có thể nhiễm sán. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "raumong.webp"
@@ -3524,17 +4500,21 @@ window.HERBS = [
  {
   "id": "rauden",
   "name": "Râu ngô",
+  "nameEn": "Corn silk",
   "aliases": [
    "râu bắp",
    "ngô tu"
   ],
   "scientific": "Zea mays",
-  "description": "Bắp có râu dài, cây thân đặc.",
+  "description": "Bắp có râu dài, cây thân đặc. Tính bình, vị ngọt.",
   "uses": [
    "Sắc râu khi tiểu ít nhẹ, phù nhẹ. Phù có khó thở hoặc tiểu máu phải khám."
   ],
   "symptoms": [
    "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Painful urination"
   ],
   "parts": "Vòi nhụy",
   "caution": "Phù do tim, thận không tự trị bằng râu ngô. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3550,6 +4530,7 @@ window.HERBS = [
  {
   "id": "raungot",
   "name": "Rau ngót",
+  "nameEn": "Sweet leaf",
   "aliases": [
    "bồ ngót"
   ],
@@ -3559,10 +4540,13 @@ window.HERBS = [
    "Nấu canh như rau. Không ép nước uống sống để giảm cân. Nước sống đã gây bệnh phổi tắc nghẽn."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Nước ép sống nguy hiểm cho phổi. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Nước ép sống nguy hiểm cho phổi. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "raungot-extra2.webp",
@@ -3573,20 +4557,24 @@ window.HERBS = [
  {
   "id": "rauxanh",
   "name": "Rau om",
+  "nameEn": "Rice paddy herb",
   "aliases": [
    "ngổ thơm",
    "ngò om"
   ],
   "scientific": "Limnophila aromatica",
-  "description": "Thân mềm, lá có mùi thơm đặc, mọc nơi ẩm.",
+  "description": "Thân mềm, lá có mùi thơm đặc, mọc nơi ẩm. Tính mát, vị cay, hơi chát.",
   "uses": [
    "Ăn như rau thơm. Không phải thuốc chữa bệnh."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thân lá",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "rauxanh.webp"
@@ -3595,6 +4583,7 @@ window.HERBS = [
  {
   "id": "rauram",
   "name": "Rau răm",
+  "nameEn": "Vietnamese coriander",
   "aliases": [
    "rau răm",
    "lá răm"
@@ -3606,6 +4595,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Toàn cây",
   "caution": "Phụ nữ có thai không nên dùng nhiều.",
@@ -3624,6 +4616,7 @@ window.HERBS = [
  {
   "id": "rauma2",
   "name": "Rau sam",
+  "nameEn": "Purslane",
   "aliases": [
    "rau sam"
   ],
@@ -3633,6 +4626,7 @@ window.HERBS = [
    "Ăn như rau hoặc giã đắp vết trầy sạch. Vết thương bẩn phải rửa y tế, không đắp lá thay thế."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Toàn cây",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3647,6 +4641,7 @@ window.HERBS = [
  {
   "id": "rieng",
   "name": "Riềng",
+  "nameEn": "Lesser galangal",
   "aliases": [
    "cao lương khương"
   ],
@@ -3656,6 +4651,7 @@ window.HERBS = [
    "Dân gian dùng thân rễ khi đau bụng lạnh, đầy hơi. Không dùng khi đau bụng do viêm."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thân rễ",
   "caution": "Cay nóng, dễ kích ứng dạ dày. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Cay nóng, dễ kích ứng dạ dày. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3670,6 +4666,7 @@ window.HERBS = [
  {
   "id": "xa",
   "name": "Sả",
+  "nameEn": "Lemongrass",
   "aliases": [
    "sả chanh",
    "hương mao",
@@ -3683,6 +4680,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Ho"
+  ],
+  "symptomsEn": [
+   "Cough"
   ],
   "parts": "Lá, thân rễ",
   "caution": "Tinh dầu không uống trực tiếp.",
@@ -3703,6 +4703,7 @@ window.HERBS = [
  {
   "id": "sannhan",
   "name": "Sa nhân",
+  "nameEn": "Villous amomum",
   "aliases": [
    "sa nhân"
   ],
@@ -3713,6 +4714,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Quả",
   "caution": "Có thai không tự tăng liều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3728,6 +4732,7 @@ window.HERBS = [
  {
   "id": "saiho",
   "name": "Sài hồ",
+  "nameEn": "Chinese thorowax",
   "aliases": [
    "sài hồ bắc"
   ],
@@ -3737,6 +4742,7 @@ window.HERBS = [
    "Đông y dùng trong bài khi sốt rét lui, đầy sườn, kinh nguyệt không đều theo chỉ dẫn."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Rễ",
   "caution": "Âm hư hoả vượng thận trọng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Âm hư hoả vượng thận trọng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3751,6 +4757,7 @@ window.HERBS = [
  {
   "id": "samngoclinh",
   "name": "Sâm Ngọc Linh",
+  "nameEn": "Vietnamese ginseng",
   "aliases": [
    "sâm Việt Nam",
    "sâm K5"
@@ -3762,6 +4769,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Thân rễ, củ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3779,6 +4789,7 @@ window.HERBS = [
  {
   "id": "sentim",
   "name": "Sen (tâm sen, lá sen)",
+  "nameEn": "Sacred lotus",
   "aliases": [
    "tâm sen",
    "lá sen",
@@ -3801,6 +4812,12 @@ window.HERBS = [
    "Mệt, kém ăn",
    "Chảy máu"
   ],
+  "symptomsEn": [
+   "Trouble sleeping",
+   "Inner heat",
+   "Fatigue, poor appetite",
+   "Bleeding"
+  ],
   "parts": "Tâm sen, lá, hạt",
   "caution": "Tâm sen tính lạnh: người huyết áp thấp, tỳ hư tiêu chảy không nên dùng nhiều.",
   "warn": "Tâm sen tính lạnh: người huyết áp thấp, tỳ hư tiêu chảy không nên dùng nhiều.",
@@ -3818,20 +4835,24 @@ window.HERBS = [
  {
   "id": "sim",
   "name": "Sim",
+  "nameEn": "Rose myrtle",
   "aliases": [
    "quả sim",
    "hồng sim"
   ],
   "scientific": "Rhodomyrtus tomentosa",
-  "description": "Lá 3 gân, mặt dưới có lông, hoa hồng tím, quả tím.",
+  "description": "Lá 3 gân, mặt dưới có lông, hoa hồng tím, quả tím. Tính bình, vị ngọt, chát.",
   "uses": [
    "Dân gian ăn quả chín hoặc sắc lá khi đi ngoài lỏng. Không trị lỵ."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả, lá",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "sim.webp"
@@ -3840,6 +4861,7 @@ window.HERBS = [
  {
   "id": "sonthu",
   "name": "Sơn thù du",
+  "nameEn": "Japanese cornel",
   "aliases": [
    "sơn thù"
   ],
@@ -3849,6 +4871,7 @@ window.HERBS = [
    "Đông y dùng trong bài bổ thận. Không dùng khi tiểu tiện bí, thấp nhiệt."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Quả",
   "caution": "Tiểu rắt do thấp nhiệt không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Tiểu rắt do thấp nhiệt không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3863,6 +4886,7 @@ window.HERBS = [
  {
   "id": "sontra",
   "name": "Sơn tra",
+  "nameEn": "Chinese hawthorn",
   "aliases": [
    "táo mèo"
   ],
@@ -3873,6 +4897,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Quả",
   "caution": "Dạ dày tăng axit, đau rát có thể khó chịu thêm. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3888,6 +4915,7 @@ window.HERBS = [
  {
   "id": "tac",
   "name": "Tắc",
+  "nameEn": "Kumquat",
   "aliases": [
    "hạnh",
    "quất"
@@ -3899,6 +4927,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Ho"
+  ],
+  "symptomsEn": [
+   "Cough"
   ],
   "parts": "Quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3912,6 +4943,7 @@ window.HERBS = [
  {
   "id": "tamthat",
   "name": "Tam thất",
+  "nameEn": "Notoginseng",
   "aliases": [
    "sâm tam thất",
    "tam thất bắc"
@@ -3923,6 +4955,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Chảy máu"
+  ],
+  "symptomsEn": [
+   "Bleeding"
   ],
   "parts": "Rễ củ",
   "caution": "Người có thai không tự dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3938,6 +4973,7 @@ window.HERBS = [
  {
   "id": "taonhan",
   "name": "Táo nhân",
+  "nameEn": "Jujube seed",
   "aliases": [
    "toan táo nhân"
   ],
@@ -3948,6 +4984,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mất ngủ"
+  ],
+  "symptomsEn": [
+   "Trouble sleeping"
   ],
   "parts": "Hạt",
   "caution": "Không phối tuỳ tiện với thuốc ngủ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3963,6 +5002,7 @@ window.HERBS = [
  {
   "id": "tao",
   "name": "Táo tàu",
+  "nameEn": "Jujube",
   "aliases": [
    "đại táo",
    "táo đỏ"
@@ -3974,6 +5014,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
   ],
   "parts": "Quả",
   "caution": "Đầy bụng, đờm ẩm nhiều thì hạn chế. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -3990,6 +5033,7 @@ window.HERBS = [
  {
   "id": "thaoqua",
   "name": "Thảo quả",
+  "nameEn": "Black cardamom",
   "aliases": [
    "đậu khấu thảo quả"
   ],
@@ -4000,6 +5044,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đi ngoài"
+  ],
+  "symptomsEn": [
+   "Loose stools"
   ],
   "parts": "Quả",
   "caution": "Âm hư, khô miệng không dùng nhiều. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4018,6 +5065,7 @@ window.HERBS = [
  {
   "id": "thienma",
   "name": "Thiên ma",
+  "nameEn": "Gastrodia",
   "aliases": [
    "xích tiễn"
   ],
@@ -4027,6 +5075,7 @@ window.HERBS = [
    "Đông y dùng củ trong bài khi chóng mặt, nhức đầu. Đột ngột chóng mặt, yếu nửa người: cấp cứu, không chờ sắc."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thân củ",
   "caution": "Dấu hiệu đột quỵ không tự trị tại nhà. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Dấu hiệu đột quỵ không tự trị tại nhà. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4041,6 +5090,7 @@ window.HERBS = [
  {
   "id": "thienmon",
   "name": "Thiên môn",
+  "nameEn": "Chinese asparagus",
   "aliases": [
    "thiên môn đông"
   ],
@@ -4050,7 +5100,12 @@ window.HERBS = [
    "Đông y dùng trong bài khi ho khan, táo. Không dùng khi tiêu chảy do hàn."
   ],
   "symptoms": [
-   "Khát"
+   "Khát",
+   "Táo bón"
+  ],
+  "symptomsEn": [
+   "Thirst",
+   "Constipation"
   ],
   "parts": "Rễ củ",
   "caution": "Tỳ hư hàn không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4066,19 +5121,23 @@ window.HERBS = [
  {
   "id": "thiennamtinh",
   "name": "Thiên nam tinh",
+  "nameEn": "Blushing cobra lily",
   "aliases": [
    "nam tinh"
   ],
   "scientific": "Arisaema erubescens",
-  "description": "Một lá xẻ thuỳ, mo hoa dạng vòi, củ dưới đất.",
+  "description": "Một lá xẻ thuỳ, mo hoa dạng vòi, củ dưới đất. Tính ấm, vị cay, đắng.",
   "uses": [
    "Củ tươi gây bỏng niêm mạc. Không giã uống. Chỉ dạng chế trong bài, nếu có người có chuyên môn."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Thân củ",
   "caution": "ĐỘC khi sống: bỏng miệng, phù họng.",
   "warn": "ĐỘC khi sống: bỏng miệng, phù họng.",
-  "src": [],
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
   "toxic": true,
   "images": [
    "thiennamtinh.webp"
@@ -4087,6 +5146,7 @@ window.HERBS = [
  {
   "id": "thuongtruat",
   "name": "Thương truật",
+  "nameEn": "Southern tsangshu",
   "aliases": [
    "truật苍"
   ],
@@ -4097,6 +5157,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đi ngoài"
+  ],
+  "symptomsEn": [
+   "Loose stools"
   ],
   "parts": "Thân rễ",
   "caution": "Âm hư nội nhiệt, ra mồ hôi nhiều không dùng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4112,6 +5175,7 @@ window.HERBS = [
  {
   "id": "tiato",
   "name": "Tía tô",
+  "nameEn": "Perilla",
   "aliases": [
    "tía tô",
    "tử tô",
@@ -4127,6 +5191,10 @@ window.HERBS = [
   "symptoms": [
    "Ho",
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Cough",
+   "Bloating"
   ],
   "parts": "Lá, cành, hạt",
   "caution": "Người ra nhiều mồ hôi, khí hư không nên dùng nhiều. Có thai phải theo chỉ định thầy thuốc.",
@@ -4146,6 +5214,7 @@ window.HERBS = [
  {
   "id": "tiehoi",
   "name": "Tiểu hồi",
+  "nameEn": "Fennel",
   "aliases": [
    "thì là",
    "hạt thì là"
@@ -4157,6 +5226,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Quả",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4172,6 +5244,7 @@ window.HERBS = [
  {
   "id": "tieulot",
   "name": "Tiêu lốt",
+  "nameEn": "Javanese long pepper",
   "aliases": [
    "tất bạt",
    "tiêu dài"
@@ -4183,6 +5256,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Quả",
   "caution": "Cay nóng mạnh. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4196,6 +5272,7 @@ window.HERBS = [
  {
   "id": "toi",
   "name": "Tỏi",
+  "nameEn": "Garlic",
   "aliases": [
    "tỏi ta",
    "đại toán"
@@ -4208,6 +5285,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Bloating"
   ],
   "parts": "Thân hành (củ)",
   "caution": "Người dùng thuốc chống đông, sắp phẫu thuật cần thận trọng; có thể kích ứng dạ dày.",
@@ -4225,8 +5305,38 @@ window.HERBS = [
   ]
  },
  {
+  "id": "trachta",
+  "name": "Trạch tả",
+  "nameEn": "Alisma",
+  "aliases": [
+   "mã đề nước",
+   "thủy tả"
+  ],
+  "scientific": "Alisma plantago-aquatica",
+  "description": "Cây mọc nơi ẩm ngập nước; thân rễ hình cầu hoặc bầu dục, vỏ vàng nhạt có vòng rễ nhỏ, cắt lát trắng ngà giàu tinh bột. Tính hàn, vị ngọt, mặn.",
+  "uses": [
+   "Trong Đông y, trạch tả được ghi là vị ngọt, mặn, hàn, dùng lợi thủy thẩm thấp trong các bài cổ truyền. Không tự điều trị phù hay khó tiểu thay khám."
+  ],
+  "symptoms": [
+   "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Painful urination"
+  ],
+  "parts": "Thân rễ (củ) phơi khô",
+  "caution": "Người thận hư không có thấp nhiệt, người đang mất nước hoặc dùng thuốc lợi tiểu cần hỏi ý kiến bác sĩ.",
+  "warn": "Người thận hư không có thấp nhiệt, người đang mất nước hoặc dùng thuốc lợi tiểu cần hỏi ý kiến bác sĩ.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "tram",
   "name": "Tràm",
+  "nameEn": "Cajeput",
   "aliases": [
    "tinh dầu tràm",
    "gió tràm"
@@ -4237,10 +5347,13 @@ window.HERBS = [
    "Xông lá hoặc bôi tinh dầu đã pha khi ngạt mũi người lớn. Không bôi tinh dầu đặc lên mũi trẻ sơ sinh."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá, tinh dầu",
   "caution": "Tinh dầu có thể gây co thắt hô hấp ở trẻ nhỏ. Không nhỏ mũi trẻ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Tinh dầu có thể gây co thắt hô hấp ở trẻ nhỏ. Không nhỏ mũi trẻ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
   "toxic": false,
   "images": [
    "tram.webp"
@@ -4249,37 +5362,74 @@ window.HERBS = [
  {
   "id": "traucay",
   "name": "Trầu không",
+  "nameEn": "Betel",
   "aliases": [
    "lá trầu"
   ],
   "scientific": "Piper betle",
-  "description": "Dây leo, lá tim bóng, mùi thơm the.",
+  "description": "Dây leo, lá tim bóng, mùi thơm the. Tính ấm, vị cay.",
   "uses": [
    "Dân gian đun nước rửa khi ngứa da nhẹ. Không nhai với vôi và cau vì tăng nguy cơ ung thư miệng."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Thói quen ăn trầu cau liên quan ung thư miệng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Thói quen ăn trầu cau liên quan ung thư miệng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "traucay.webp"
   ]
  },
  {
+  "id": "trimau",
+  "name": "Tri mẫu",
+  "nameEn": "Anemarrhena",
+  "aliases": [
+   "liên mẫu",
+   "khổ tâm"
+  ],
+  "scientific": "Anemarrhena asphodeloides",
+  "description": "Thân rễ dẹt hơi cong, mặt trên có rãnh dọc và lông vàng nâu hình vòng đốt, vết bẻ trắng ngà, vị hơi ngọt sau đắng và nhớt. Tính hàn, vị đắng, ngọt.",
+  "uses": [
+   "Trong Đông y, tri mẫu được ghi là vị đắng, ngọt, hàn, dùng thanh nhiệt tả hỏa, tư âm nhuận táo. Không thay thế khám khi sốt cao."
+  ],
+  "symptoms": [
+   "Nóng trong",
+   "Khát"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Thirst"
+  ],
+  "parts": "Thân rễ phơi khô",
+  "caution": "Tính hàn và nhuận tràng nên không dùng cho người tỳ vị hư hàn, hay tiêu chảy; cần hỏi người có chuyên môn.",
+  "warn": "Tính hàn và nhuận tràng nên không dùng cho người tỳ vị hư hàn, hay tiêu chảy; cần hỏi người có chuyên môn.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "trinhnu",
   "name": "Trinh nữ hoàng cung",
+  "nameEn": "Giant crinum",
   "aliases": [
    "náng hoa trắng",
    "tỏi lơi"
   ],
   "scientific": "Crinum latifolium",
-  "description": "Lá dải dài, hoa loa trắng hồng, củ lớn.",
+  "description": "Lá dải dài, hoa loa trắng hồng, củ lớn. Tính ấm, vị đắng, chát.",
   "uses": [
    "Dân gian rửa hoặc xông lá. Không phải thuốc trị u. Nhựa có thể kích ứng."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Họ loa kèn có alcaloid. Không uống. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Họ loa kèn có alcaloid. Không uống. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4294,6 +5444,7 @@ window.HERBS = [
  {
   "id": "tucdoan",
   "name": "Tục đoạn",
+  "nameEn": "Teasel root",
   "aliases": [
    "xuyên đoạn"
   ],
@@ -4304,6 +5455,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Mờ mắt"
+  ],
+  "symptomsEn": [
+   "Blurred vision"
   ],
   "parts": "Rễ",
   "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4319,6 +5473,7 @@ window.HERBS = [
  {
   "id": "uattim",
   "name": "Uất kim",
+  "nameEn": "Wild turmeric",
   "aliases": [
    "nghệ vàng rừng"
   ],
@@ -4328,10 +5483,13 @@ window.HERBS = [
    "Đông y dùng trong bài. Không tự dùng khi đang dùng thuốc chống đông."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Rễ củ",
   "caution": "Đang dùng thuốc chống đông: hỏi bác sĩ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Đang dùng thuốc chống đông: hỏi bác sĩ. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
   "toxic": false,
   "images": [
    "uattim.webp"
@@ -4340,37 +5498,67 @@ window.HERBS = [
  {
   "id": "vaithi",
   "name": "Vải",
+  "nameEn": "Lychee",
   "aliases": [
    "quả vải"
   ],
   "scientific": "Litchi chinensis",
-  "description": "Quả vỏ sần đỏ, áo trắng, hạt nâu.",
+  "description": "Quả vỏ sần đỏ, áo trắng, hạt nâu. Vị ngọt, hơi chua.",
   "uses": [
    "Ăn quả chín vừa. Trẻ nhịn đói ăn nhiều vải xanh có thể hạ đường huyết."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Áo hạt",
   "caution": "Trẻ em ăn nhiều lúc đói: nguy cơ hạ đường huyết. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Trẻ em ăn nhiều lúc đói: nguy cơ hạ đường huyết. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
-  "src": [],
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam"
+  ],
   "toxic": false,
   "images": [
    "vaithi.webp"
   ]
  },
  {
+  "id": "mangcut",
+  "name": "Vỏ măng cụt",
+  "nameEn": "Mangosteen",
+  "aliases": [
+   "măng cụt"
+  ],
+  "scientific": "Garcinia mangostana",
+  "description": "Cây gỗ có lá dày mọc đối. Quả tròn với đài tồn tại, vỏ tím sẫm khi chín. Tính ấm, vị chát.",
+  "uses": [
+   "Vỏ quả chín được ghi trong Dược điển Việt Nam V",
+   "phân biệt với múi trắng ăn được. Không tự sắc vỏ để trị bệnh."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Vỏ quả",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "vongnem",
   "name": "Vông nem",
+  "nameEn": "Indian coral tree",
   "aliases": [
    "vông nem",
    "vông đồng"
   ],
   "scientific": "Erythrina variegata",
-  "description": "Thân có gai, lá kép 3 lá chét, hoa đỏ.",
+  "description": "Thân có gai, lá kép 3 lá chét, hoa đỏ. Tính bình, vị đắng.",
   "uses": [
    "An thần, gây ngủ (dân gian)."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Có chứa alcaloid; không dùng liều cao, kéo dài.",
   "warn": "Có chứa alcaloid; không dùng liều cao, kéo dài.",
@@ -4389,6 +5577,7 @@ window.HERBS = [
  {
   "id": "xaden",
   "name": "Xạ đen",
+  "nameEn": "Chinese bitter-sweet",
   "aliases": [
    "xạ đen"
   ],
@@ -4398,6 +5587,7 @@ window.HERBS = [
    "Dân gian hãm lá. Không phải thuốc trị ung thư. Không uống thay điều trị."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá",
   "caution": "Công bố trị ung thư là không đúng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Công bố trị ung thư là không đúng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4410,15 +5600,17 @@ window.HERBS = [
  {
   "id": "xoai",
   "name": "Xoài",
+  "nameEn": "Mango",
   "aliases": [
    "lá xoài"
   ],
   "scientific": "Mangifera indica",
-  "description": "Lá đơn bóng, quả hạch, nhựa gây kích ứng.",
+  "description": "Lá đơn bóng, quả hạch, nhựa gây kích ứng. Tính mát, vị ngọt.",
   "uses": [
    "Dân gian sắc lá non khi đi ngoài. Người dị ứng sơn, điều, hạt điều dễ dị ứng xoài."
   ],
   "symptoms": [],
+  "symptomsEn": [],
   "parts": "Lá non",
   "caution": "Dị ứng họ đào lộn hột có thể nặng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
   "warn": "Dị ứng họ đào lộn hột có thể nặng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4431,6 +5623,7 @@ window.HERBS = [
  {
   "id": "xuyenhuong",
   "name": "Xuyên khung",
+  "nameEn": "Szechuan lovage",
   "aliases": [
    "xuyên khung"
   ],
@@ -4441,6 +5634,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Kinh nguyệt"
+  ],
+  "symptomsEn": [
+   "Menstruation"
   ],
   "parts": "Thân rễ",
   "caution": "Có thai thận trọng. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
@@ -4454,8 +5650,35 @@ window.HERBS = [
   ]
  },
  {
+  "id": "xuyentamlien",
+  "name": "Xuyên tâm liên",
+  "nameEn": "Andrographis",
+  "aliases": [
+   "công cộng",
+   "khổ đảm thảo",
+   "lãm hạch liên"
+  ],
+  "scientific": "Andrographis paniculata",
+  "description": "Cây thảo mọc đứng, thân vuông phân nhánh; lá mọc đối thuôn nhọn, vị rất đắng; hoa nhỏ trắng điểm tím. Tính hàn, vị đắng.",
+  "uses": [
+   "Trong Đông y, xuyên tâm liên được ghi là vị rất đắng, hàn, dùng trong các bài thanh nhiệt khi viêm họng, ho hoặc rối loạn tiêu hóa do nhiệt. Không thay thế thuốc."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Toàn cây trên mặt đất phơi khô",
+  "caution": "Vị rất đắng lạnh, không dùng cho phụ nữ có thai, người tỳ vị hư hàn dễ tiêu chảy; không tự dùng kéo dài. Chế phẩm xuyên tâm liên có thể gây dị ứng nghiêm trọng.",
+  "warn": "Vị rất đắng lạnh, không dùng cho phụ nữ có thai, người tỳ vị hư hàn dễ tiêu chảy; không tự dùng kéo dài. Chế phẩm xuyên tâm liên có thể gây dị ứng nghiêm trọng.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": []
+ },
+ {
   "id": "ydu",
   "name": "Ý dĩ",
+  "nameEn": "Job's tears",
   "aliases": [
    "bo bo",
    "ý mễ"
@@ -4467,6 +5690,9 @@ window.HERBS = [
   ],
   "symptoms": [
    "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Painful urination"
   ],
   "parts": "Hạt",
   "caution": "Có thai thận trọng với lượng lớn. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",

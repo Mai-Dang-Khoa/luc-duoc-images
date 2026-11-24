@@ -1,7 +1,7 @@
 // Lục Dược service worker — offline cache
 // Đổi số phiên bản cache mỗi lần dataset hoặc file lõi thay đổi để
 // người dùng đang cài PWA nhận được bản mới.
-const CACHE = 'lucduoc-v3';
+const CACHE = 'lucduoc-v4';
 const CORE = ['./', './index.html', './styles.css', './app.js', './data/herbs.js', './manifest.json'];
 
 self.addEventListener('install', (e) => {

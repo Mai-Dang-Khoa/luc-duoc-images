@@ -1,9 +1,10 @@
 # 🌿 Lục Dược — Tra cứu thảo dược Việt Nam
 
-PWA (Web app cài được vào điện thoại) tra cứu **179 loại thảo dược Việt Nam**, với 276 ảnh thực tế.
+PWA (Web app cài được vào điện thoại) tra cứu **200 loại thảo dược Việt Nam**, với 298 ảnh thực tế, giao diện song ngữ Việt–Anh.
 
 ## Tính năng
 - 📖 **Tra cứu** — tìm theo tên (gõ không dấu cũng ra, kể cả tên khác), lọc theo chữ cái đầu
+- 🌐 **Song ngữ Việt–Anh** — nút EN/VI trên đầu trang; mặc định theo ngôn ngữ trình duyệt. Giao diện, tên cây và nhãn triệu chứng có tiếng Anh; ở bản tiếng Anh, cây độc hiện thêm số Poison Control 1-800-222-1222 / 911 và câu disclaimer chuẩn FDA (DSHEA) ở chân trang. Bài cây tiếng Anh đầy đủ và hướng dẫn dùng chỉ có trong app Lục Dược (không đăng lên web)
 - 🩺 **Theo bệnh** — chọn triệu chứng → liệt kê cây thuốc hỗ trợ (cây độc và cây cảnh báo dùng lâu không xuất hiện ở đây, giống app chính)
 - ☠️ **Cảnh báo cây độc** — cây độc có nhãn "Độc" ngay trên thẻ và hộp cảnh báo đỏ trên trang chi tiết, kèm văn bản cảnh báo và nguồn của cây
 - 🌙 **Giao diện tối** — theo hệ thống, có nút 🌙/☀️ đổi tay (nhớ lựa chọn trên máy)
@@ -19,7 +20,7 @@ Dataset `data/herbs.js` được tạo lại từ dữ liệu app luc-duoc (khô
 node scripts/sync-dataset.mjs <đường-dẫn-tới-checkout-luc-duoc>
 ```
 
-Script đọc 5 chunk trong `<luc-duoc>/data/chunks`, giữ nguyên danh sách ảnh từ dataset cũ, và tự kiểm chứng: 179 cây, 11 cây độc, mọi cây đều có `toxic`/`warn`/`src`. Nhớ đổi số phiên bản cache trong `sw.js` (vd `lucduoc-v2` → `lucduoc-v3`) trước khi đẩy để người đang cài PWA nhận được dữ liệu mới.
+Script đọc 6 chunk trong `<luc-duoc>/data/chunks` cùng tên tiếng Anh (`data/names-en.ts`), giữ nguyên danh sách ảnh từ dataset cũ, và tự kiểm chứng: 200 cây, 11 cây độc, mọi cây đều có `toxic`/`warn`/`src` và tên tiếng Anh, và KHÔNG cây nào có bài tiếng Anh đầy đủ (`articleEn`) hay hướng dẫn dùng (`how`) — hai thứ đó chỉ có trong app (quyết định D1, 24/11/2026). Nhớ đổi số phiên bản cache trong `sw.js` (vd `lucduoc-v3` → `lucduoc-v4`) trước khi đẩy để người đang cài PWA nhận được dữ liệu mới (người dùng cần đóng tab cũ và mở lại để nhận service worker mới).
 
 Lưu ý: icon của PWA vẫn là SVG emoji (🌿) trong `manifest.json` — file PNG nhị phân chưa đẩy được qua công cụ hiện tại nên chưa thay được icon PNG.
 

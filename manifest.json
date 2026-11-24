@@ -1,7 +1,7 @@
 {
   "name": "Lục Dược — Tra cứu thảo dược Việt Nam",
   "short_name": "Lục Dược",
-  "description": "Tra cứu 179 loại thảo dược Việt Nam, tìm theo triệu chứng, lưu yêu thích và ghi chú cá nhân. Hoạt động offline.",
+  "description": "Tra cứu 200 loại thảo dược Việt Nam (Vietnamese herbal guide) — tìm theo triệu chứng, lưu yêu thích và ghi chú cá nhân. Song ngữ Việt–Anh. Hoạt động offline.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f7f9f7",
