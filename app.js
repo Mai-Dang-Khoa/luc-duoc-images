@@ -40,6 +40,7 @@
       symptomHint: 'Chọn triệu chứng để lọc cây thuốc tương ứng:',
       favEmpty: 'Chưa có cây yêu thích nào. Nhấn ⭐ ở trang chi tiết để lưu.',
       footerNote: '⚠️ Thông tin chỉ mang tính tham khảo, KHÔNG thay thế chẩn đoán và điều trị của bác sĩ.',
+      copyrightNote: '© 2026 Lục Dược · Mai-Dang-Khoa. Ảnh thuộc về các tác giả theo giấy phép ghi tại Nguồn ảnh.',
       photoCredits: 'Nguồn ảnh',
       toxicBadge: '☠️ Độc',
       noPhoto: 'Chưa có ảnh',
@@ -78,6 +79,7 @@
       symptomHint: 'Choose a symptom to filter matching herbs:',
       favEmpty: 'No favorites yet. Tap ⭐ on a herb’s detail page to save it.',
       footerNote: '⚠️ For reference only — not medical advice and not a substitute for a doctor’s diagnosis or treatment.',
+      copyrightNote: '© 2026 Luc Duoc · Mai-Dang-Khoa. Photos belong to their authors under the licences listed in Photo credits.',
       photoCredits: 'Photo credits',
       toxicBadge: '☠️ Toxic',
       noPhoto: 'No photo yet',
@@ -357,6 +359,8 @@
     $('favEmpty').textContent = t('favEmpty');
     const footer = $('footerNote');
     if (footer) footer.innerHTML = `${escapeHtml(t('footerNote'))} <a href="ATTRIBUTION.md" target="_blank">${escapeHtml(t('photoCredits'))}</a>`;
+    const copyright = $('copyrightNote');
+    if (copyright) copyright.textContent = t('copyrightNote');
     const dshea = $('dsheaNote');
     if (dshea) {
       dshea.textContent = DSHEA_NOTICE;
