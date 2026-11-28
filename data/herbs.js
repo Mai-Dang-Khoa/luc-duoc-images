@@ -60,7 +60,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "anxoa.webp"
+   "anxoa.webp",
+   "anxoa-extra2.webp",
+   "anxoa-extra3.webp"
   ]
  },
  {
@@ -85,7 +87,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "bachuat.webp"
+   "bachuat.webp",
+   "bachuat-extra2.webp",
+   "bachuat-extra3.webp"
   ]
  },
  {
@@ -149,7 +153,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "bachbo.webp"
+   "bachbo.webp",
+   "bachbo-extra2.webp",
+   "bachbo-extra3.webp"
   ]
  },
  {
@@ -180,7 +186,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "bachchi.webp"
+   "bachchi.webp",
+   "bachchi-extra2.webp",
+   "bachchi-extra3.webp"
   ]
  },
  {
@@ -205,7 +213,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "bacdan.webp"
+   "bacdan.webp",
+   "bacdan-extra2.webp",
+   "bacdan-extra3.webp"
   ]
  },
  {
@@ -231,7 +241,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "bachhoaxathietthao.webp"
+   "bachhoaxathietthao.webp",
+   "bachhoaxathietthao-extra2.webp",
+   "bachhoaxathietthao-extra3.webp"
   ]
  },
  {
@@ -261,7 +273,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "bachtatle.webp"
+   "bachtatle.webp",
+   "bachtatle-extra2.webp",
+   "bachtatle-extra3.webp"
   ]
  },
  {
@@ -290,7 +304,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "bachthuoc.webp"
+   "bachthuoc.webp",
+   "bachthuoc-extra2.webp",
+   "bachthuoc-extra3.webp"
   ]
  },
  {
@@ -323,7 +339,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "bachtruat.webp"
+   "bachtruat.webp",
+   "bachtruat-extra2.webp",
+   "bachtruat-extra3.webp"
   ]
  },
  {
@@ -355,7 +373,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "banchilien.webp"
+   "banchilien.webp",
+   "banchilien-extra2.webp",
+   "banchilien-extra3.webp"
   ]
  },
  {
@@ -380,7 +400,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "banha.webp"
+   "banha.webp",
+   "banha-extra2.webp",
+   "banha-extra3.webp"
   ]
  },
  {
@@ -405,7 +427,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "binhvoi.webp"
+   "binhvoi.webp",
+   "binhvoi-extra2.webp",
+   "binhvoi-extra3.webp"
   ]
  },
  {
@@ -463,7 +487,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "boket.webp"
+   "boket.webp",
+   "boket-extra2.webp",
+   "boket-extra3.webp"
   ]
  },
  {
@@ -489,7 +515,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "buoi.webp"
+   "buoi.webp",
+   "buoi-extra2.webp",
+   "buoi-extra3.webp"
   ]
  },
  {
@@ -520,7 +548,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "butgiam.webp"
+   "butgiam.webp",
+   "butgiam-extra2.webp",
+   "butgiam-extra3.webp"
   ]
  },
  {
@@ -546,7 +576,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "cadocduoc.webp"
+   "cadocduoc.webp",
+   "cadocduoc-extra2.webp",
+   "cadocduoc-extra3.webp"
   ]
  },
  {
@@ -576,7 +608,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "cahoathien.webp"
+   "cahoathien.webp",
+   "cahoathien-extra2.webp",
+   "cahoathien-extra3.webp"
   ]
  },
  {
@@ -601,7 +635,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "bapcai.webp"
+   "bapcai.webp",
+   "bapcai-extra2.webp",
+   "bapcai-extra3.webp"
   ]
  },
  {
@@ -635,7 +671,9 @@ window.HERBS = [
    "camthao-extra2.webp",
    "camthao-extra3.webp",
    "camthao.webp",
-   "camthaoday.webp"
+   "camthaoday.webp",
+   "cam-extra2.webp",
+   "cam-extra3.webp"
   ]
  },
  {
@@ -692,7 +730,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "camthaoday.webp"
+   "camthaoday.webp",
+   "camthaoday-extra2.webp",
+   "camthaoday-extra3.webp"
   ]
  },
  {
@@ -717,7 +757,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "canhuong.webp"
+   "canhuong.webp",
+   "canhuong-extra2.webp",
+   "canhuong-extra3.webp"
   ]
  },
  {
@@ -750,7 +792,9 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "catcan.webp",
-   "catcanh.webp"
+   "catcanh.webp",
+   "catcan-extra2.webp",
+   "catcan-extra3.webp"
   ]
  },
  {
@@ -779,7 +823,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "catcanh.webp"
+   "catcanh.webp",
+   "catcanh-extra2.webp",
+   "catcanh-extra3.webp"
   ]
  },
  {
@@ -806,7 +852,9 @@ window.HERBS = [
   "toxic": true,
   "images": [
    "cau.webp",
-   "caudang.webp"
+   "caudang.webp",
+   "cau-extra2.webp",
+   "cau-extra3.webp"
   ]
  },
  {
@@ -831,7 +879,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "caudang.webp"
+   "caudang.webp",
+   "caudang-extra2.webp",
+   "caudang-extra3.webp"
   ]
  },
  {
@@ -856,7 +906,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "cutlon.webp"
+   "cutlon.webp",
+   "cutlon-extra2.webp",
+   "cutlon-extra3.webp"
   ]
  },
  {
@@ -886,7 +938,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "xauho.webp"
+   "xauho.webp",
+   "xauho-extra2.webp",
+   "xauho-extra3.webp"
   ]
  },
  {
@@ -948,7 +1002,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "chanhday.webp"
+   "chanhday.webp",
+   "chanhday-extra2.webp",
+   "chanhday-extra3.webp"
   ]
  },
  {
@@ -973,7 +1029,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "cheday.webp"
+   "cheday.webp",
+   "cheday-extra2.webp",
+   "cheday-extra3.webp"
   ]
  },
  {
@@ -1027,7 +1085,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "chexanh.webp"
+   "chexanh.webp",
+   "chexanh-extra2.webp",
+   "chexanh-extra3.webp"
   ]
  },
  {
@@ -1053,7 +1113,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "chitu.webp"
+   "chitu.webp",
+   "chitu-extra2.webp",
+   "chitu-extra3.webp"
   ]
  },
  {
@@ -1083,7 +1145,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "chixac.webp"
+   "chixac.webp",
+   "chixac-extra2.webp",
+   "chixac-extra3.webp"
   ]
  },
  {
@@ -1108,7 +1172,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "chumngay.webp"
+   "chumngay.webp",
+   "chumngay-extra2.webp",
+   "chumngay-extra3.webp"
   ]
  },
  {
@@ -1131,7 +1197,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "chuoi.webp"
+   "chuoi.webp",
+   "chuoi-extra2.webp",
+   "chuoi-extra3.webp"
   ]
  },
  {
@@ -1196,7 +1264,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "comuc.webp"
+   "comuc.webp",
+   "comuc-extra2.webp",
+   "comuc-extra3.webp"
   ]
  },
  {
@@ -1222,7 +1292,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "cothaongot.webp"
+   "cothaongot.webp",
+   "cothaongot-extra2.webp",
+   "cothaongot-extra3.webp"
   ]
  },
  {
@@ -1248,7 +1320,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "cosua.webp"
+   "cosua.webp",
+   "cosua-extra2.webp",
+   "cosua-extra3.webp"
   ]
  },
  {
@@ -1279,7 +1353,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "cotranh.webp"
+   "cotranh.webp",
+   "cotranh-extra2.webp",
+   "cotranh-extra3.webp"
   ]
  },
  {
@@ -1308,7 +1384,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "cottoai.webp"
+   "cottoai.webp",
+   "cottoai-extra2.webp",
+   "cottoai-extra3.webp"
   ]
  },
  {
@@ -1338,7 +1416,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "cara.webp"
+   "cara.webp",
+   "cara-extra2.webp",
+   "cara-extra3.webp"
   ]
  },
  {
@@ -1437,7 +1517,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "cuclama.webp"
+   "cuclama.webp",
+   "cuclama-extra2.webp",
+   "cuclama-extra3.webp"
   ]
  },
  {
@@ -1462,7 +1544,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "cuctan.webp"
+   "cuctan.webp",
+   "cuctan-extra2.webp",
+   "cuctan-extra3.webp"
   ]
  },
  {
@@ -1485,7 +1569,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "daihoang.webp"
+   "daihoang.webp",
+   "daihoang-extra2.webp",
+   "daihoang-extra3.webp"
   ]
  },
  {
@@ -1511,7 +1597,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "daihoi.webp"
+   "daihoi.webp",
+   "daihoi-extra2.webp",
+   "daihoi-extra3.webp"
   ]
  },
  {
@@ -1536,7 +1624,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "damduonghoac.webp"
+   "damduonghoac.webp",
+   "damduonghoac-extra2.webp",
+   "damduonghoac-extra3.webp"
   ]
  },
  {
@@ -1561,7 +1651,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "dansam.webp"
+   "dansam.webp",
+   "dansam-extra2.webp",
+   "dansam-extra3.webp"
   ]
  },
  {
@@ -1590,7 +1682,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "dangsam.webp"
+   "dangsam.webp",
+   "dangsam-extra2.webp",
+   "dangsam-extra3.webp"
   ]
  },
  {
@@ -1620,7 +1714,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "samday.webp"
+   "samday.webp",
+   "samday-extra2.webp",
+   "samday-extra3.webp"
   ]
  },
  {
@@ -1646,7 +1742,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "dautam.webp"
+   "dautam.webp",
+   "dautam-extra2.webp",
+   "dautam-extra3.webp"
   ]
  },
  {
@@ -1675,7 +1773,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "daydauxuong.webp"
+   "daydauxuong.webp",
+   "daydauxuong-extra2.webp",
+   "daydauxuong-extra3.webp"
   ]
  },
  {
@@ -1701,7 +1801,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "daythiacanh.webp"
+   "daythiacanh.webp",
+   "daythiacanh-extra2.webp",
+   "daythiacanh-extra3.webp"
   ]
  },
  {
@@ -1727,7 +1829,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "diahoang.webp"
+   "diahoang.webp",
+   "diahoang-extra2.webp",
+   "diahoang-extra3.webp"
   ]
  },
  {
@@ -1752,7 +1856,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "dialien.webp"
+   "dialien.webp",
+   "dialien-extra2.webp",
+   "dialien-extra3.webp"
   ]
  },
  {
@@ -1819,7 +1925,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "diephachau.webp"
+   "diephachau.webp",
+   "diephachau-extra2.webp",
+   "diephachau-extra3.webp"
   ]
  },
  {
@@ -1844,7 +1952,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "dinhhuong.webp"
+   "dinhhuong.webp",
+   "dinhhuong-extra2.webp",
+   "dinhhuong-extra3.webp"
   ]
  },
  {
@@ -1906,7 +2016,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "dotrong.webp"
+   "dotrong.webp",
+   "dotrong-extra2.webp",
+   "dotrong-extra3.webp"
   ]
  },
  {
@@ -1935,7 +2047,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "docduoc.webp"
+   "docduoc.webp",
+   "docduoc-extra2.webp",
+   "docduoc-extra3.webp"
   ]
  },
  {
@@ -1967,7 +2081,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "donlado.webp"
+   "donlado.webp",
+   "donlado-extra2.webp",
+   "donlado-extra3.webp"
   ]
  },
  {
@@ -1993,7 +2109,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "duadu.webp"
+   "duadu.webp",
+   "duadu-extra2.webp",
+   "duadu-extra3.webp"
   ]
  },
  {
@@ -2022,7 +2140,9 @@ window.HERBS = [
   "images": [
    "dua.webp",
    "duadu.webp",
-   "duatrai.webp"
+   "duatrai.webp",
+   "dua-extra2.webp",
+   "dua-extra3.webp"
   ]
  },
  {
@@ -2052,7 +2172,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "duatrai.webp"
+   "duatrai.webp",
+   "duatrai-extra2.webp",
+   "duatrai-extra3.webp"
   ]
  },
  {
@@ -2081,7 +2203,8 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "duongquy.webp"
+   "duongquy.webp",
+   "duongquy-extra3.webp"
   ]
  },
  {
@@ -2106,7 +2229,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "gac.webp"
+   "gac.webp",
+   "gac-extra2.webp",
+   "gac-extra3.webp"
   ]
  },
  {
@@ -2132,7 +2257,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "giaocolam.webp"
+   "giaocolam.webp",
+   "giaocolam-extra2.webp",
+   "giaocolam-extra3.webp"
   ]
  },
  {
@@ -2200,7 +2327,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "gunggio.webp"
+   "gunggio.webp",
+   "gunggio-extra2.webp",
+   "gunggio-extra3.webp"
   ]
  },
  {
@@ -2227,7 +2356,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hakhothao.webp"
+   "hakhothao.webp",
+   "hakhothao-extra2.webp",
+   "hakhothao-extra3.webp"
   ]
  },
  {
@@ -2256,7 +2387,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hatom.webp"
+   "hatom.webp",
+   "hatom-extra2.webp",
+   "hatom-extra3.webp"
   ]
  },
  {
@@ -2286,7 +2419,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hanhla.webp"
+   "hanhla.webp",
+   "hanhla-extra2.webp",
+   "hanhla-extra3.webp"
   ]
  },
  {
@@ -2311,7 +2446,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "hanhnhan.webp"
+   "hanhnhan.webp",
+   "hanhnhan-extra2.webp",
+   "hanhnhan-extra3.webp"
   ]
  },
  {
@@ -2336,7 +2473,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hanhtay.webp"
+   "hanhtay.webp",
+   "hanhtay-extra2.webp",
+   "hanhtay-extra3.webp"
   ]
  },
  {
@@ -2365,7 +2504,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hauphac.webp"
+   "hauphac.webp",
+   "hauphac-extra2.webp",
+   "hauphac-extra3.webp"
   ]
  },
  {
@@ -2391,7 +2532,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "he.webp"
+   "he.webp",
+   "he-extra2.webp",
+   "he-extra3.webp"
   ]
  },
  {
@@ -2418,7 +2561,9 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "tieu.webp",
-   "tieulot.webp"
+   "tieulot.webp",
+   "tieu-extra2.webp",
+   "tieu-extra3.webp"
   ]
  },
  {
@@ -2446,7 +2591,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "hoadaubiec.webp"
+   "hoadaubiec.webp",
+   "hoadaubiec-extra2.webp",
+   "hoadaubiec-extra3.webp"
   ]
  },
  {
@@ -2475,7 +2622,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hoahue.webp"
+   "hoahue.webp",
+   "hoahue-extra2.webp",
+   "hoahue-extra3.webp"
   ]
  },
  {
@@ -2541,7 +2690,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hoahong.webp"
+   "hoahong.webp",
+   "hoahong-extra2.webp",
+   "hoahong-extra3.webp"
   ]
  },
  {
@@ -2567,7 +2718,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "nhai.webp"
+   "nhai.webp",
+   "nhai-extra2.webp",
+   "nhai-extra3.webp"
   ]
  },
  {
@@ -2592,7 +2745,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "hoasua.webp"
+   "hoasua.webp",
+   "hoasua-extra2.webp",
+   "hoasua-extra3.webp"
   ]
  },
  {
@@ -2617,7 +2772,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hoachuong.webp"
+   "hoachuong.webp",
+   "hoachuong-extra2.webp",
+   "hoachuong-extra3.webp"
   ]
  },
  {
@@ -2646,7 +2803,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hoaico.webp"
+   "hoaico.webp",
+   "hoaico-extra2.webp",
+   "hoaico-extra3.webp"
   ]
  },
  {
@@ -2676,7 +2835,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hoaison.webp"
+   "hoaison.webp",
+   "hoaison-extra2.webp",
+   "hoaison-extra3.webp"
   ]
  },
  {
@@ -2704,7 +2865,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hoanngoc.webp"
+   "hoanngoc.webp",
+   "hoanngoc-extra2.webp",
+   "hoanngoc-extra3.webp"
   ]
  },
  {
@@ -2735,7 +2898,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hoangba.webp"
+   "hoangba.webp",
+   "hoangba-extra2.webp",
+   "hoangba-extra3.webp"
   ]
  },
  {
@@ -2765,7 +2930,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hoangcam.webp"
+   "hoangcam.webp",
+   "hoangcam-extra2.webp",
+   "hoangcam-extra3.webp"
   ]
  },
  {
@@ -2795,7 +2962,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hoangky.webp"
+   "hoangky.webp",
+   "hoangky-extra2.webp",
+   "hoangky-extra3.webp"
   ]
  },
  {
@@ -2828,7 +2997,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hoanglien.webp"
+   "hoanglien.webp",
+   "hoanglien-extra2.webp",
+   "hoanglien-extra3.webp"
   ]
  },
  {
@@ -2858,7 +3029,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "honghoa.webp"
+   "honghoa.webp",
+   "honghoa-extra2.webp",
+   "honghoa-extra3.webp"
   ]
  },
  {
@@ -2888,7 +3061,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hungchanh.webp"
+   "hungchanh.webp",
+   "hungchanh-extra2.webp",
+   "hungchanh-extra3.webp"
   ]
  },
  {
@@ -2914,7 +3089,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "hungque.webp"
+   "hungque.webp",
+   "hungque-extra2.webp",
+   "hungque-extra3.webp"
   ]
  },
  {
@@ -2979,7 +3156,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "huongphu.webp"
+   "huongphu.webp",
+   "huongphu-extra2.webp",
+   "huongphu-extra3.webp"
   ]
  },
  {
@@ -3003,7 +3182,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "huongthao.webp"
+   "huongthao.webp",
+   "huongthao-extra2.webp",
+   "huongthao-extra3.webp"
   ]
  },
  {
@@ -3036,7 +3217,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "huyensam.webp"
+   "huyensam.webp",
+   "huyensam-extra2.webp",
+   "huyensam-extra3.webp"
   ]
  },
  {
@@ -3102,7 +3285,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "kedau.webp"
+   "kedau.webp",
+   "kedau-extra2.webp",
+   "kedau-extra3.webp"
   ]
  },
  {
@@ -3128,7 +3313,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "khe.webp"
+   "khe.webp",
+   "khe-extra2.webp",
+   "khe-extra3.webp"
   ]
  },
  {
@@ -3160,7 +3347,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "khosam.webp"
+   "khosam.webp",
+   "khosam-extra2.webp",
+   "khosam-extra3.webp"
   ]
  },
  {
@@ -3189,7 +3378,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "khuonghoat.webp"
+   "khuonghoat.webp",
+   "khuonghoat-extra2.webp",
+   "khuonghoat-extra3.webp"
   ]
  },
  {
@@ -3218,7 +3409,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "kimanh.webp"
+   "kimanh.webp",
+   "kimanh-extra2.webp",
+   "kimanh-extra3.webp"
   ]
  },
  {
@@ -3285,7 +3478,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "kimtienthao.webp"
+   "kimtienthao.webp",
+   "kimtienthao-extra2.webp",
+   "kimtienthao-extra3.webp"
   ]
  },
  {
@@ -3346,7 +3541,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "kytu.webp"
+   "kytu.webp",
+   "kytu-extra2.webp",
+   "kytu-extra3.webp"
   ]
  },
  {
@@ -3373,7 +3570,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "labong.webp"
+   "labong.webp",
+   "labong-extra2.webp",
+   "labong-extra3.webp"
   ]
  },
  {
@@ -3399,7 +3598,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "ladua.webp"
+   "ladua.webp",
+   "ladua-extra2.webp",
+   "ladua-extra3.webp"
   ]
  },
  {
@@ -3432,7 +3633,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "lahanqua.webp"
+   "lahanqua.webp",
+   "lahanqua-extra2.webp",
+   "lahanqua-extra3.webp"
   ]
  },
  {
@@ -3495,7 +3698,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "langon.webp"
+   "langon.webp",
+   "langon-extra2.webp",
+   "langon-extra3.webp"
   ]
  },
  {
@@ -3524,7 +3729,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "lavoi.webp"
+   "lavoi.webp",
+   "lavoi-extra2.webp",
+   "lavoi-extra3.webp"
   ]
  },
  {
@@ -3554,7 +3761,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "lactien.webp"
+   "lactien.webp",
+   "lactien-extra2.webp",
+   "lactien-extra3.webp"
   ]
  },
  {
@@ -3581,7 +3790,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "lienkie.webp"
+   "lienkie.webp",
+   "lienkie-extra2.webp",
+   "lienkie-extra3.webp"
   ]
  },
  {
@@ -3611,7 +3822,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "longnhan.webp"
+   "longnhan.webp",
+   "longnhan-extra2.webp",
+   "longnhan-extra3.webp"
   ]
  },
  {
@@ -3633,7 +3846,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "luocvang.webp"
+   "luocvang.webp",
+   "luocvang-extra2.webp",
+   "luocvang-extra3.webp"
   ]
  },
  {
@@ -3659,7 +3874,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "luu.webp"
+   "luu.webp",
+   "luu-extra2.webp",
+   "luu-extra3.webp"
   ]
  },
  {
@@ -3716,7 +3933,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "matien.webp"
+   "matien.webp",
+   "matien-extra2.webp",
+   "matien-extra3.webp"
   ]
  },
  {
@@ -3747,7 +3966,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "maidong.webp"
+   "maidong.webp",
+   "maidong-extra2.webp",
+   "maidong-extra3.webp"
   ]
  },
  {
@@ -3773,7 +3994,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "mangcau.webp"
+   "mangcau.webp",
+   "mangcau-extra2.webp",
+   "mangcau-extra3.webp"
   ]
  },
  {
@@ -3797,7 +4020,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "matgau.webp"
+   "matgau.webp",
+   "matgau-extra2.webp",
+   "matgau-extra3.webp"
   ]
  },
  {
@@ -3824,7 +4049,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "buddleja.webp"
+   "buddleja.webp",
+   "buddleja-extra2.webp",
+   "buddleja-extra3.webp"
   ]
  },
  {
@@ -3857,7 +4084,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "matnhan.webp"
+   "matnhan.webp",
+   "matnhan-extra2.webp",
+   "matnhan-extra3.webp"
   ]
  },
  {
@@ -3893,7 +4122,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "maudonbi.webp"
+   "maudonbi.webp",
+   "maudonbi-extra2.webp",
+   "maudonbi-extra3.webp"
   ]
  },
  {
@@ -3923,7 +4154,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "me.webp"
+   "me.webp",
+   "me-extra2.webp",
+   "me-extra3.webp"
   ]
  },
  {
@@ -3948,7 +4181,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "mit.webp"
+   "mit.webp",
+   "mit-extra2.webp",
+   "mit-extra3.webp"
   ]
  },
  {
@@ -3978,7 +4213,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "momam.webp"
+   "momam.webp",
+   "momam-extra2.webp",
+   "momam-extra3.webp"
   ]
  },
  {
@@ -4015,7 +4252,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "mochuong.webp"
+   "mochuong.webp",
+   "mochuong-extra2.webp",
+   "mochuong-extra3.webp"
   ]
  },
  {
@@ -4040,7 +4279,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "mongtoi.webp"
+   "mongtoi.webp",
+   "mongtoi-extra2.webp",
+   "mongtoi-extra3.webp"
   ]
  },
  {
@@ -4065,7 +4306,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "muongtrau.webp"
+   "muongtrau.webp",
+   "muongtrau-extra2.webp",
+   "muongtrau-extra3.webp"
   ]
  },
  {
@@ -4090,7 +4333,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "muopdang.webp"
+   "muopdang.webp",
+   "muopdang-extra2.webp",
+   "muopdang-extra3.webp"
   ]
  },
  {
@@ -4115,7 +4360,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "na.webp"
+   "na.webp",
+   "na-extra2.webp",
+   "na-extra3.webp"
   ]
  },
  {
@@ -4145,7 +4392,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "ngheden.webp"
+   "ngheden.webp",
+   "ngheden-extra2.webp",
+   "ngheden-extra3.webp"
   ]
  },
  {
@@ -4246,7 +4495,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "ngugiabi.webp"
+   "ngugiabi.webp",
+   "ngugiabi-extra2.webp",
+   "ngugiabi-extra3.webp"
   ]
  },
  {
@@ -4309,7 +4560,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "nguvi.webp"
+   "nguvi.webp",
+   "nguvi-extra2.webp",
+   "nguvi-extra3.webp"
   ]
  },
  {
@@ -4338,7 +4591,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "ngubang.webp"
+   "ngubang.webp",
+   "ngubang-extra2.webp",
+   "ngubang-extra3.webp"
   ]
  },
  {
@@ -4367,7 +4622,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "nguutat.webp"
+   "nguutat.webp",
+   "nguutat-extra2.webp",
+   "nguutat-extra3.webp"
   ]
  },
  {
@@ -4393,7 +4650,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "lohoi.webp"
+   "lohoi.webp",
+   "lohoi-extra2.webp",
+   "lohoi-extra3.webp"
   ]
  },
  {
@@ -4423,7 +4682,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "nhansam.webp"
+   "nhansam.webp",
+   "nhansam-extra2.webp",
+   "nhansam-extra3.webp"
   ]
  },
  {
@@ -4492,7 +4753,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "nhantran.webp"
+   "nhantran.webp",
+   "nhantran-extra2.webp",
+   "nhantran-extra3.webp"
   ]
  },
  {
@@ -4551,7 +4814,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "nhucdaukhau.webp"
+   "nhucdaukhau.webp",
+   "nhucdaukhau-extra2.webp",
+   "nhucdaukhau-extra3.webp"
   ]
  },
  {
@@ -4576,7 +4841,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "nutrinh.webp"
+   "nutrinh.webp",
+   "nutrinh-extra2.webp",
+   "nutrinh-extra3.webp"
   ]
  },
  {
@@ -4599,7 +4866,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "oaihuong.webp"
+   "oaihuong.webp",
+   "oaihuong-extra2.webp",
+   "oaihuong-extra3.webp"
   ]
  },
  {
@@ -4624,7 +4893,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "oidia.webp"
+   "oidia.webp",
+   "oidia-extra2.webp",
+   "oidia-extra3.webp"
   ]
  },
  {
@@ -4650,7 +4921,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "ot.webp"
+   "ot.webp",
+   "ot-extra2.webp",
+   "ot-extra3.webp"
   ]
  },
  {
@@ -4679,7 +4952,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "phongphong.webp"
+   "phongphong.webp",
+   "phongphong-extra2.webp",
+   "phongphong-extra3.webp"
   ]
  },
  {
@@ -4705,7 +4980,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "phutu.webp"
+   "phutu.webp",
+   "phutu-extra2.webp",
+   "phutu-extra3.webp"
   ]
  },
  {
@@ -4842,7 +5119,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "quyetminh.webp"
+   "quyetminh.webp",
+   "quyetminh-extra2.webp",
+   "quyetminh-extra3.webp"
   ]
  },
  {
@@ -4874,7 +5153,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "quyt.webp"
+   "quyt.webp",
+   "quyt-extra2.webp",
+   "quyt-extra3.webp"
   ]
  },
  {
@@ -4908,7 +5189,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "raudang.webp"
+   "raudang.webp",
+   "raudang-extra2.webp",
+   "raudang-extra3.webp"
   ]
  },
  {
@@ -4933,7 +5216,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "den.webp"
+   "den.webp",
+   "den-extra2.webp",
+   "den-extra3.webp"
   ]
  },
  {
@@ -4960,7 +5245,9 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "lang.webp",
-   "langon.webp"
+   "langon.webp",
+   "lang-extra2.webp",
+   "lang-extra3.webp"
   ]
  },
  {
@@ -5027,7 +5314,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "muing.webp"
+   "muing.webp",
+   "muing-extra2.webp",
+   "muing-extra3.webp"
   ]
  },
  {
@@ -5081,7 +5370,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "raumong.webp"
+   "raumong.webp",
+   "raumong-extra2.webp",
+   "raumong-extra3.webp"
   ]
  },
  {
@@ -5111,7 +5402,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "rauden.webp"
+   "rauden.webp",
+   "rauden-extra2.webp",
+   "rauden-extra3.webp"
   ]
  },
  {
@@ -5164,7 +5457,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "rauxanh.webp"
+   "rauxanh.webp",
+   "rauxanh-extra2.webp",
+   "rauxanh-extra3.webp"
   ]
  },
  {
@@ -5222,7 +5517,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "rauma2.webp"
+   "rauma2.webp",
+   "rauma2-extra2.webp",
+   "rauma2-extra3.webp"
   ]
  },
  {
@@ -5247,7 +5544,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "rieng.webp"
+   "rieng.webp",
+   "rieng-extra2.webp",
+   "rieng-extra3.webp"
   ]
  },
  {
@@ -5313,7 +5612,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "sannhan.webp"
+   "sannhan.webp",
+   "sannhan-extra2.webp",
+   "sannhan-extra3.webp"
   ]
  },
  {
@@ -5353,7 +5654,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "saidat.webp"
+   "saidat.webp",
+   "saidat-extra2.webp",
+   "saidat-extra3.webp"
   ]
  },
  {
@@ -5378,7 +5681,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "saiho.webp"
+   "saiho.webp",
+   "saiho-extra2.webp",
+   "saiho-extra3.webp"
   ]
  },
  {
@@ -5482,7 +5787,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "sim.webp"
+   "sim.webp",
+   "sim-extra2.webp",
+   "sim-extra3.webp"
   ]
  },
  {
@@ -5507,7 +5814,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "sonthu.webp"
+   "sonthu.webp",
+   "sonthu-extra2.webp",
+   "sonthu-extra3.webp"
   ]
  },
  {
@@ -5536,7 +5845,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "sontra.webp"
+   "sontra.webp",
+   "sontra-extra2.webp",
+   "sontra-extra3.webp"
   ]
  },
  {
@@ -5566,7 +5877,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "tac.webp"
+   "tac.webp",
+   "tac-extra2.webp",
+   "tac-extra3.webp"
   ]
  },
  {
@@ -5596,7 +5909,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "tamthat.webp"
+   "tamthat.webp",
+   "tamthat-extra2.webp",
+   "tamthat-extra3.webp"
   ]
  },
  {
@@ -5623,7 +5938,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "tangiao.webp"
+   "tangiao.webp",
+   "tangiao-extra2.webp",
+   "tangiao-extra3.webp"
   ]
  },
  {
@@ -5644,7 +5961,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "tangkysinh.webp"
+   "tangkysinh.webp",
+   "tangkysinh-extra2.webp",
+   "tangkysinh-extra3.webp"
   ]
  },
  {
@@ -5673,7 +5992,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "taonhan.webp"
+   "taonhan.webp",
+   "taonhan-extra2.webp",
+   "taonhan-extra3.webp"
   ]
  },
  {
@@ -5704,7 +6025,9 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "tao.webp",
-   "taonhan.webp"
+   "taonhan.webp",
+   "tao-extra2.webp",
+   "tao-extra3.webp"
   ]
  },
  {
@@ -5761,7 +6084,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "thienma.webp"
+   "thienma.webp",
+   "thienma-extra2.webp",
+   "thienma-extra3.webp"
   ]
  },
  {
@@ -5792,7 +6117,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "thienmon.webp"
+   "thienmon.webp",
+   "thienmon-extra2.webp",
+   "thienmon-extra3.webp"
   ]
  },
  {
@@ -5817,7 +6144,9 @@ window.HERBS = [
   ],
   "toxic": true,
   "images": [
-   "thiennamtinh.webp"
+   "thiennamtinh.webp",
+   "thiennamtinh-extra2.webp",
+   "thiennamtinh-extra3.webp"
   ]
  },
  {
@@ -5849,7 +6178,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "thophuclinh.webp"
+   "thophuclinh.webp",
+   "thophuclinh-extra2.webp",
+   "thophuclinh-extra3.webp"
   ]
  },
  {
@@ -5882,7 +6213,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "thoty.webp"
+   "thoty.webp",
+   "thoty-extra2.webp",
+   "thoty-extra3.webp"
   ]
  },
  {
@@ -5911,7 +6244,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "thuongtruat.webp"
+   "thuongtruat.webp",
+   "thuongtruat-extra2.webp",
+   "thuongtruat-extra3.webp"
   ]
  },
  {
@@ -5980,7 +6315,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "tiehoi.webp"
+   "tiehoi.webp",
+   "tiehoi-extra2.webp",
+   "tiehoi-extra3.webp"
   ]
  },
  {
@@ -6008,7 +6345,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "tieulot.webp"
+   "tieulot.webp",
+   "tieulot-extra2.webp",
+   "tieulot-extra3.webp"
   ]
  },
  {
@@ -6074,7 +6413,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "trachta.webp"
+   "trachta.webp",
+   "trachta-extra2.webp",
+   "trachta-extra3.webp"
   ]
  },
  {
@@ -6100,7 +6441,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "tram.webp"
+   "tram.webp",
+   "tram-extra2.webp",
+   "tram-extra3.webp"
   ]
  },
  {
@@ -6125,7 +6468,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "traucay.webp"
+   "traucay.webp",
+   "traucay-extra2.webp",
+   "traucay-extra3.webp"
   ]
  },
  {
@@ -6158,7 +6503,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "trimau.webp"
+   "trimau.webp",
+   "trimau-extra2.webp",
+   "trimau-extra3.webp"
   ]
  },
  {
@@ -6184,7 +6531,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "trinhnu.webp"
+   "trinhnu.webp",
+   "trinhnu-extra2.webp",
+   "trinhnu-extra3.webp"
   ]
  },
  {
@@ -6213,7 +6562,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "tucdoan.webp"
+   "tucdoan.webp",
+   "tucdoan-extra2.webp",
+   "tucdoan-extra3.webp"
   ]
  },
  {
@@ -6238,7 +6589,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "uattim.webp"
+   "uattim.webp",
+   "uattim-extra2.webp",
+   "uattim-extra3.webp"
   ]
  },
  {
@@ -6263,7 +6616,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "vaithi.webp"
+   "vaithi.webp",
+   "vaithi-extra2.webp",
+   "vaithi-extra3.webp"
   ]
  },
  {
@@ -6292,7 +6647,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "vienchi.webp"
+   "vienchi.webp",
+   "vienchi-extra2.webp",
+   "vienchi-extra3.webp"
   ]
  },
  {
@@ -6318,7 +6675,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "mangcut.webp"
+   "mangcut.webp",
+   "mangcut-extra2.webp",
+   "mangcut-extra3.webp"
   ]
  },
  {
@@ -6371,7 +6730,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "xaden.webp"
+   "xaden.webp",
+   "xaden-extra2.webp",
+   "xaden-extra3.webp"
   ]
  },
  {
@@ -6410,7 +6771,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "xichthuoc.webp"
+   "xichthuoc.webp",
+   "xichthuoc-extra2.webp",
+   "xichthuoc-extra3.webp"
   ]
  },
  {
@@ -6433,7 +6796,9 @@ window.HERBS = [
   "src": [],
   "toxic": false,
   "images": [
-   "xoai.webp"
+   "xoai.webp",
+   "xoai-extra2.webp",
+   "xoai-extra3.webp"
   ]
  },
  {
@@ -6462,7 +6827,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "xuyenhuong.webp"
+   "xuyenhuong.webp",
+   "xuyenhuong-extra2.webp",
+   "xuyenhuong-extra3.webp"
   ]
  },
  {
@@ -6490,7 +6857,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "xuyentamlien.webp"
+   "xuyentamlien.webp",
+   "xuyentamlien-extra2.webp",
+   "xuyentamlien-extra3.webp"
   ]
  },
  {
@@ -6520,7 +6889,9 @@ window.HERBS = [
   ],
   "toxic": false,
   "images": [
-   "ydu.webp"
+   "ydu.webp",
+   "ydu-extra2.webp",
+   "ydu-extra3.webp"
   ]
  }
 ];
