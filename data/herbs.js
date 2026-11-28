@@ -235,6 +235,36 @@ window.HERBS = [
   ]
  },
  {
+  "id": "bachtatle",
+  "name": "Bạch tật lê",
+  "nameEn": "Puncture vine",
+  "aliases": [
+   "thích tật lê",
+   "gai chống",
+   "gai sầu",
+   "gai ma vương",
+   "gai yết hầu"
+  ],
+  "scientific": "Tribulus terrestris",
+  "description": "Cỏ bò lan trên mặt đất, cành dài 30–60 cm; lá mọc đối, kép lông chim lẻ với 5–6 đôi lá chét, mặt dưới phủ lông trắng mịn; hoa vàng mọc riêng lẻ ở kẽ lá; quả khô gồm 5 vỏ cứng có gai hình ba cạnh. Tính hơi ấm, vị cay, đắng.",
+  "uses": [
+   "Trong Đông y, bạch tật lê được ghi là vị cay, đắng, hơi ấm, dùng bình can giải uất, hoạt huyết, khu phong, sáng mắt và ngừng ngứa, khi nhức đầu chóng mặt, ngực sườn đau trướng hoặc đau mắt đỏ kéo màng. Không thay thế thuốc."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Quả chín phơi hay sấy khô",
+  "caution": "Dược điển Việt Nam V ghi bạch tật lê hơi có độc. Không tự ý dùng kéo dài. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
+  "warn": "Dược điển Việt Nam V ghi bạch tật lê hơi có độc. Không tự ý dùng kéo dài. Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": [
+   "bachtatle.webp"
+  ]
+ },
+ {
   "id": "bachthuoc",
   "name": "Bạch thược",
   "nameEn": "White peony",
@@ -1027,6 +1057,36 @@ window.HERBS = [
   ]
  },
  {
+  "id": "chixac",
+  "name": "Chỉ xác",
+  "nameEn": "Bitter orange",
+  "aliases": [],
+  "scientific": "Citrus × aurantium",
+  "description": "Cây gỗ nhỏ, thân có gai; lá hình trứng, cuống lá có cánh hẹp; quả gần tròn. Dược liệu là quả chưa chín bổ đôi phơi khô, dạng bán cầu đường kính 3–5 cm, vỏ ngoài nâu, ruột múi khô màu nâu sẫm, mùi thơm, vị đắng hơi chua. Tính mát, vị cay, đắng.",
+  "uses": [
+   "Trong Đông y, chỉ xác được ghi là vị đắng, cay, tính mát, dùng hành khí, hóa đờm, tiêu tích khi ngực sườn trướng đau do khí trệ hoặc khó tiêu do đờm trệ",
+   "tác dụng hòa hoãn hơn chỉ thực. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Ho",
+   "Đầy bụng"
+  ],
+  "symptomsEn": [
+   "Cough",
+   "Bloating"
+  ],
+  "parts": "Quả chưa chín, bổ đôi, phơi hay sấy khô",
+  "caution": "Phụ nữ có thai không nên dùng. Người tỳ vị hư hàn mà không có tích trệ cũng không nên dùng.",
+  "warn": "Phụ nữ có thai không nên dùng. Người tỳ vị hư hàn mà không có tích trệ cũng không nên dùng.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": [
+   "chixac.webp"
+  ]
+ },
+ {
   "id": "chumngay",
   "name": "Chùm ngây",
   "nameEn": "Moringa",
@@ -1347,6 +1407,40 @@ window.HERBS = [
   ]
  },
  {
+  "id": "cuclama",
+  "name": "Cúc La Mã",
+  "nameEn": "German chamomile",
+  "aliases": [
+   "Dương cam cúc"
+  ],
+  "scientific": "Matricaria chamomilla",
+  "description": "Cây thảo thuộc họ Cúc; bộ phận dùng làm thuốc là nụ hoa phơi hoặc sấy khô, có mùi thơm dễ chịu, vị đắng. Vị đắng.",
+  "uses": [
+   "Theo Đỗ Huy Bích và cộng sự, dương cam cúc (cúc La Mã) có trong một số dược điển châu Âu",
+   "sách ghi tác dụng chống co thắt, long đờm, gây trung tiện, diệt giun sán, an thần, lợi tiểu, sát trùng, chống viêm. Nước hãm nụ hoa được dùng cho các triệu chứng tiêu hoá như khó tiêu, đầy hơi và cho trạng thái bồn chồn, mất ngủ nhẹ. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Ho",
+   "Mất ngủ",
+   "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Cough",
+   "Trouble sleeping",
+   "Painful urination"
+  ],
+  "parts": "Nụ hoa",
+  "caution": "Chống chỉ định với người nhạy cảm hoặc dị ứng với các cây họ Cúc; đã có báo cáo viêm da tiếp xúc và rất hiếm trường hợp phản ứng phản vệ khi dùng nụ hoa (theo Đỗ Huy Bích và cộng sự).",
+  "warn": "Chống chỉ định với người nhạy cảm hoặc dị ứng với các cây họ Cúc; đã có báo cáo viêm da tiếp xúc và rất hiếm trường hợp phản ứng phản vệ khi dùng nụ hoa (theo Đỗ Huy Bích và cộng sự).",
+  "src": [
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": false,
+  "images": [
+   "cuclama.webp"
+  ]
+ },
+ {
   "id": "cuctan",
   "name": "Cúc tần",
   "nameEn": "Indian camphorweed",
@@ -1369,6 +1463,29 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "cuctan.webp"
+  ]
+ },
+ {
+  "id": "daihoang",
+  "name": "Đại hoàng",
+  "nameEn": "Chinese rhubarb",
+  "aliases": [],
+  "scientific": "Rheum palmatum",
+  "description": "Cây thảo lớn sống lâu năm, lá to hình tim, cuống dài, hoa nhỏ mọc thành chùm. Dược liệu là thân rễ hình trụ, hình nón hoặc dạng phiến, dài 3–17 cm, mặt ngoài nâu vàng; bột màu vàng nâu, mùi đặc trưng, vị đắng, hơi chát. Tính hàn, vị đắng.",
+  "uses": [
+   "Trong Đông y, đại hoàng được ghi là vị đắng, tính hàn, dùng thông tiện khi táo bón do thực nhiệt, tả hỏa giải độc, trục ứ thông kinh khi bế kinh hoặc chấn thương tụ máu. Không thay thế thuốc."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Thân rễ đã cạo bỏ vỏ, phơi hay sấy khô",
+  "caution": "Đại hoàng có tác dụng tẩy xổ mạnh. Phụ nữ có thai không được dùng. Người tỳ vị hư nhược hoặc đang tiêu chảy không tự ý dùng; không dùng kéo dài.",
+  "warn": "Đại hoàng có tác dụng tẩy xổ mạnh. Phụ nữ có thai không được dùng. Người tỳ vị hư nhược hoặc đang tiêu chảy không tự ý dùng; không dùng kéo dài.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": [
+   "daihoang.webp"
   ]
  },
  {
@@ -1819,6 +1936,38 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "docduoc.webp"
+  ]
+ },
+ {
+  "id": "donlado",
+  "name": "Đơn lá đỏ",
+  "nameEn": "Chinese croton",
+  "aliases": [
+   "đơn mặt trời",
+   "đơn tía",
+   "đơn tướng quân",
+   "hồng bối quế hoa",
+   "mặt quỉ"
+  ],
+  "scientific": "Excoecaria cochinchinensis",
+  "description": "Cây nhỏ cao chừng 1 m, cành vươn dài màu đỏ tía; lá mọc đối, thuôn – trái xoan, mặt trên xanh sẫm bóng, mặt dưới đỏ tía, mép khía răng; cây có nhựa mủ trắng. Tính mát, vị cay, hơi đắng.",
+  "uses": [
+   "Theo Dược điển Việt Nam V, đơn lá đỏ có công năng thanh nhiệt giải độc, khu phong trừ thấp, lợi tiểu, giảm đau",
+   "Cây thuốc và động vật làm thuốc ở Việt Nam ghi khư phong, thanh nhiệt, thông kinh, hoạt lạc, chỉ thống. Dân gian dùng khi mụn nhọt, mẩn ngứa, mày đay, tiêu chảy lâu ngày không khỏi và đại tiện ra máu. Không thay thế thuốc."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Lá phơi hoặc sấy khô",
+  "caution": "Cây có tiểu độc (theo Cây thuốc và động vật làm thuốc ở Việt Nam); nhựa mủ trắng có độc đối với cá, tránh để dính vào mắt. Người hay chảy máu không nên dùng (theo Dược điển Việt Nam V).",
+  "warn": "Cây có tiểu độc (theo Cây thuốc và động vật làm thuốc ở Việt Nam); nhựa mủ trắng có độc đối với cá, tránh để dính vào mắt. Người hay chảy máu không nên dùng (theo Dược điển Việt Nam V).",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": true,
+  "images": [
+   "donlado.webp"
   ]
  },
  {
@@ -2364,6 +2513,38 @@ window.HERBS = [
   ]
  },
  {
+  "id": "hoahong",
+  "name": "Hoa hồng",
+  "nameEn": "China rose",
+  "aliases": [
+   "Hường"
+  ],
+  "scientific": "Rosa chinensis",
+  "description": "Cây thuộc họ Hoa hồng; hoa khô hình gần cầu, đường kính khoảng 1,5–2,5 cm, đài 5 lá màu lục sẫm, cánh hoa xếp lợp màu đỏ tía hoặc hồng tía, nhiều nhị vàng, mùi thơm nhẹ, vị nhạt, hơi đắng (theo Dược điển Trung Quốc 2000). Tính ấm, vị ngọt.",
+  "uses": [
+   "Theo Đỗ Huy Bích và cộng sự và Dược điển Trung Quốc 2000, hoa hồng đỏ (nguyệt quý hoa) có tác dụng hoạt huyết, điều kinh, tiêu thũng, giải độc, được dùng trong trường hợp kinh nguyệt không đều, đau bụng kinh. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Nóng trong",
+   "Kinh nguyệt"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Menstruation"
+  ],
+  "parts": "Rễ và hoa",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam",
+   "中国药典 2000年版一部 (卫生部药典委员会)"
+  ],
+  "toxic": false,
+  "images": [
+   "hoahong.webp"
+  ]
+ },
+ {
   "id": "nhai",
   "name": "Hoa nhài",
   "nameEn": "Arabian jasmine",
@@ -2496,6 +2677,34 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "hoaison.webp"
+  ]
+ },
+ {
+  "id": "hoanngoc",
+  "name": "Hoàn ngọc",
+  "nameEn": "Hoan ngoc (Pseuderanthemum palatiferum)",
+  "aliases": [
+   "xuân hoa",
+   "nhật nguyệt",
+   "cây con khỉ",
+   "cây mật quỷ"
+  ],
+  "scientific": "Pseuderanthemum palatiferum",
+  "description": "Cây bụi sống nhiều năm, cao 1–2 m; lá mọc đối, hình mũi mác, dài 12–17 cm, mép nguyên; cụm hoa ở kẽ lá hoặc đầu cành, hoa màu trắng pha tím, môi trên có chấm tím.",
+  "uses": [
+   "Theo Cây thuốc và động vật làm thuốc ở Việt Nam, nhân dân thường dùng lá xuân hoa (hoàn ngọc) khi đau bụng, rối loạn tiêu hóa, tiêu chảy, và giã nát đắp vết thương, mụn lồi. Đây là kinh nghiệm dân gian, không thay thế thuốc."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Lá và rễ, dùng tươi hoặc phơi khô",
+  "caution": "Sách nguồn lưu ý: những lời đồn lá hoàn ngọc là “thần dược” chữa được nhiều bệnh (kể cả ung thư gan, phổi) chỉ là truyền miệng trong dân gian, chưa được kiểm chứng; không tự ý dùng thay điều trị.",
+  "warn": "Sách nguồn lưu ý: những lời đồn lá hoàn ngọc là “thần dược” chữa được nhiều bệnh (kể cả ung thư gan, phổi) chỉ là truyền miệng trong dân gian, chưa được kiểm chứng; không tự ý dùng thay điều trị.",
+  "src": [
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": false,
+  "images": [
+   "hoanngoc.webp"
   ]
  },
  {
@@ -2868,6 +3077,35 @@ window.HERBS = [
   ]
  },
  {
+  "id": "kedau",
+  "name": "Ké đầu ngựa",
+  "nameEn": "Common cocklebur",
+  "aliases": [
+   "thương nhĩ tử",
+   "thương nhĩ",
+   "phắt ma"
+  ],
+  "scientific": "Xanthium strumarium",
+  "description": "Cây nhỏ, thân có khía rãnh; lá mọc so le, phiến lá hơi ba cạnh, mép có răng cưa, có lông ngắn cứng; quả giả hình thoi phủ gai móc, dễ móc vào lông động vật và quần áo. Tính ấm, vị cay, đắng.",
+  "uses": [
+   "Theo Dược điển Việt Nam V, quả ké đầu ngựa (thương nhĩ tử) dùng trong các trường hợp phong thấp đau khớp, chân tay tê dại co rút, viêm mũi, viêm xoang, mụn nhọt và mẩn ngứa. Vị thuốc có độc, không tự ý dùng."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Quả chín phơi hoặc sấy khô",
+  "caution": "Có độc: quả và hạt chứa carboxyatractylosid có độc tính; Đỗ Tất Lợi ghi vị thuốc này “hơi có độc”, vào kinh phế. Người đau đầu do huyết hư không nên dùng (theo Dược điển Việt Nam V). Chỉ dùng khi có hướng dẫn của người có chuyên môn.",
+  "warn": "Có độc: quả và hạt chứa carboxyatractylosid có độc tính; Đỗ Tất Lợi ghi vị thuốc này “hơi có độc”, vào kinh phế. Người đau đầu do huyết hư không nên dùng (theo Dược điển Việt Nam V). Chỉ dùng khi có hướng dẫn của người có chuyên môn.",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": true,
+  "images": [
+   "kedau.webp"
+  ]
+ },
+ {
   "id": "khe",
   "name": "Khế",
   "nameEn": "Star fruit",
@@ -2891,6 +3129,38 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "khe.webp"
+  ]
+ },
+ {
+  "id": "khosam",
+  "name": "Khổ sâm cho lá",
+  "nameEn": "Kho sam (Croton tonkinensis)",
+  "aliases": [
+   "Cù dèn",
+   "Co chạy đón"
+  ],
+  "scientific": "Croton tonkinensis",
+  "description": "Cây bụi nhỏ cao khoảng 1–2 m; lá mọc so le hoặc gần đối, hình mũi mác, hai mặt có lông hình khiên óng ánh như lá nhót; cụm hoa ở kẽ lá và đầu cành (theo Đỗ Huy Bích và cộng sự). Tính mát, vị đắng, hơi chát.",
+  "uses": [
+   "Theo Dược điển Việt Nam V và Đỗ Huy Bích và cộng sự, lá khổ sâm có tác dụng thanh nhiệt, tiêu độc, sát trùng, được dùng cho ung nhọt, lở loét ngoài da, viêm loét dạ dày tá tràng và tiêu hoá kém. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Nóng trong"
+  ],
+  "symptomsEn": [
+   "Inner heat"
+  ],
+  "parts": "Lá",
+  "caution": "Tên “khổ sâm” còn chỉ hai vị thuốc khác hẳn: rễ cây dã hòe (Sophora flavescens) và hạt cây sầu đâu rừng (Brucea) — cần phân biệt đúng loài Croton tonkinensis và bộ phận lá trước khi dùng (theo Đỗ Tất Lợi).",
+  "warn": "Tên “khổ sâm” còn chỉ hai vị thuốc khác hẳn: rễ cây dã hòe (Sophora flavescens) và hạt cây sầu đâu rừng (Brucea) — cần phân biệt đúng loài Croton tonkinensis và bộ phận lá trước khi dùng (theo Đỗ Tất Lợi).",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": false,
+  "images": [
+   "khosam.webp"
   ]
  },
  {
@@ -3345,6 +3615,28 @@ window.HERBS = [
   ]
  },
  {
+  "id": "luocvang",
+  "name": "Lược vàng",
+  "nameEn": "Basket plant",
+  "aliases": [],
+  "scientific": "Callisia fragrans",
+  "description": "Cây thảo sống dai, thân bò mọng nước; lá mọc cách, dày và bóng, hình bầu dục thuôn; đầu cành thường sinh chồi con mang rễ, tách ra thành cây mới.",
+  "uses": [
+   "Cây chủ yếu được trồng làm cảnh",
+   "gần đây có người dùng lá theo kinh nghiệm truyền miệng, nhưng cả bốn sách nguồn của cẩm nang đều chưa có chuyên luận về loài cây này."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Lá",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [],
+  "toxic": false,
+  "images": [
+   "luocvang.webp"
+  ]
+ },
+ {
   "id": "luu",
   "name": "Lựu",
   "nameEn": "Pomegranate",
@@ -3485,6 +3777,30 @@ window.HERBS = [
   ]
  },
  {
+  "id": "matgau",
+  "name": "Mật gấu",
+  "nameEn": "Bitter leaf",
+  "aliases": [
+   "lá đắng"
+  ],
+  "scientific": "Gymnanthemum amygdalinum",
+  "description": "Cây bụi hoặc cây gỗ nhỏ; lá đơn mọc cách, phiến lá lớn hình bầu dục, mép có răng cưa, vị rất đắng; hoa nhỏ màu trắng hoặc tím nhạt mọc thành cụm ở đầu cành.",
+  "uses": [
+   "Lá đắng được dùng làm rau và theo kinh nghiệm dân gian ở một số vùng",
+   "cả bốn sách nguồn của cẩm nang đều chưa có chuyên luận về loài cây này. Lưu ý: tên “mật gấu” trong sách Đỗ Tất Lợi chỉ vị thuốc từ túi mật gấu (động vật), không phải cây này."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Lá",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [],
+  "toxic": false,
+  "images": [
+   "matgau.webp"
+  ]
+ },
+ {
   "id": "buddleja",
   "name": "Mật mông hoa",
   "nameEn": "Pale butterfly bush",
@@ -3509,6 +3825,75 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "buddleja.webp"
+  ]
+ },
+ {
+  "id": "matnhan",
+  "name": "Mật nhân",
+  "nameEn": "Tongkat ali",
+  "aliases": [
+   "bá bệnh",
+   "bách bệnh",
+   "lồng bẹt",
+   "mật nhơn"
+  ],
+  "scientific": "Eurycoma longifolia",
+  "description": "Cây nhỡ cao 2–8 m, ít phân cành; lá kép lông chim lẻ, mọc so le, gồm 21–25 lá chét không cuống mọc đối, hình mác hoặc bầu dục; quả hạch hình trứng, khi chín màu vàng đỏ. Tính ấm, vị đắng.",
+  "uses": [
+   "Theo Dược điển Việt Nam V, bá bệnh (mật nhân) có công năng bổ khí, bổ huyết, ôn tỳ thận, dùng trong các trường hợp khí huyết lưỡng hư, mệt yếu, thiếu máu, ăn kém và khó tiêu. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Fatigue, poor appetite"
+  ],
+  "parts": "Rễ phơi hoặc sấy khô",
+  "caution": "Phụ nữ có thai không được dùng (theo Dược điển Việt Nam V; Cây thuốc và động vật làm thuốc ở Việt Nam cũng ghi kiêng kỵ tương tự).",
+  "warn": "Phụ nữ có thai không được dùng (theo Dược điển Việt Nam V; Cây thuốc và động vật làm thuốc ở Việt Nam cũng ghi kiêng kỵ tương tự).",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": false,
+  "images": [
+   "matnhan.webp"
+  ]
+ },
+ {
+  "id": "maudonbi",
+  "name": "Mẫu đơn bì",
+  "nameEn": "Moutan bark",
+  "aliases": [
+   "Đơn bì"
+  ],
+  "scientific": "Paeonia × suffruticosa",
+  "description": "Vị thuốc là vỏ rễ phơi khô của cây mẫu đơn (Paeonia suffruticosa): mảnh vỏ hình ống hoặc nửa ống, mặt ngoài xám nâu hay vàng nâu, mặt trong nhạt vàng xám, có mùi thơm, vị hơi đắng và chát (theo Dược điển Trung Quốc 2000). Tính hơi hàn, vị cay, đắng.",
+  "uses": [
+   "Theo Dược điển Việt Nam V và Dược điển Trung Quốc 2000, mẫu đơn bì có tác dụng thanh nhiệt lương huyết, hoạt huyết hoá ứ, được dùng trong các chứng phát ban do nhiệt, chảy máu cam, kinh bế, nhọt độc sưng đau. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Nóng trong",
+   "Chảy máu",
+   "Kinh nguyệt"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Bleeding",
+   "Menstruation"
+  ],
+  "parts": "Vỏ rễ",
+  "caution": "Không dùng cho người tỳ vị hư hàn, tiêu chảy, kinh nguyệt ra nhiều; phụ nữ có thai không dùng vì có thể gây sẩy thai (theo Dược điển Việt Nam V và Đỗ Huy Bích và cộng sự).",
+  "warn": "Không dùng cho người tỳ vị hư hàn, tiêu chảy, kinh nguyệt ra nhiều; phụ nữ có thai không dùng vì có thể gây sẩy thai (theo Dược điển Việt Nam V và Đỗ Huy Bích và cộng sự).",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam",
+   "中国药典 2000年版一部 (卫生部药典委员会)"
+  ],
+  "toxic": false,
+  "images": [
+   "maudonbi.webp"
   ]
  },
  {
@@ -3594,6 +3979,43 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "momam.webp"
+  ]
+ },
+ {
+  "id": "mochuong",
+  "name": "Mộc hương",
+  "nameEn": "Costus root",
+  "aliases": [
+   "Vân mộc hương",
+   "Quảng mộc hương"
+  ],
+  "scientific": "Dolomiaea costus",
+  "description": "Vị thuốc là rễ phơi khô: hình trụ hoặc nửa trụ, mặt ngoài vàng nâu đến xám nâu, có nếp nhăn và rãnh dọc; mặt cắt có vân xuyên tâm và điểm dầu nâu; mùi thơm đặc trưng, vị hơi đắng (theo Dược điển Trung Quốc 2000). Tính ấm, vị cay, đắng.",
+  "uses": [
+   "Theo Dược điển Việt Nam V và Dược điển Trung Quốc 2000, mộc hương có tác dụng hành khí chỉ thống, kiện tỳ hoà vị, tiêu thực, được dùng khi khí trệ gây đầy trướng, đau bụng, nôn mửa, lỵ, tiêu chảy. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Đầy bụng",
+   "Đau nhức",
+   "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Bloating",
+   "Aches",
+   "Fatigue, poor appetite"
+  ],
+  "parts": "Rễ",
+  "caution": "Không dùng cho các chứng bệnh do khí hư, huyết hư (theo Dược điển Việt Nam V).",
+  "warn": "Không dùng cho các chứng bệnh do khí hư, huyết hư (theo Dược điển Việt Nam V).",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam",
+   "中国药典 2000年版一部 (卫生部药典委员会)"
+  ],
+  "toxic": false,
+  "images": [
+   "mochuong.webp"
   ]
  },
  {
@@ -3790,6 +4212,41 @@ window.HERBS = [
    "nghe-extra4.webp",
    "nghe.webp",
    "ngheden.webp"
+  ]
+ },
+ {
+  "id": "ngugiabi",
+  "name": "Ngũ gia bì chân chim",
+  "nameEn": "Ivy tree",
+  "aliases": [
+   "chân chim",
+   "sâm nam",
+   "lá lằng"
+  ],
+  "scientific": "Heptapleurum heptaphyllum",
+  "description": "Cây nhỏ hoặc cây to cao 5–10 m; lá kép chân vịt mọc so le, gồm 6–8 lá chét hình trái xoan thuôn, đầu nhọn; vỏ thân và lá có mùi thơm nhẹ; quả mọng hình cầu, khi chín màu tím đen. Tính mát, vị đắng, chát.",
+  "uses": [
+   "Theo Dược điển Việt Nam V, vỏ ngũ gia bì chân chim có công năng khu phong, trừ thấp, mạnh gân cốt",
+   "Cây thuốc và động vật làm thuốc ở Việt Nam ghi thêm phát hãn, giải biểu, khử phong trừ thấp, sơ can hoạt lạc. Dùng trong các trường hợp đau lưng, đau xương cốt do hàn thấp, gân xương co rút và sưng đau. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Đau nhức",
+   "Cảm"
+  ],
+  "symptomsEn": [
+   "Aches",
+   "Cold"
+  ],
+  "parts": "Vỏ thân phơi hoặc sấy khô",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": false,
+  "images": [
+   "ngugiabi.webp"
   ]
  },
  {
@@ -4001,6 +4458,41 @@ window.HERBS = [
   "images": [
    "tritua-extra2.webp",
    "tritua.webp"
+  ]
+ },
+ {
+  "id": "nhantran",
+  "name": "Nhân trần",
+  "nameEn": "Nhan tran (Adenosma glutinosum)",
+  "aliases": [
+   "chè cát",
+   "chè nội",
+   "tuyến hương",
+   "hoắc hương núi"
+  ],
+  "scientific": "Adenosma glutinosum",
+  "description": "Cây thảo mọc đứng, cao 40–70 cm, thân tròn cứng phủ đầy lông; lá mọc đối, hình trái xoan, mép khía răng đều, hai mặt có lông, vò lá có mùi thơm; hoa màu lam tím mọc thành chùm ở đầu cành. Tính hơi hàn, vị cay, đắng.",
+  "uses": [
+   "Theo Dược điển Việt Nam V, nhân trần có công năng thanh nhiệt lợi thấp, thoái hoàng, dùng trong các trường hợp viêm gan vàng da, viêm túi mật, tiểu vàng, tiểu đục và ít. Không thay thế thuốc điều trị bệnh gan."
+  ],
+  "symptoms": [
+   "Nóng trong",
+   "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Painful urination"
+  ],
+  "parts": "Phần trên mặt đất phơi hoặc sấy khô",
+  "caution": "Tránh nhầm với nhân trần của Trung Quốc (Artemisia capillaris, họ Cúc) — là vị thuốc khác hẳn; Cây thuốc và động vật làm thuốc ở Việt Nam lưu ý rõ điểm này trong mục Nhân trần. Người có bệnh gan nên hỏi người có chuyên môn trước khi dùng.",
+  "warn": "Tránh nhầm với nhân trần của Trung Quốc (Artemisia capillaris, họ Cúc) — là vị thuốc khác hẳn; Cây thuốc và động vật làm thuốc ở Việt Nam lưu ý rõ điểm này trong mục Nhân trần. Người có bệnh gan nên hỏi người có chuyên môn trước khi dùng.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": false,
+  "images": [
+   "nhantran.webp"
   ]
  },
  {
@@ -4383,6 +4875,40 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "quyt.webp"
+  ]
+ },
+ {
+  "id": "raudang",
+  "name": "Rau đắng đất",
+  "nameEn": "Rau dang dat (Glinus oppositifolius)",
+  "aliases": [
+   "Rau đắng lá vòng"
+  ],
+  "scientific": "Glinus oppositifolius",
+  "description": "Cây thảo thuộc họ Rau đắng đất; lá mọc vòng nên còn gọi là rau đắng lá vòng; toàn cây thu hái làm thuốc, vị đắng, tính mát. Khác với cây rau đắng (biển súc, Polygonum aviculare) trong sách Đỗ Tất Lợi. Tính mát, vị đắng.",
+  "uses": [
+   "Theo Dược điển Việt Nam V, rau đắng đất có tác dụng thanh trừ thấp nhiệt, kiện tỳ, lợi tiểu, nhuận gan mật, được dùng trong các chứng sốt cao, tiểu bí, viêm gan vàng da, ăn uống không tiêu. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Đầy bụng",
+   "Tiểu buốt",
+   "Mệt, kém ăn"
+  ],
+  "symptomsEn": [
+   "Bloating",
+   "Painful urination",
+   "Fatigue, poor appetite"
+  ],
+  "parts": "Toàn cây",
+  "caution": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "warn": "Mục này chưa có đánh giá an toàn cho chế phẩm dùng làm thuốc.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": false,
+  "images": [
+   "raudang.webp"
   ]
  },
  {
@@ -4791,6 +5317,46 @@ window.HERBS = [
   ]
  },
  {
+  "id": "saidat",
+  "name": "Sài đất",
+  "nameEn": "Sai dat (Sphagneticola calendulacea)",
+  "aliases": [
+   "húng trám",
+   "ngổ núi",
+   "cúc nháp",
+   "cúc giáp",
+   "hoa múc",
+   "tân sa"
+  ],
+  "scientific": "Sphagneticola calendulacea",
+  "description": "Cỏ sống dai, mọc lan bò, thân bén rễ ở các mấu; lá gần như không cuống, mọc đối, hình bầu dục thuôn, hai mặt có lông nhỏ cứng, vò lá có mùi trám; cụm hoa hình đầu màu vàng tươi. Tính mát, vị ngọt, hơi chua.",
+  "uses": [
+   "Theo Đỗ Tất Lợi và Cây thuốc và động vật làm thuốc ở Việt Nam, sài đất có công năng thanh nhiệt giải độc, hoá đàm, chỉ khái (ngừng ho), lương huyết, chỉ huyết, khư ứ, tiêu thũng, thường dùng trong các trường hợp viêm tấy, mụn nhọt, sưng khớp, viêm họng",
+   "ở một số nơi người dân còn ăn sống như rau. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Ho",
+   "Nóng trong",
+   "Chảy máu"
+  ],
+  "symptomsEn": [
+   "Cough",
+   "Inner heat",
+   "Bleeding"
+  ],
+  "parts": "Phần trên mặt đất, dùng tươi hoặc phơi khô",
+  "caution": "Dễ nhầm với cỏ mui (còn gọi là sài đất giả) và cây lỗ địa cúc; cần nhận dạng đúng cây trước khi dùng. Không dùng cho những chỗ viêm đã chuyển sang mưng mủ, áp xe hoá (theo Đỗ Tất Lợi).",
+  "warn": "Dễ nhầm với cỏ mui (còn gọi là sài đất giả) và cây lỗ địa cúc; cần nhận dạng đúng cây trước khi dùng. Không dùng cho những chỗ viêm đã chuyển sang mưng mủ, áp xe hoá (theo Đỗ Tất Lợi).",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": false,
+  "images": [
+   "saidat.webp"
+  ]
+ },
+ {
   "id": "saiho",
   "name": "Sài hồ",
   "nameEn": "Chinese thorowax",
@@ -5034,6 +5600,54 @@ window.HERBS = [
   ]
  },
  {
+  "id": "tangiao",
+  "name": "Tần giao",
+  "nameEn": "Large-leaf gentian",
+  "aliases": [],
+  "scientific": "Gentiana macrophylla",
+  "description": "Cây thảo sống lâu năm, lá mọc đối, hoa hình chuông màu tím lam ở đầu cành. Dược liệu là rễ gần hình trụ, trên to dưới nhỏ, hơi xoắn vặn, dài 10–30 cm, mặt ngoài màu nâu vàng, vị đắng. Tính bình, vị đắng.",
+  "uses": [
+   "Trong Đông y, tần giao được ghi là vị đắng, tính bình, dùng trừ phong thấp, thanh thấp nhiệt và ngừng tê đau, khi phong thấp đau khớp, gân mạch co rút hoặc sốt về chiều. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Đau nhức"
+  ],
+  "symptomsEn": [
+   "Aches"
+  ],
+  "parts": "Rễ phơi hay sấy khô",
+  "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
+  "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": [
+   "tangiao.webp"
+  ]
+ },
+ {
+  "id": "tangkysinh",
+  "name": "Tang ký sinh",
+  "nameEn": "Tang ky sinh (Taxillus chinensis)",
+  "aliases": [],
+  "scientific": "Taxillus chinensis",
+  "description": "Cây bụi sống ký sinh trên cành cây gỗ khác; cành hình trụ màu nâu xám; lá mọc đối, phiến dày như da, hình trứng ngược; hoa nhỏ màu trắng ngà. Dược liệu là đoạn thân cành mang lá đã phơi khô.",
+  "uses": [
+   "Cẩm nang chưa có nguồn sách đúng loài đã thẩm định cho mục này."
+  ],
+  "symptoms": [],
+  "symptomsEn": [],
+  "parts": "Thân cành mang lá, phơi hay sấy khô",
+  "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
+  "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
+  "src": [],
+  "toxic": false,
+  "images": [
+   "tangkysinh.webp"
+  ]
+ },
+ {
   "id": "taonhan",
   "name": "Táo nhân",
   "nameEn": "Jujube seed",
@@ -5204,6 +5818,71 @@ window.HERBS = [
   "toxic": true,
   "images": [
    "thiennamtinh.webp"
+  ]
+ },
+ {
+  "id": "thophuclinh",
+  "name": "Thổ phục linh",
+  "nameEn": "Tho phuc linh (Smilax glabra)",
+  "aliases": [
+   "khúc khắc"
+  ],
+  "scientific": "Smilax glabra",
+  "description": "Dây leo sống lâu năm, cành nhỏ mềm, không gai; lá mọc so le, hình bầu dục hoặc trái xoan, mặt dưới bệch như phủ phấn trắng, gân chính 3; cuống lá mang tua cuốn; thân rễ cứng, to, màu nâu. Tính bình, vị ngọt, nhạt.",
+  "uses": [
+   "Theo Dược điển Việt Nam V, thổ phục linh có công năng trừ thấp, giải độc, lợi niệu (lợi tiểu), thông lợi các khớp, dùng trong các trường hợp đau nhức xương khớp, lở ngứa, mụn nhọt, tràng nhạc và tiểu đục. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Nóng trong",
+   "Tiểu buốt"
+  ],
+  "symptomsEn": [
+   "Inner heat",
+   "Painful urination"
+  ],
+  "parts": "Thân rễ phơi hoặc sấy khô",
+  "caution": "Không uống nước chè trong thời gian dùng thổ phục linh; không dùng cho người can thận âm hư (theo Dược điển Việt Nam V).",
+  "warn": "Không uống nước chè trong thời gian dùng thổ phục linh; không dùng cho người can thận âm hư (theo Dược điển Việt Nam V).",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam"
+  ],
+  "toxic": false,
+  "images": [
+   "thophuclinh.webp"
+  ]
+ },
+ {
+  "id": "thoty",
+  "name": "Thỏ ty tử",
+  "nameEn": "Chinese dodder",
+  "aliases": [
+   "tơ hồng"
+  ],
+  "scientific": "Cuscuta chinensis",
+  "description": "Dây leo ký sinh không lá, thân dạng sợi mảnh màu vàng cam quấn chặt quanh cây chủ; hoa nhỏ màu trắng. Hạt gần hình cầu, đường kính 0,9–1,5 mm, mặt ngoài nâu xám hoặc nâu vàng, thô ráp, vị nhạt. Tính ấm, vị ngọt.",
+  "uses": [
+   "Trong Đông y, thỏ ty tử được ghi là vị ngọt, tính ấm, dùng bổ thận ích tinh, dưỡng can minh mục, kiện tỳ chỉ tả, khi liệt dương, di tinh, đái không cầm được, mắt mờ hoặc ỉa lỏng. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Đầy bụng",
+   "Mệt, kém ăn",
+   "Mờ mắt"
+  ],
+  "symptomsEn": [
+   "Bloating",
+   "Fatigue, poor appetite",
+   "Blurred vision"
+  ],
+  "parts": "Hạt lấy từ quả chín, phơi hay sấy khô",
+  "caution": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
+  "warn": "Người có thai, cho con bú, trẻ nhỏ, đang bệnh hoặc đang dùng thuốc nên hỏi người có chuyên môn trước khi dùng.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": [
+   "thoty.webp"
   ]
  },
  {
@@ -5588,6 +6267,35 @@ window.HERBS = [
   ]
  },
  {
+  "id": "vienchi",
+  "name": "Viễn chí",
+  "nameEn": "Chinese senega",
+  "aliases": [],
+  "scientific": "Polygala tenuifolia",
+  "description": "Cây thảo nhỏ, lá hẹp mọc so le, hoa nhỏ màu tím. Dược liệu là rễ hình trụ hơi cong, dài 3–15 cm, đường kính 0,3–0,8 cm, mặt ngoài vàng xám hoặc xám tro, nhiều nếp nhăn ngang, chất cứng và giòn, dễ bẻ gãy. Tính ấm, vị cay, đắng.",
+  "uses": [
+   "Trong Đông y, viễn chí được ghi là vị đắng, cay, tính ấm, dùng an thần ích trí khi mất ngủ, hay quên, hồi hộp, và trừ đờm khi ho đờm nhiều. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Ho",
+   "Mất ngủ"
+  ],
+  "symptomsEn": [
+   "Cough",
+   "Trouble sleeping"
+  ],
+  "parts": "Rễ phơi hay sấy khô",
+  "caution": "Người viêm loét dạ dày, phụ nữ có thai và người trầm cảm không nên dùng.",
+  "warn": "Người viêm loét dạ dày, phụ nữ có thai và người trầm cảm không nên dùng.",
+  "src": [
+   "Dược điển Việt Nam V (Bộ Y tế)"
+  ],
+  "toxic": false,
+  "images": [
+   "vienchi.webp"
+  ]
+ },
+ {
   "id": "mangcut",
   "name": "Vỏ măng cụt",
   "nameEn": "Mangosteen",
@@ -5664,6 +6372,45 @@ window.HERBS = [
   "toxic": false,
   "images": [
    "xaden.webp"
+  ]
+ },
+ {
+  "id": "xichthuoc",
+  "name": "Xích thược",
+  "nameEn": "Red peony root",
+  "aliases": [
+   "Mẫu đơn đỏ"
+  ],
+  "scientific": "Paeonia veitchii",
+  "description": "Vị thuốc là rễ phơi khô: hình trụ hơi cong, mặt ngoài màu nâu, thô ráp, có rãnh dọc và vết rễ con; mặt cắt trắng phấn hoặc hồng phấn, vị hơi đắng, chua và chát (theo Dược điển Trung Quốc 2000). Tính hơi hàn, vị đắng.",
+  "uses": [
+   "Theo Dược điển Việt Nam V và Dược điển Trung Quốc 2000, xích thược có tác dụng thanh nhiệt lương huyết, tán ứ, chỉ thống",
+   "Đỗ Huy Bích và cộng sự ghi tác dụng làm mát, hoạt huyết, giảm đau. Được dùng trong các chứng ôn độc phát ban, chảy máu cam, mắt đỏ sưng đau, kinh bế, đau bụng kinh. Không thay thế thuốc."
+  ],
+  "symptoms": [
+   "Đau nhức",
+   "Nóng trong",
+   "Chảy máu",
+   "Kinh nguyệt"
+  ],
+  "symptomsEn": [
+   "Aches",
+   "Inner heat",
+   "Bleeding",
+   "Menstruation"
+  ],
+  "parts": "Rễ",
+  "caution": "Không dùng phối hợp với lê lô (theo Dược điển Việt Nam V); người đau bụng không nên dùng (theo Đỗ Huy Bích và cộng sự).",
+  "warn": "Không dùng phối hợp với lê lô (theo Dược điển Việt Nam V); người đau bụng không nên dùng (theo Đỗ Huy Bích và cộng sự).",
+  "src": [
+   "Đỗ Tất Lợi – Những cây thuốc và vị thuốc Việt Nam",
+   "Dược điển Việt Nam V (Bộ Y tế)",
+   "Đỗ Huy Bích và cộng sự – Cây thuốc và động vật làm thuốc ở Việt Nam",
+   "中国药典 2000年版一部 (卫生部药典委员会)"
+  ],
+  "toxic": false,
+  "images": [
+   "xichthuoc.webp"
   ]
  },
  {
